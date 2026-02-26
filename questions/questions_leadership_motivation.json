@@ -1,0 +1,604 @@
+﻿{
+    "questions":  [
+                      {
+                          "qid":  "LM-1",
+                          "stem":  "Which theory states that human needs must be satisfied in a specific hierarchical order, beginning with physiological needs?",
+                          "choices":  [
+                                          "McClelland",
+                                          "Maslow",
+                                          "Herzberg",
+                                          "McGregor"
+                                      ],
+                          "correct_index":  1,
+                          "explanation":  "Maslow\u0027s Hierarchy of Needs proposes motivation progresses through physiological, safety, belonging, esteem, and self-actualization. Lower-level needs should be reasonably satisfied before higher-level motivation dominates."
+                      },
+                      {
+                          "qid":  "LM-2",
+                          "stem":  "Which theory distinguishes between hygiene factors and motivating factors?",
+                          "choices":  [
+                                          "McClelland",
+                                          "Herzberg",
+                                          "Ouchi",
+                                          "Expectancy Theory"
+                                      ],
+                          "correct_index":  1,
+                          "explanation":  "Herzberg\u0027s Two-Factor Theory separates hygiene factors (like salary and work conditions) from motivators (like recognition and growth). Hygiene factors prevent dissatisfaction but do not create strong motivation."
+                      },
+                      {
+                          "qid":  "LM-3",
+                          "stem":  "Achievement, affiliation, and power are considered learned needs under which theory?",
+                          "choices":  [
+                                          "McGregor",
+                                          "Maslow",
+                                          "McClelland",
+                                          "Herzberg"
+                                      ],
+                          "correct_index":  2,
+                          "explanation":  "McClelland\u0027s Achievement Motivation Theory identifies the learned needs of achievement, affiliation, and power, shaped by life experience."
+                      },
+                      {
+                          "qid":  "LM-4",
+                          "stem":  "In McGregor\u0027s Theory X, managers assume that employees:",
+                          "choices":  [
+                                          "Are self motivated and seek responsibility",
+                                          "Prefer autonomy and innovation",
+                                          "Dislike work and must be closely supervised",
+                                          "Thrive in participative environments"
+                                      ],
+                          "correct_index":  2,
+                          "explanation":  "Theory X assumes workers avoid responsibility and require close supervision and control."
+                      },
+                      {
+                          "qid":  "LM-5",
+                          "stem":  "Which of the following is considered a hygiene factor under Herzberg\u0027s theory?",
+                          "choices":  [
+                                          "Recognition",
+                                          "Responsibility",
+                                          "Salary",
+                                          "Professional growth"
+                                      ],
+                          "correct_index":  2,
+                          "explanation":  "Salary is a hygiene factor. It can prevent dissatisfaction, but by itself does not produce sustained motivation."
+                      },
+                      {
+                          "qid":  "LM-6",
+                          "stem":  "Which source of power is based on knowledge or expertise?",
+                          "choices":  [
+                                          "Legitimate",
+                                          "Referent",
+                                          "Expert",
+                                          "Coercive"
+                                      ],
+                          "correct_index":  2,
+                          "explanation":  "Expert power comes from specialized skill or technical knowledge."
+                      },
+                      {
+                          "qid":  "LM-7",
+                          "stem":  "Which type of power is generally considered the least effective and most likely to create hostility?",
+                          "choices":  [
+                                          "Reward",
+                                          "Expert",
+                                          "Referent",
+                                          "Coercive"
+                                      ],
+                          "correct_index":  3,
+                          "explanation":  "Coercive power depends on fear and punishment, which often damages morale and trust."
+                      },
+                      {
+                          "qid":  "LM-8",
+                          "stem":  "A project manager who is admired and followed because of personal charisma is using which form of power?",
+                          "choices":  [
+                                          "Legitimate",
+                                          "Expert",
+                                          "Referent",
+                                          "Punitive"
+                                      ],
+                          "correct_index":  2,
+                          "explanation":  "Referent power is based on admiration, trust, and personal influence."
+                      },
+                      {
+                          "qid":  "LM-9",
+                          "stem":  "A Responsibility Assignment Matrix does NOT:",
+                          "choices":  [
+                                          "Clarify roles",
+                                          "Link work to individuals",
+                                          "Display time sequencing",
+                                          "Define accountability"
+                                      ],
+                          "correct_index":  2,
+                          "explanation":  "A RAM maps responsibilities and accountability but does not represent schedule timing."
+                      },
+                      {
+                          "qid":  "LM-10",
+                          "stem":  "In a RACI matrix, who is ultimately answerable for the correct completion of the task?",
+                          "choices":  [
+                                          "Responsible",
+                                          "Accountable",
+                                          "Consulted",
+                                          "Informed"
+                                      ],
+                          "correct_index":  1,
+                          "explanation":  "Accountable is the role ultimately answerable for task completion; typically only one Accountable per task."
+                      },
+                      {
+                          "qid":  "LM-11",
+                          "stem":  "A project manager who makes decisions without team input is using which leadership style?",
+                          "choices":  [
+                                          "Democratic",
+                                          "Autocratic",
+                                          "Servant",
+                                          "Transformational"
+                                      ],
+                          "correct_index":  1,
+                          "explanation":  "Autocratic leadership is top-down and does not rely on team participation for decisions."
+                      },
+                      {
+                          "qid":  "LM-12",
+                          "stem":  "A leader who inspires innovation and drives organizational change is most likely:",
+                          "choices":  [
+                                          "Transactional",
+                                          "Bureaucratic",
+                                          "Transformational",
+                                          "Laissez faire"
+                                      ],
+                          "correct_index":  2,
+                          "explanation":  "Transformational leaders motivate change, innovation, and higher engagement."
+                      },
+                      {
+                          "qid":  "LM-13",
+                          "stem":  "A leader who exchanges rewards for performance is demonstrating which style?",
+                          "choices":  [
+                                          "Transformational",
+                                          "Transactional",
+                                          "Servant",
+                                          "Interactional"
+                                      ],
+                          "correct_index":  1,
+                          "explanation":  "Transactional leadership is built around reward-for-performance exchanges."
+                      },
+                      {
+                          "qid":  "LM-14",
+                          "stem":  "Which leadership style is most aligned with agile environments?",
+                          "choices":  [
+                                          "Autocratic",
+                                          "Bureaucratic",
+                                          "Servant leadership",
+                                          "Coercive"
+                                      ],
+                          "correct_index":  2,
+                          "explanation":  "Agile teams are best supported by servant leadership that enables autonomy and removes blockers."
+                      },
+                      {
+                          "qid":  "LM-15",
+                          "stem":  "A team votes after discussing options. This is an example of:",
+                          "choices":  [
+                                          "Autocratic decision making",
+                                          "Democratic leadership",
+                                          "Transactional leadership",
+                                          "Laissez faire leadership"
+                                      ],
+                          "correct_index":  1,
+                          "explanation":  "Democratic leadership encourages participation and shared decision making, including voting."
+                      },
+                      {
+                          "qid":  "LM-16",
+                          "stem":  "Which leadership style adjusts based on team maturity and experience?",
+                          "choices":  [
+                                          "Transformational",
+                                          "Situational",
+                                          "Bureaucratic",
+                                          "Charismatic"
+                                      ],
+                          "correct_index":  1,
+                          "explanation":  "Situational leadership adapts style to team competence and motivation."
+                      },
+                      {
+                          "qid":  "LM-17",
+                          "stem":  "For highly skilled and highly motivated workers, the most appropriate style is:",
+                          "choices":  [
+                                          "Directing",
+                                          "Selling",
+                                          "Delegating",
+                                          "Telling"
+                                      ],
+                          "correct_index":  2,
+                          "explanation":  "Delegating is most effective with teams that are both capable and motivated."
+                      },
+                      {
+                          "qid":  "LM-18",
+                          "stem":  "For low skilled but highly motivated workers, which style is most appropriate?",
+                          "choices":  [
+                                          "Delegating",
+                                          "Supporting",
+                                          "Autocratic",
+                                          "Laissez faire"
+                                      ],
+                          "correct_index":  1,
+                          "explanation":  "Supporting style helps maintain motivation while guiding development."
+                      },
+                      {
+                          "qid":  "LM-19",
+                          "stem":  "A leader who focuses on following strict rules and procedures is using which style?",
+                          "choices":  [
+                                          "Bureaucratic",
+                                          "Servant",
+                                          "Transformational",
+                                          "Participative"
+                                      ],
+                          "correct_index":  0,
+                          "explanation":  "Bureaucratic leadership emphasizes hierarchy, process, and strict rule-following."
+                      },
+                      {
+                          "qid":  "LM-20",
+                          "stem":  "Which style is most likely to cause resentment over time?",
+                          "choices":  [
+                                          "Servant",
+                                          "Autocratic",
+                                          "Transformational",
+                                          "Situational"
+                                      ],
+                          "correct_index":  1,
+                          "explanation":  "Autocratic leadership can create resentment because team input is limited."
+                      },
+                      {
+                          "qid":  "LM-21",
+                          "stem":  "Total power of a project manager is best described as:",
+                          "choices":  [
+                                          "Formal authority only",
+                                          "Positional power only",
+                                          "Personal power only",
+                                          "Positional plus personal power"
+                                      ],
+                          "correct_index":  3,
+                          "explanation":  "Total project manager power is the combination of positional power and personal power."
+                      },
+                      {
+                          "qid":  "LM-22",
+                          "stem":  "In a functional organization, a project manager typically relies most on:",
+                          "choices":  [
+                                          "Legitimate power",
+                                          "Referent power",
+                                          "Coercive power",
+                                          "Formal authority"
+                                      ],
+                          "correct_index":  1,
+                          "explanation":  "In functional structures, PMs have limited formal authority and rely heavily on referent and interpersonal influence."
+                      },
+                      {
+                          "qid":  "LM-23",
+                          "stem":  "A project manager says, \"Help me understand your concern,\" and paraphrases the team member\u0027s response. This demonstrates:",
+                          "choices":  [
+                                          "Coercive power",
+                                          "Voting",
+                                          "Active listening",
+                                          "Transactional leadership"
+                                      ],
+                          "correct_index":  2,
+                          "explanation":  "Paraphrasing and clarifying questions are core active listening techniques."
+                      },
+                      {
+                          "qid":  "LM-24",
+                          "stem":  "Which phrase best reflects proper conflict resolution communication?",
+                          "choices":  [
+                                          "You always delay deliverables.",
+                                          "You never follow instructions.",
+                                          "I am concerned about the missed deadline.",
+                                          "This is your fault."
+                                      ],
+                          "correct_index":  2,
+                          "explanation":  "Using \u0027I\u0027 statements focuses on facts and impact rather than blame."
+                      },
+                      {
+                          "qid":  "LM-25",
+                          "stem":  "Focusing on facts rather than personalities during a disagreement reflects which principle?",
+                          "choices":  [
+                                          "Avoiding conflict",
+                                          "Focusing on the problem",
+                                          "Using coercive authority",
+                                          "Delegating responsibility"
+                                      ],
+                          "correct_index":  1,
+                          "explanation":  "Effective conflict management focuses on solving the problem, not attacking people."
+                      },
+                      {
+                          "qid":  "LM-26",
+                          "stem":  "Which form of power is most effective over the long term?",
+                          "choices":  [
+                                          "Coercive",
+                                          "Referent",
+                                          "Punitive",
+                                          "Pressure based"
+                                      ],
+                          "correct_index":  1,
+                          "explanation":  "Referent power builds trust and commitment, making it more sustainable long-term."
+                      },
+                      {
+                          "qid":  "LM-27",
+                          "stem":  "A project manager in a weak matrix structure is most likely called a:",
+                          "choices":  [
+                                          "Functional manager",
+                                          "Project expeditor",
+                                          "Product owner",
+                                          "Sponsor"
+                                      ],
+                          "correct_index":  1,
+                          "explanation":  "Weak matrix structures commonly use project coordinator or project expeditor roles."
+                      },
+                      {
+                          "qid":  "LM-28",
+                          "stem":  "In a projectized organization, the project manager has:",
+                          "choices":  [
+                                          "Little authority",
+                                          "Balanced authority",
+                                          "Full authority over the team",
+                                          "No budget control"
+                                      ],
+                          "correct_index":  2,
+                          "explanation":  "Projectized organizations give the PM strong authority over resources and decisions."
+                      },
+                      {
+                          "qid":  "LM-29",
+                          "stem":  "Which organizational structure typically results in the highest conflict?",
+                          "choices":  [
+                                          "Projectized",
+                                          "Functional",
+                                          "Matrix",
+                                          "Bureaucratic"
+                                      ],
+                          "correct_index":  2,
+                          "explanation":  "Matrix structures often create conflict due to dual reporting relationships."
+                      },
+                      {
+                          "qid":  "LM-30",
+                          "stem":  "When addressing change requests, the FIRST step should be to:",
+                          "choices":  [
+                                          "Approve it",
+                                          "Reject it",
+                                          "Recognize it as a change",
+                                          "Update the baseline"
+                                      ],
+                          "correct_index":  2,
+                          "explanation":  "Before analysis or decision, the request must first be identified and treated as a formal change."
+                      },
+                      {
+                          "qid":  "LM-31",
+                          "stem":  "A team member feels unappreciated despite receiving high pay and good working conditions. According to Herzberg, the best response is to:",
+                          "choices":  [
+                                          "Increase salary",
+                                          "Improve office space",
+                                          "Provide recognition and responsibility",
+                                          "Reduce workload"
+                                      ],
+                          "correct_index":  2,
+                          "explanation":  "Pay and conditions are hygiene factors. Recognition and responsibility are motivators that improve engagement."
+                      },
+                      {
+                          "qid":  "LM-32",
+                          "stem":  "A manager believes employees want to perform well and will self direct when given the opportunity. This reflects:",
+                          "choices":  [
+                                          "Theory X",
+                                          "Theory Y",
+                                          "Theory Z",
+                                          "Expectancy Theory"
+                                      ],
+                          "correct_index":  1,
+                          "explanation":  "Theory Y assumes people are self-motivated and can self-direct when supported."
+                      },
+                      {
+                          "qid":  "LM-33",
+                          "stem":  "A project manager removes obstacles for the team and prioritizes stakeholder needs. This reflects:",
+                          "choices":  [
+                                          "Autocratic leadership",
+                                          "Transactional leadership",
+                                          "Servant leadership",
+                                          "Bureaucratic leadership"
+                                      ],
+                          "correct_index":  2,
+                          "explanation":  "Servant leaders support the team, remove blockers, and enable success."
+                      },
+                      {
+                          "qid":  "LM-34",
+                          "stem":  "A highly skilled engineer lacks motivation. Which leadership approach is most appropriate?",
+                          "choices":  [
+                                          "Directing",
+                                          "Selling",
+                                          "Delegating",
+                                          "Coercive"
+                                      ],
+                          "correct_index":  1,
+                          "explanation":  "Selling style fits high competence with lower commitment by reinforcing vision and buy-in."
+                      },
+                      {
+                          "qid":  "LM-35",
+                          "stem":  "During requirements gathering, stakeholders distribute 100 points across features. This technique is:",
+                          "choices":  [
+                                          "Kano model",
+                                          "MoSCoW",
+                                          "100 point method",
+                                          "Paired comparison"
+                                      ],
+                          "correct_index":  2,
+                          "explanation":  "The 100 point method prioritizes options by distributing fixed points across them."
+                      },
+                      {
+                          "qid":  "LM-36",
+                          "stem":  "In Maslow\u0027s hierarchy, recognition and respect fall under:",
+                          "choices":  [
+                                          "Safety",
+                                          "Esteem",
+                                          "Belonging",
+                                          "Self actualization"
+                                      ],
+                          "correct_index":  1,
+                          "explanation":  "Esteem needs include recognition, respect, and a sense of accomplishment."
+                      },
+                      {
+                          "qid":  "LM-37",
+                          "stem":  "A project manager assigns a task but remains ultimately answerable for its completion. In RACI terms, the manager is:",
+                          "choices":  [
+                                          "Responsible",
+                                          "Accountable",
+                                          "Consulted",
+                                          "Informed"
+                                      ],
+                          "correct_index":  1,
+                          "explanation":  "Accountable owns the result and is ultimately answerable for successful completion."
+                      },
+                      {
+                          "qid":  "LM-38",
+                          "stem":  "A team operates autonomously with minimal oversight. This is most similar to:",
+                          "choices":  [
+                                          "Consensus leadership",
+                                          "Autocratic leadership",
+                                          "Bureaucratic leadership",
+                                          "Directing leadership"
+                                      ],
+                          "correct_index":  0,
+                          "explanation":  "Consensus or collaborative leadership supports autonomous team decision making."
+                      },
+                      {
+                          "qid":  "LM-39",
+                          "stem":  "A leader who uses enthusiasm and personal magnetism to inspire others is demonstrating:",
+                          "choices":  [
+                                          "Transactional",
+                                          "Charismatic",
+                                          "Bureaucratic",
+                                          "Situational"
+                                      ],
+                          "correct_index":  1,
+                          "explanation":  "Charismatic leadership relies on personal appeal and energy to inspire followers."
+                      },
+                      {
+                          "qid":  "LM-40",
+                          "stem":  "In a strong matrix, power is:",
+                          "choices":  [
+                                          "With the functional manager",
+                                          "Shared equally",
+                                          "Primarily with the project manager",
+                                          "With the PMO only"
+                                      ],
+                          "correct_index":  2,
+                          "explanation":  "A strong matrix gives more authority to the project manager than to functional managers."
+                      },
+                      {
+                          "qid":  "LM-41",
+                          "stem":  "A project manager in a functional organization must influence without formal authority. Which combination of power is most effective?",
+                          "choices":  [
+                                          "Coercive and legitimate",
+                                          "Expert and referent",
+                                          "Punitive and pressure based",
+                                          "Legitimate and bureaucratic"
+                                      ],
+                          "correct_index":  1,
+                          "explanation":  "Without formal authority, personal power sources such as expert and referent are most effective."
+                      },
+                      {
+                          "qid":  "LM-42",
+                          "stem":  "A team conflict arises due to personality differences. What is the BEST initial action?",
+                          "choices":  [
+                                          "Reassign one team member",
+                                          "Escalate to sponsor",
+                                          "Focus on facts and project objectives",
+                                          "Vote on who is correct"
+                                      ],
+                          "correct_index":  2,
+                          "explanation":  "The best first step is to focus discussion on objective facts and project goals."
+                      },
+                      {
+                          "qid":  "LM-43",
+                          "stem":  "A project manager increases objectives every time quotas are met without providing recognition. According to motivation theory, this will most likely:",
+                          "choices":  [
+                                          "Increase motivation",
+                                          "Improve performance",
+                                          "Decrease morale",
+                                          "Improve hygiene factors"
+                                      ],
+                          "correct_index":  2,
+                          "explanation":  "Continuously raising targets without recognition tends to reduce morale and motivation."
+                      },
+                      {
+                          "qid":  "LM-44",
+                          "stem":  "A project team is highly competent but lacks clarity of vision. The project manager should primarily use which style?",
+                          "choices":  [
+                                          "Selling",
+                                          "Directing",
+                                          "Delegating",
+                                          "Autocratic"
+                                      ],
+                          "correct_index":  0,
+                          "explanation":  "Selling style helps align capable team members around a clear vision and commitment."
+                      },
+                      {
+                          "qid":  "LM-45",
+                          "stem":  "A stakeholder insists on an immediate change without analysis. What should the project manager do FIRST?",
+                          "choices":  [
+                                          "Reject the request",
+                                          "Analyze impact",
+                                          "Implement the change",
+                                          "Escalate to PMO"
+                                      ],
+                          "correct_index":  1,
+                          "explanation":  "The first action is impact analysis across scope, schedule, cost, and risk before a decision."
+                      },
+                      {
+                          "qid":  "LM-46",
+                          "stem":  "A project manager rewards only a few visible team members repeatedly. The likely result is:",
+                          "choices":  [
+                                          "Increased collaboration",
+                                          "Higher productivity",
+                                          "Perception of favoritism",
+                                          "Greater trust"
+                                      ],
+                          "correct_index":  2,
+                          "explanation":  "Uneven recognition can create perceptions of favoritism and reduce team cohesion."
+                      },
+                      {
+                          "qid":  "LM-47",
+                          "stem":  "Which theory suggests managers\u0027 assumptions about employees influence management style?",
+                          "choices":  [
+                                          "Maslow",
+                                          "Herzberg",
+                                          "McGregor",
+                                          "McClelland"
+                                      ],
+                          "correct_index":  2,
+                          "explanation":  "McGregor\u0027s Theory X and Theory Y describe how managerial assumptions shape behavior and leadership approach."
+                      },
+                      {
+                          "qid":  "LM-48",
+                          "stem":  "A project manager emphasizes rules and strict hierarchy during change implementation, leading to resistance. Which factor is contributing to resistance?",
+                          "choices":  [
+                                          "Culture",
+                                          "Risk tolerance",
+                                          "Resource smoothing",
+                                          "Technical debt"
+                                      ],
+                          "correct_index":  0,
+                          "explanation":  "Organizational culture and leadership approach strongly influence willingness to accept change."
+                      },
+                      {
+                          "qid":  "LM-49",
+                          "stem":  "When using situational leadership, the MOST important factor in choosing a style is:",
+                          "choices":  [
+                                          "Sponsor preference",
+                                          "Organizational structure",
+                                          "Team maturity and competence",
+                                          "Budget size"
+                                      ],
+                          "correct_index":  2,
+                          "explanation":  "Situational leadership is selected based on team capability and motivation (maturity/readiness)."
+                      },
+                      {
+                          "qid":  "LM-50",
+                          "stem":  "A project manager combines inspirational vision, reward systems, and personal engagement. This is best described as:",
+                          "choices":  [
+                                          "Laissez faire",
+                                          "Interactional leadership",
+                                          "Autocratic",
+                                          "Bureaucratic"
+                                      ],
+                          "correct_index":  1,
+                          "explanation":  "Interactional leadership blends transformational, transactional, and charismatic elements."
+                      }
+                  ]
+}

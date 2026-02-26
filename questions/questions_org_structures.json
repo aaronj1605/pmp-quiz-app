@@ -1,0 +1,244 @@
+﻿{
+    "questions":  [
+                      {
+                          "qid":  "OS-1",
+                          "stem":  "In which organizational structure does the project manager have little to no formal authority and must rely primarily on interpersonal skills to achieve project objectives?",
+                          "choices":  [
+                                          "Projectized",
+                                          "Strong matrix",
+                                          "Functional",
+                                          "Balanced matrix"
+                                      ],
+                          "correct_index":  2,
+                          "explanation":  "In a functional organization, the functional manager has authority and the project manager has little to no formal power, relying mainly on referent power."
+                      },
+                      {
+                          "qid":  "OS-2",
+                          "stem":  "A project manager is referred to as a project expeditor and works part time with no authority over resources. What organizational structure is most likely in place?",
+                          "choices":  [
+                                          "Weak matrix",
+                                          "Functional",
+                                          "Balanced matrix",
+                                          "Projectized"
+                                      ],
+                          "correct_index":  1,
+                          "explanation":  "The title project expeditor and lack of authority are characteristics of a functional organization."
+                      },
+                      {
+                          "qid":  "OS-3",
+                          "stem":  "In which organizational structure is power shared approximately equally between the project manager and the functional manager?",
+                          "choices":  [
+                                          "Weak matrix",
+                                          "Balanced matrix",
+                                          "Strong matrix",
+                                          "Projectized"
+                                      ],
+                          "correct_index":  1,
+                          "explanation":  "A balanced matrix organization shares authority between the project manager and the functional manager."
+                      },
+                      {
+                          "qid":  "OS-4",
+                          "stem":  "Which organizational structure is most likely to experience conflict due to dual reporting relationships?",
+                          "choices":  [
+                                          "Functional",
+                                          "Projectized",
+                                          "Matrix",
+                                          "Hierarchical"
+                                      ],
+                          "correct_index":  2,
+                          "explanation":  "Matrix organizations create dual authority, which increases the likelihood of conflict."
+                      },
+                      {
+                          "qid":  "OS-5",
+                          "stem":  "A project manager has full authority over budget, schedule, and team members who are assigned full time to the project. Which structure best fits this description?",
+                          "choices":  [
+                                          "Strong matrix",
+                                          "Balanced matrix",
+                                          "Projectized",
+                                          "Functional"
+                                      ],
+                          "correct_index":  2,
+                          "explanation":  "In a projectized organization, the project manager has full authority and team members report directly to the PM."
+                      },
+                      {
+                          "qid":  "OS-6",
+                          "stem":  "Which role title is most commonly associated with a weak matrix organization?",
+                          "choices":  [
+                                          "Project expeditor",
+                                          "Project coordinator",
+                                          "Program manager",
+                                          "Functional sponsor"
+                                      ],
+                          "correct_index":  1,
+                          "explanation":  "In a weak matrix, the project manager is often called a project coordinator and has limited authority."
+                      },
+                      {
+                          "qid":  "OS-7",
+                          "stem":  "Who controls the project budget in a functional organization?",
+                          "choices":  [
+                                          "Project sponsor",
+                                          "Project manager",
+                                          "Functional manager",
+                                          "PMO director"
+                                      ],
+                          "correct_index":  2,
+                          "explanation":  "In a functional organization, budget authority resides with the functional manager."
+                      },
+                      {
+                          "qid":  "OS-8",
+                          "stem":  "Which organizational structure provides the strongest communication channels but may result in duplication of resources?",
+                          "choices":  [
+                                          "Functional",
+                                          "Balanced matrix",
+                                          "Weak matrix",
+                                          "Projectized"
+                                      ],
+                          "correct_index":  3,
+                          "explanation":  "Projectized organizations offer strong communication and authority but may duplicate resources across projects."
+                      },
+                      {
+                          "qid":  "OS-9",
+                          "stem":  "In which organizational structure are team members loyal primarily to their functional department rather than the project?",
+                          "choices":  [
+                                          "Projectized",
+                                          "Strong matrix",
+                                          "Functional",
+                                          "Balanced matrix"
+                                      ],
+                          "correct_index":  2,
+                          "explanation":  "In functional organizations, team members report to functional managers and prioritize departmental goals."
+                      },
+                      {
+                          "qid":  "OS-10",
+                          "stem":  "A project manager has authority similar to a functional manager but still shares some control. What structure is most likely?",
+                          "choices":  [
+                                          "Weak matrix",
+                                          "Balanced matrix",
+                                          "Strong matrix",
+                                          "Functional"
+                                      ],
+                          "correct_index":  2,
+                          "explanation":  "In a strong matrix, the project manager has more authority than the functional manager but does not have total control."
+                      },
+                      {
+                          "qid":  "OS-11",
+                          "stem":  "Which organizational structure is least suitable when resources are scarce and cost control is critical?",
+                          "choices":  [
+                                          "Functional",
+                                          "Weak matrix",
+                                          "Balanced matrix",
+                                          "Projectized"
+                                      ],
+                          "correct_index":  3,
+                          "explanation":  "Projectized organizations require dedicated resources and can increase costs when resources are scarce."
+                      },
+                      {
+                          "qid":  "OS-12",
+                          "stem":  "In which structure does the project manager most often work part time?",
+                          "choices":  [
+                                          "Functional",
+                                          "Weak matrix",
+                                          "Strong matrix",
+                                          "Projectized"
+                                      ],
+                          "correct_index":  1,
+                          "explanation":  "In a weak matrix, the project manager role is typically part time."
+                      },
+                      {
+                          "qid":  "OS-13",
+                          "stem":  "Who is ultimately responsible for project success regardless of organizational structure?",
+                          "choices":  [
+                                          "Functional manager",
+                                          "Project sponsor",
+                                          "Project manager",
+                                          "PMO"
+                                      ],
+                          "correct_index":  2,
+                          "explanation":  "The project manager is responsible for meeting approved baselines and achieving project objectives in all structures."
+                      },
+                      {
+                          "qid":  "OS-14",
+                          "stem":  "Which structure allows the best sharing of scarce resources across multiple projects?",
+                          "choices":  [
+                                          "Projectized",
+                                          "Functional",
+                                          "Matrix",
+                                          "Dedicated team"
+                                      ],
+                          "correct_index":  2,
+                          "explanation":  "Matrix structures allow scarce resources to be shared across multiple projects."
+                      },
+                      {
+                          "qid":  "OS-15",
+                          "stem":  "A project manager must negotiate for resources and has limited authority. Which structure best fits this situation?",
+                          "choices":  [
+                                          "Projectized",
+                                          "Strong matrix",
+                                          "Balanced matrix",
+                                          "Functional"
+                                      ],
+                          "correct_index":  3,
+                          "explanation":  "In a functional structure, the project manager must negotiate for resources and has little authority."
+                      },
+                      {
+                          "qid":  "OS-16",
+                          "stem":  "Which organizational structure typically results in slower decision making due to multiple approval layers?",
+                          "choices":  [
+                                          "Projectized",
+                                          "Functional",
+                                          "Strong matrix",
+                                          "Balanced matrix"
+                                      ],
+                          "correct_index":  1,
+                          "explanation":  "Functional organizations rely on hierarchical decision making, which can slow responses."
+                      },
+                      {
+                          "qid":  "OS-17",
+                          "stem":  "In which structure are team members more loyal to the project than their department?",
+                          "choices":  [
+                                          "Functional",
+                                          "Weak matrix",
+                                          "Balanced matrix",
+                                          "Projectized"
+                                      ],
+                          "correct_index":  3,
+                          "explanation":  "In projectized organizations, team members report directly to the project manager and are loyal to the project."
+                      },
+                      {
+                          "qid":  "OS-18",
+                          "stem":  "Which organizational structure creates the greatest need for conflict management skills?",
+                          "choices":  [
+                                          "Functional",
+                                          "Matrix",
+                                          "Projectized",
+                                          "Hierarchical"
+                                      ],
+                          "correct_index":  1,
+                          "explanation":  "Matrix structures involve dual reporting relationships, increasing conflict risk."
+                      },
+                      {
+                          "qid":  "OS-19",
+                          "stem":  "What is a key advantage of a functional organization?",
+                          "choices":  [
+                                          "Fast project delivery",
+                                          "Strong project authority",
+                                          "Efficient use of specialists",
+                                          "Single reporting structure for projects"
+                                      ],
+                          "correct_index":  2,
+                          "explanation":  "Functional organizations allow specialists to share knowledge and be used efficiently across work."
+                      },
+                      {
+                          "qid":  "OS-20",
+                          "stem":  "Which structure provides the project manager with the greatest level of authority?",
+                          "choices":  [
+                                          "Functional",
+                                          "Weak matrix",
+                                          "Strong matrix",
+                                          "Projectized"
+                                      ],
+                          "correct_index":  3,
+                          "explanation":  "Projectized organizations give the project manager full authority over the project."
+                      }
+                  ]
+}

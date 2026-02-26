@@ -1,0 +1,52 @@
+﻿{
+    "questions":  [
+                      {
+                          "qid":  "PC-1",
+                          "stem":  "An organization is considering a new initiative. Who determines that a project has business value and authorizes the work through the project charter?",
+                          "choices":  [
+                                          "The project manager",
+                                          "The project management team",
+                                          "An executive or sponsor (high-level decision-maker)",
+                                          "The functional manager"
+                                      ],
+                          "correct_index":  2,
+                          "explanation":  "An executive or sponsor determines business value and authorizes the project charter, which allows the project to begin."
+                      },
+                      {
+                          "qid":  "PC-2",
+                          "stem":  "When is a project considered officially started?",
+                          "choices":  [
+                                          "When the kickoff meeting is held",
+                                          "When the project manager drafts the business case",
+                                          "When the project charter is signed",
+                                          "When the schedule baseline is approved"
+                                      ],
+                          "correct_index":  2,
+                          "explanation":  "A project does not officially begin until the project charter has been signed by the sponsor or executive."
+                      },
+                      {
+                          "qid":  "PC-3",
+                          "stem":  "After the project charter is approved, what is the project manager expected to do next?",
+                          "choices":  [
+                                          "Begin administrative and contract closure",
+                                          "Develop requirements and a detailed scope statement",
+                                          "Execute the project work immediately",
+                                          "Finalize lessons learned documentation"
+                                      ],
+                          "correct_index":  1,
+                          "explanation":  "Once the charter is approved, the project manager leads planning activities such as developing requirements and defining scope."
+                      },
+                      {
+                          "qid":  "PC-4",
+                          "stem":  "Which statement best describes project and phase closure?",
+                          "choices":  [
+                                          "Closure can be skipped if the project is behind schedule",
+                                          "Closure should only occur at the end of the project",
+                                          "Closure occurs at the end of each phase and at project completion and includes administrative and contract closeout",
+                                          "Closure is only required when contracts are involved"
+                                      ],
+                          "correct_index":  2,
+                          "explanation":  "Closure occurs at the end of each phase and at the end of the project and includes administrative and contract closeout activities."
+                      }
+                  ]
+}

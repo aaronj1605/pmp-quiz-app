@@ -1,0 +1,244 @@
+﻿{
+    "questions":  [
+                      {
+                          "qid":  "PG-1",
+                          "stem":  "Which process group focuses on getting formal authorization to start a project or phase?",
+                          "choices":  [
+                                          "Planning",
+                                          "Executing",
+                                          "Initiating",
+                                          "Closing"
+                                      ],
+                          "correct_index":  2,
+                          "explanation":  "Initiating formally authorizes the project or phase."
+                      },
+                      {
+                          "qid":  "PG-2",
+                          "stem":  "Which process group is primarily concerned with listing objectives, activities, and alternatives?",
+                          "choices":  [
+                                          "Initiating",
+                                          "Planning",
+                                          "Executing",
+                                          "Monitoring and Controlling"
+                                      ],
+                          "correct_index":  1,
+                          "explanation":  "Planning defines objectives, activities, and alternative approaches."
+                      },
+                      {
+                          "qid":  "PG-3",
+                          "stem":  "Which process group is responsible for fulfilling the project management plan?",
+                          "choices":  [
+                                          "Executing",
+                                          "Planning",
+                                          "Initiating",
+                                          "Closing"
+                                      ],
+                          "correct_index":  0,
+                          "explanation":  "Executing involves performing the work defined in the plan."
+                      },
+                      {
+                          "qid":  "PG-4",
+                          "stem":  "Change requests and updates are outputs of which process group?",
+                          "choices":  [
+                                          "Planning",
+                                          "Executing",
+                                          "Monitoring and Controlling",
+                                          "Closing"
+                                      ],
+                          "correct_index":  2,
+                          "explanation":  "Monitoring and Controlling produces change requests and updates."
+                      },
+                      {
+                          "qid":  "PG-5",
+                          "stem":  "Which process group formally completes the project or phase?",
+                          "choices":  [
+                                          "Executing",
+                                          "Planning",
+                                          "Closing",
+                                          "Monitoring and Controlling"
+                                      ],
+                          "correct_index":  2,
+                          "explanation":  "Closing formally completes the project or phase and archives information."
+                      },
+                      {
+                          "qid":  "PG-6",
+                          "stem":  "Which statement best describes how process groups apply to projects and phases?",
+                          "choices":  [
+                                          "Only the project goes through all process groups",
+                                          "Only phases go through all process groups",
+                                          "Both projects and phases go through all five process groups",
+                                          "Process groups are optional for small projects"
+                                      ],
+                          "correct_index":  2,
+                          "explanation":  "Every project and every phase goes through all five process groups."
+                      },
+                      {
+                          "qid":  "KA-1",
+                          "stem":  "Which of the following is a project management knowledge area?",
+                          "choices":  [
+                                          "Change Management",
+                                          "Integration Management",
+                                          "Leadership Management",
+                                          "Organizational Management"
+                                      ],
+                          "correct_index":  1,
+                          "explanation":  "Integration Management is one of the ten knowledge areas."
+                      },
+                      {
+                          "qid":  "KA-2",
+                          "stem":  "Which knowledge area focuses on identifying, analyzing, and managing stakeholders?",
+                          "choices":  [
+                                          "Communications",
+                                          "Integration",
+                                          "Stakeholder",
+                                          "Resource"
+                                      ],
+                          "correct_index":  2,
+                          "explanation":  "Stakeholder Management focuses on stakeholder identification and engagement."
+                      },
+                      {
+                          "qid":  "OS-1",
+                          "stem":  "In which organizational structure does the project manager have the least authority?",
+                          "choices":  [
+                                          "Functional",
+                                          "Weak Matrix",
+                                          "Balanced Matrix",
+                                          "Projectized"
+                                      ],
+                          "correct_index":  0,
+                          "explanation":  "In functional organizations, authority rests with functional managers."
+                      },
+                      {
+                          "qid":  "OS-2",
+                          "stem":  "A project manager acting as a project coordinator most likely works in which structure?",
+                          "choices":  [
+                                          "Strong Matrix",
+                                          "Balanced Matrix",
+                                          "Weak Matrix",
+                                          "Projectized"
+                                      ],
+                          "correct_index":  2,
+                          "explanation":  "Weak matrix structures often use project coordinators with limited authority."
+                      },
+                      {
+                          "qid":  "OS-3",
+                          "stem":  "Which organizational structure gives the project manager the most authority?",
+                          "choices":  [
+                                          "Functional",
+                                          "Balanced Matrix",
+                                          "Strong Matrix",
+                                          "Projectized"
+                                      ],
+                          "correct_index":  3,
+                          "explanation":  "In projectized organizations, the project manager has full authority."
+                      },
+                      {
+                          "qid":  "OS-4",
+                          "stem":  "Which organizational structure is most likely to experience conflict due to dual reporting?",
+                          "choices":  [
+                                          "Functional",
+                                          "Matrix",
+                                          "Projectized",
+                                          "Hierarchical"
+                                      ],
+                          "correct_index":  1,
+                          "explanation":  "Matrix structures create dual reporting relationships."
+                      },
+                      {
+                          "qid":  "OS-5",
+                          "stem":  "Which is an advantage of a functional organization?",
+                          "choices":  [
+                                          "Strong project focus",
+                                          "Fast customer response",
+                                          "Better cost control",
+                                          "High project manager authority"
+                                      ],
+                          "correct_index":  2,
+                          "explanation":  "Functional managers protect their budgets, improving cost control."
+                      },
+                      {
+                          "qid":  "OS-6",
+                          "stem":  "Which is a disadvantage of a projectized organization?",
+                          "choices":  [
+                                          "Weak communication",
+                                          "Slow decision making",
+                                          "High cost due to dedicated resources",
+                                          "Low team loyalty"
+                                      ],
+                          "correct_index":  2,
+                          "explanation":  "Projectized structures require fully dedicated resources, increasing cost."
+                      },
+                      {
+                          "qid":  "PM-1",
+                          "stem":  "Who is responsible for overall project success?",
+                          "choices":  [
+                                          "Sponsor",
+                                          "Functional manager",
+                                          "Project manager",
+                                          "Project team"
+                                      ],
+                          "correct_index":  2,
+                          "explanation":  "The project manager is accountable for meeting approved baselines."
+                      },
+                      {
+                          "qid":  "PM-2",
+                          "stem":  "What is the project manager primarily responsible for managing?",
+                          "choices":  [
+                                          "Functional department budgets",
+                                          "Approved project baselines",
+                                          "Organizational strategy",
+                                          "Corporate governance"
+                                      ],
+                          "correct_index":  1,
+                          "explanation":  "The PM manages scope, schedule, cost, quality, resources, and risk baselines."
+                      },
+                      {
+                          "qid":  "CH-1",
+                          "stem":  "A change request is submitted. What should the project manager do first?",
+                          "choices":  [
+                                          "Approve it",
+                                          "Reject it",
+                                          "Analyze its impact",
+                                          "Update the schedule"
+                                      ],
+                          "correct_index":  2,
+                          "explanation":  "Changes must be identified and analyzed before decisions are made."
+                      },
+                      {
+                          "qid":  "CH-2",
+                          "stem":  "Which activity is part of the Iâ€™D ACTT approach?",
+                          "choices":  [
+                                          "Ignore the change",
+                                          "Immediately implement the change",
+                                          "Create alternatives",
+                                          "Escalate without analysis"
+                                      ],
+                          "correct_index":  2,
+                          "explanation":  "Creating alternatives is a required step in structured change analysis."
+                      },
+                      {
+                          "qid":  "CF-1",
+                          "stem":  "Which organizational factor most influences how easily change can be implemented?",
+                          "choices":  [
+                                          "Schedule baseline",
+                                          "Organizational culture",
+                                          "Procurement strategy",
+                                          "Risk register"
+                                      ],
+                          "correct_index":  1,
+                          "explanation":  "Organizational culture affects behavior and openness to change."
+                      },
+                      {
+                          "qid":  "CF-2",
+                          "stem":  "An autocratic leadership style with limited communication will most likely result in what?",
+                          "choices":  [
+                                          "Faster change adoption",
+                                          "Less resistance to change",
+                                          "More resistance to change",
+                                          "Higher team morale"
+                                      ],
+                          "correct_index":  2,
+                          "explanation":  "Autocratic styles with poor communication increase resistance to change."
+                      }
+                  ]
+}
