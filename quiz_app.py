@@ -33,6 +33,7 @@ class Question:
 # =============================
 MAX_JSON_FILE_SIZE_BYTES = 2 * 1024 * 1024  # 2 MB guardrail per question file.
 DEFAULT_QUESTIONS_DIRNAME = "questions"
+QUESTIONS_PER_NAV_PAGE = 100
 
 
 def load_questions(json_path: str) -> List[Question]:
@@ -301,6 +302,11 @@ class QuizApp(tk.Tk):
         self.selected: List[Optional[int]] = [None] * self.total
         self.correct: List[Optional[bool]] = [None] * self.total
         self.show_explanations_var = tk.BooleanVar(value=False)
+        self.nav_page = 0
+        self.nav_page_count = max(1, (self.total + QUESTIONS_PER_NAV_PAGE - 1) // QUESTIONS_PER_NAV_PAGE)
+        self.nav_buttons: dict[int, tk.Button] = {}
+        self._nav_resize_job: Optional[str] = None
+        self._is_rebuilding_nav = False
 
         self.build_ui()
         self.render_question()
@@ -380,29 +386,60 @@ class QuizApp(tk.Tk):
         nav_wrap = tk.Frame(self)
         nav_wrap.pack(fill="x", padx=20, pady=(6, 16))
 
-        tk.Label(nav_wrap, text="Questions:", font=("Segoe UI", 10)).pack(anchor="w")
+        nav_header = tk.Frame(nav_wrap)
+        nav_header.pack(fill="x")
+
+        tk.Label(nav_header, text="Questions:", font=("Segoe UI", 10)).pack(side="left")
+        self.nav_prev_btn = tk.Button(nav_header, text="<", width=3, command=self.prev_nav_page)
+        self.nav_prev_btn.pack(side="right")
+        self.nav_next_btn = tk.Button(nav_header, text=">", width=3, command=self.next_nav_page)
+        self.nav_next_btn.pack(side="right", padx=(4, 0))
+        self.nav_page_label = tk.Label(nav_header, text="", font=("Segoe UI", 9))
+        self.nav_page_label.pack(side="right", padx=(0, 8))
 
         self.nav = tk.Frame(nav_wrap)
         self.nav.pack(fill="x", pady=(6, 0))
-
-        self.nav_buttons: List[tk.Button] = []
+        self.nav.bind("<Configure>", self._on_nav_resize)
         self.rebuild_nav()
 
     def rebuild_nav(self):
-        for b in getattr(self, "nav_buttons", []):
-            b.destroy()
-        self.nav_buttons = []
+        if self._is_rebuilding_nav:
+            return
+        self._is_rebuilding_nav = True
+        try:
+            for child in self.nav.winfo_children():
+                child.destroy()
+            self.nav_buttons = {}
 
-        for i in range(self.total):
-            b = tk.Button(
-                self.nav,
-                text=str(i + 1),
-                width=3,
-                bg="#d9d9d9",
-                command=lambda x=i: self.goto(x)
-            )
-            b.pack(side="left", padx=2, pady=2)
-            self.nav_buttons.append(b)
+            self.nav_page_count = max(1, (self.total + QUESTIONS_PER_NAV_PAGE - 1) // QUESTIONS_PER_NAV_PAGE)
+            self.nav_page = min(self.nav_page, self.nav_page_count - 1)
+
+            start = self.nav_page * QUESTIONS_PER_NAV_PAGE
+            end = min(start + QUESTIONS_PER_NAV_PAGE, self.total)
+            count = end - start
+
+            available_width = max(1, self.nav.winfo_width())
+            approx_button_slot = 42
+            columns = max(1, min(count if count > 0 else 1, available_width // approx_button_slot))
+
+            for offset, i in enumerate(range(start, end)):
+                b = tk.Button(
+                    self.nav,
+                    text=str(i + 1),
+                    width=3,
+                    command=lambda x=i: self.goto(x)
+                )
+                row = offset // columns
+                col = offset % columns
+                b.grid(row=row, column=col, padx=2, pady=2, sticky="w")
+                self.nav_buttons[i] = b
+
+            self.nav_page_label.config(text=f"{start + 1}-{end} / {self.total}")
+            self.nav_prev_btn.config(state="normal" if self.nav_page > 0 else "disabled")
+            self.nav_next_btn.config(state="normal" if self.nav_page < self.nav_page_count - 1 else "disabled")
+            self.update_visible_nav_buttons()
+        finally:
+            self._is_rebuilding_nav = False
 
     def render_question(self):
         q = self.questions[self.current]
@@ -412,6 +449,13 @@ class QuizApp(tk.Tk):
 
         for i in range(4):
             self.choice_buttons[i].config(text=q.choices[i])
+
+        target_page = self.current // QUESTIONS_PER_NAV_PAGE
+        if target_page != self.nav_page:
+            self.nav_page = target_page
+            self.rebuild_nav()
+        else:
+            self.update_visible_nav_buttons()
 
         self.choice_var.set(self.selected[self.current] if self.selected[self.current] is not None else -1)
         self.update_explanation_display()
@@ -425,9 +469,7 @@ class QuizApp(tk.Tk):
         self.selected[self.current] = pick
         self.correct[self.current] = (pick == self.questions[self.current].correct_index)
 
-        self.nav_buttons[self.current].config(
-            bg="#6cc070" if self.correct[self.current] else "#d66a6a"
-        )
+        self.update_visible_nav_buttons()
         self.update_explanation_display()
         self.update_status()
 
@@ -462,6 +504,46 @@ class QuizApp(tk.Tk):
         self.current = index
         self.render_question()
 
+    def update_visible_nav_buttons(self):
+        for idx, b in self.nav_buttons.items():
+            if idx == self.current:
+                if self.correct[idx] is True:
+                    b.config(bg="#6cc070", relief="sunken")
+                elif self.correct[idx] is False:
+                    b.config(bg="#d66a6a", relief="sunken")
+                else:
+                    b.config(bg="#f0c36d", relief="sunken")
+            else:
+                if self.correct[idx] is True:
+                    b.config(bg="#6cc070", relief="raised")
+                elif self.correct[idx] is False:
+                    b.config(bg="#d66a6a", relief="raised")
+                else:
+                    b.config(bg="#d9d9d9", relief="raised")
+
+    def prev_nav_page(self):
+        if self.nav_page <= 0:
+            return
+        self.nav_page -= 1
+        self.rebuild_nav()
+
+    def next_nav_page(self):
+        if self.nav_page >= self.nav_page_count - 1:
+            return
+        self.nav_page += 1
+        self.rebuild_nav()
+
+    def _on_nav_resize(self, _event=None):
+        if self._is_rebuilding_nav:
+            return
+        if self._nav_resize_job:
+            self.after_cancel(self._nav_resize_job)
+        self._nav_resize_job = self.after(120, self._rebuild_nav_after_resize)
+
+    def _rebuild_nav_after_resize(self):
+        self._nav_resize_job = None
+        self.rebuild_nav()
+
     def prev(self):
         if self.current > 0:
             self.current -= 1
@@ -479,11 +561,9 @@ class QuizApp(tk.Tk):
         self.selected = [None] * self.total
         self.correct = [None] * self.total
         self.current = 0
+        self.nav_page = 0
         self.choice_var.set(-1)
-
-        for b in self.nav_buttons:
-            b.config(bg="#d9d9d9")
-
+        self.rebuild_nav()
         self.render_question()
 
     def load_new_questions(self):
@@ -511,6 +591,7 @@ class QuizApp(tk.Tk):
         self.questions = new_questions
         self.total = len(new_questions)
         self.current = 0
+        self.nav_page = 0
         self.source_files = picker.selection
 
         self.selected = [None] * self.total
