@@ -2,18 +2,20 @@
 
 Desktop PMP practice quiz app (Tkinter) with JSON-based question banks, instant explanations, and configurable question-set loading.
 
-## Requirements
-
-- Python 3.11+
-
-## Run Locally
+## Download (Windows PowerShell)
 
 ```powershell
-cd "PMP Test"
+git clone https://github.com/aaronj1605/pmp-quiz-app.git
+cd .\pmp-quiz-app
+```
+
+## Run (Windows PowerShell)
+
+```powershell
 python .\quiz_app.py
 ```
 
-## Build EXE (Optional)
+## Build EXE (Windows PowerShell, Optional)
 
 ```powershell
 python -m pip install pyinstaller
@@ -24,14 +26,9 @@ The executable is created in `dist/PMPQuiz.exe`.
 
 ## Load Practice Questions
 
-1. Put `.json` question files in the `questions/` folder (recommended), or keep them anywhere on your machine.
-2. Start the app.
-3. In the file picker:
-   - Select files shown from the default folder, or
-   - Click `Browse Folder` to load a folder of JSON files, or
-   - Click `Browse Files` to pick specific JSON files.
-4. Click `Start Quiz`.
-5. (Optional) Turn on `Show Explanation After Answer` during the quiz.
+1. Start the app.
+2. Select question files from `questions\`, or use `Browse Folder`/`Browse Files`.
+3. Click `Start Quiz`.
 
 ## JSON Format
 
