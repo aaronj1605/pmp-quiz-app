@@ -1,5 +1,17 @@
 # PMP Quiz App
 
+## Disclaimer
+
+This project contains independently created practice questions for project management exam preparation. Some content was generated with the assistance of artificial intelligence and has been reviewed and organized for educational purposes.
+
+This repository is not affiliated with, endorsed by, or sponsored by the Project Management Institute (PMI) or any commercial exam preparation provider.
+
+PMP is a registered trademark of the Project Management Institute, Inc.
+
+All questions in this repository are original practice questions and are not actual PMP exam questions. The content is intended solely as a study aid and should not be considered official exam guidance.
+
+If you believe any material in this repository unintentionally resembles proprietary content, please open an issue so it can be reviewed.
+
 Desktop PMP practice quiz app (Tkinter) with JSON-based question banks, instant explanations, and configurable question-set loading.
 
 ## Download (Windows PowerShell)
