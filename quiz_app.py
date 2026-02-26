@@ -572,14 +572,16 @@ class QuizApp(tk.Tk):
 
         runtime_base_dir = get_runtime_base_dir()
         questions_dir = get_default_questions_dir(runtime_base_dir)
-        picker = FilePicker(questions_dir)
-        picker.mainloop()
-
-        if not picker.selection:
+        selected_files = filedialog.askopenfilenames(
+            initialdir=questions_dir,
+            title="Select question JSON files",
+            filetypes=[("JSON files", "*.json"), ("All files", "*.*")],
+        )
+        if not selected_files:
             return
 
         try:
-            new_questions = build_question_set(picker.selection)
+            new_questions = build_question_set(list(selected_files))
         except ValueError as e:
             messagebox.showerror("Invalid question file", str(e))
             return
@@ -592,7 +594,7 @@ class QuizApp(tk.Tk):
         self.total = len(new_questions)
         self.current = 0
         self.nav_page = 0
-        self.source_files = picker.selection
+        self.source_files = list(selected_files)
 
         self.selected = [None] * self.total
         self.correct = [None] * self.total
