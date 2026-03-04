@@ -1,0 +1,292 @@
+{
+  "questions": [
+    {
+      "qid": "PG-1",
+      "stem": "An organization has decided to move forward with a new strategic initiative. What should happen next to formally allow the project work to begin?",
+      "choices": [
+        "Create the detailed schedule",
+        "Approve a document authorizing the project",
+        "Assign all project resources",
+        "Develop the work breakdown structure"
+      ],
+      "correct_index": 1,
+      "explanation": "A project must be formally authorized before work begins. This authorization establishes the project and gives the project manager authority."
+    },
+    {
+      "qid": "PG-2",
+      "stem": "During project execution, the team realizes progress is slower than expected compared to the approved plan. Which activity should occur first?",
+      "choices": [
+        "Measure the performance against the plan",
+        "Replace underperforming team members",
+        "Extend the project deadline",
+        "Remove several deliverables"
+      ],
+      "correct_index": 0,
+      "explanation": "Performance must first be measured against the plan to understand variance before decisions about corrective actions are made."
+    },
+    {
+      "qid": "PG-3",
+      "stem": "A project team is discussing possible ways to complete a deliverable and evaluating different approaches before work begins. Which process group does this represent?",
+      "choices": [
+        "Executing",
+        "Planning",
+        "Closing",
+        "Monitoring"
+      ],
+      "correct_index": 1,
+      "explanation": "Evaluating alternatives and determining how work will be performed are planning activities."
+    },
+    {
+      "qid": "PG-4",
+      "stem": "A project phase has completed and the deliverables were accepted. What should the project manager do next?",
+      "choices": [
+        "Begin the next project immediately",
+        "Perform formal closure activities for the phase",
+        "Archive documents at the end of the project only",
+        "Disband the team immediately"
+      ],
+      "correct_index": 1,
+      "explanation": "Each phase requires closure activities such as documenting lessons learned and archiving project information."
+    },
+    {
+      "qid": "PG-5",
+      "stem": "Which statement best describes how process groups apply to projects?",
+      "choices": [
+        "Only the project itself uses the five process groups",
+        "Only large projects require all process groups",
+        "Every phase and the overall project go through all process groups",
+        "Only planning and execution are required for most projects"
+      ],
+      "correct_index": 2,
+      "explanation": "Every project and each phase within the project passes through all five process groups."
+    },
+    {
+      "qid": "KA-1",
+      "stem": "A project manager is ensuring that all parts of the project work together properly and that changes are evaluated for overall project impact. What area of management is primarily being applied?",
+      "choices": [
+        "Integration",
+        "Quality",
+        "Resource",
+        "Procurement"
+      ],
+      "correct_index": 0,
+      "explanation": "Integration management ensures that different parts of the project are coordinated and controlled as a whole."
+    },
+    {
+      "qid": "KA-2",
+      "stem": "The project manager is working to define exactly what work must be completed and what work is excluded from the project. Which area is the focus?",
+      "choices": [
+        "Scope",
+        "Schedule",
+        "Quality",
+        "Procurement"
+      ],
+      "correct_index": 0,
+      "explanation": "Scope management defines what work is included in the project and what is outside the project boundaries."
+    },
+    {
+      "qid": "KA-3",
+      "stem": "Which area focuses on determining when project activities should occur and how long they will take?",
+      "choices": [
+        "Risk",
+        "Schedule",
+        "Quality",
+        "Communication"
+      ],
+      "correct_index": 1,
+      "explanation": "Schedule management addresses activity sequencing, duration estimation, and timeline development."
+    },
+    {
+      "qid": "OS-1",
+      "stem": "A project manager must request resources from department managers and has little authority over the team members performing the work. Which organizational structure is most likely?",
+      "choices": [
+        "Functional",
+        "Projectized",
+        "Strong Matrix",
+        "Hybrid Project"
+      ],
+      "correct_index": 0,
+      "explanation": "In a functional structure, department managers control resources and the project manager has limited authority."
+    },
+    {
+      "qid": "OS-2",
+      "stem": "A project manager and a department manager both share authority over team members. What organizational structure does this describe?",
+      "choices": [
+        "Matrix",
+        "Functional",
+        "Projectized",
+        "Hierarchical"
+      ],
+      "correct_index": 0,
+      "explanation": "Matrix organizations share authority between functional managers and project managers."
+    },
+    {
+      "qid": "OS-3",
+      "stem": "In which environment does the project manager typically have the greatest authority over project resources and decisions?",
+      "choices": [
+        "Projectized",
+        "Weak Matrix",
+        "Functional",
+        "Balanced Matrix"
+      ],
+      "correct_index": 0,
+      "explanation": "Projectized organizations give the project manager full authority over the project and team."
+    },
+    {
+      "qid": "OS-4",
+      "stem": "Team members complain they are receiving conflicting priorities from two different managers. What type of structure is most likely causing this?",
+      "choices": [
+        "Functional",
+        "Matrix",
+        "Projectized",
+        "Traditional"
+      ],
+      "correct_index": 1,
+      "explanation": "Matrix organizations create dual reporting relationships which can cause conflicting priorities."
+    },
+    {
+      "qid": "OS-5",
+      "stem": "Which advantage is commonly associated with a projectized structure?",
+      "choices": [
+        "Better resource sharing across departments",
+        "Strong project focus and clear leadership",
+        "Lower operational cost",
+        "Greater technical collaboration across projects"
+      ],
+      "correct_index": 1,
+      "explanation": "Projectized structures create strong project focus and clear authority for the project manager."
+    },
+    {
+      "qid": "PM-1",
+      "stem": "Who is primarily accountable for ensuring the project meets its objectives within the approved boundaries?",
+      "choices": [
+        "The project manager",
+        "The sponsor",
+        "The customer",
+        "The project team"
+      ],
+      "correct_index": 0,
+      "explanation": "The project manager is responsible for delivering the project within the approved scope, schedule, cost, and quality targets."
+    },
+    {
+      "qid": "PM-2",
+      "stem": "Which responsibility is most critical for the project manager during planning?",
+      "choices": [
+        "Hiring every team member personally",
+        "Setting realistic project boundaries",
+        "Approving project funding",
+        "Selecting the organizational structure"
+      ],
+      "correct_index": 1,
+      "explanation": "Project managers must establish achievable boundaries and ensure objectives are realistic."
+    },
+    {
+      "qid": "CH-1",
+      "stem": "A stakeholder suggests adding new functionality to the project deliverable. What should the project manager do first?",
+      "choices": [
+        "Approve the request",
+        "Reject the request",
+        "Recognize it as a potential change",
+        "Update the schedule"
+      ],
+      "correct_index": 2,
+      "explanation": "Any request that modifies project work must first be recognized as a change before evaluation."
+    },
+    {
+      "qid": "CH-2",
+      "stem": "After identifying a change request, what should the project manager do next?",
+      "choices": [
+        "Implement the change immediately",
+        "Analyze the potential impact",
+        "Ignore the request",
+        "Update the risk register"
+      ],
+      "correct_index": 1,
+      "explanation": "Change requests must be analyzed to understand impacts before decisions are made."
+    },
+    {
+      "qid": "CF-1",
+      "stem": "An organization encourages open discussion and collaboration across teams. How will this most likely affect project change initiatives?",
+      "choices": [
+        "Change will be easier to implement",
+        "Projects will take longer to complete",
+        "Conflict will always increase",
+        "Stakeholders will avoid participation"
+      ],
+      "correct_index": 0,
+      "explanation": "Collaborative cultures generally support change and make adoption easier."
+    },
+    {
+      "qid": "CF-2",
+      "stem": "Which leadership approach is most likely to increase resistance to change?",
+      "choices": [
+        "Collaborative leadership",
+        "Participative leadership",
+        "Autocratic leadership with limited communication",
+        "Servant leadership"
+      ],
+      "correct_index": 2,
+      "explanation": "Limited communication and rigid leadership often cause resistance to change."
+    },
+    {
+      "qid": "CF-3",
+      "stem": "An organization has a rigid hierarchy with long reporting chains. What challenge is most likely for project communication?",
+      "choices": [
+        "Too many informal discussions",
+        "Delayed information flow",
+        "Excessive collaboration",
+        "Overly rapid decision making"
+      ],
+      "correct_index": 1,
+      "explanation": "Hierarchical structures often slow communication due to multiple approval levels."
+    },
+    {
+      "qid": "PM-3",
+      "stem": "A project manager must ensure the project stays within scope, schedule, cost, and quality targets. What are these collectively called?",
+      "choices": [
+        "Organizational objectives",
+        "Project baselines",
+        "Project frameworks",
+        "Operational metrics"
+      ],
+      "correct_index": 1,
+      "explanation": "Baselines represent the approved targets that the project must meet."
+    },
+    {
+      "qid": "PG-6",
+      "stem": "Which process group involves coordinating people and resources to carry out the project plan?",
+      "choices": [
+        "Executing",
+        "Planning",
+        "Initiating",
+        "Closing"
+      ],
+      "correct_index": 0,
+      "explanation": "Executing is where the project team performs the work defined in the plan."
+    },
+    {
+      "qid": "PG-7",
+      "stem": "What is the main goal of the monitoring activities during a project?",
+      "choices": [
+        "Eliminate all risks",
+        "Ensure work follows the approved plan",
+        "Remove stakeholders",
+        "Avoid project documentation"
+      ],
+      "correct_index": 1,
+      "explanation": "Monitoring focuses on comparing performance against the plan and correcting deviations."
+    },
+    {
+      "qid": "PG-8",
+      "stem": "Which activity is commonly performed during project closure?",
+      "choices": [
+        "Creating the work breakdown structure",
+        "Capturing lessons learned",
+        "Developing risk responses",
+        "Estimating project duration"
+      ],
+      "correct_index": 1,
+      "explanation": "Closure includes documenting lessons learned and archiving project records."
+    }
+  ]
+}
