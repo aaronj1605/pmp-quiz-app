@@ -1,5 +1,5 @@
-﻿{
-  "quiz_name": "Cost Management Processes Foundations",
+{
+  "quiz_name": "Cost Management Foundations - Core Concepts",
   "questions": [
     {
       "qid": "CM-PROC-1",
@@ -96,6 +96,246 @@
       ],
       "correct_index": 2,
       "explanation": "Earned Value Management is a key tool used in Control Costs."
+    },
+    {
+      "qid": "CM-FND-1",
+      "stem": "Which project management knowledge area focuses on planning, estimating, budgeting, and controlling project costs so the project can be completed within the approved budget?",
+      "choices": [
+        "Schedule Management",
+        "Cost Management",
+        "Scope Management",
+        "Risk Management"
+      ],
+      "correct_index": 1,
+      "explanation": "Cost Management includes the processes required to plan, estimate, budget, finance, fund, manage, and control project costs."
+    },
+    {
+      "qid": "CM-FND-2",
+      "stem": "A project manager creates a document that explains how costs will be estimated, monitored, and controlled throughout the project. What document is being created?",
+      "choices": [
+        "Cost baseline",
+        "Cost management plan",
+        "Project schedule",
+        "Budget report"
+      ],
+      "correct_index": 1,
+      "explanation": "The Cost Management Plan defines how costs will be estimated, tracked, and controlled during the project."
+    },
+    {
+      "qid": "CM-FND-3",
+      "stem": "A project manager is calculating the expected cost for each work package in the Work Breakdown Structure. Which process is being performed?",
+      "choices": [
+        "Plan Cost Management",
+        "Estimate Costs",
+        "Determine Budget",
+        "Control Costs"
+      ],
+      "correct_index": 1,
+      "explanation": "Estimate Costs is the process of developing an approximation of the cost of resources needed to complete project activities."
+    },
+    {
+      "qid": "CM-FND-4",
+      "stem": "A project manager combines the estimated costs of all work packages and establishes the total approved project budget. Which process is this?",
+      "choices": [
+        "Control Costs",
+        "Estimate Costs",
+        "Determine Budget",
+        "Plan Cost Management"
+      ],
+      "correct_index": 2,
+      "explanation": "Determine Budget aggregates individual estimates to establish the cost baseline for the project."
+    },
+    {
+      "qid": "CM-FND-5",
+      "stem": "During the project the manager compares planned spending with actual spending and investigates differences. Which process is being performed?",
+      "choices": [
+        "Control Costs",
+        "Estimate Costs",
+        "Plan Cost Management",
+        "Determine Budget"
+      ],
+      "correct_index": 0,
+      "explanation": "Control Costs monitors project spending and identifies cost variances."
+    },
+    {
+      "qid": "CM-FND-6",
+      "stem": "Which document represents the approved time phased project budget used to measure cost performance?",
+      "choices": [
+        "Cost baseline",
+        "Cost estimate",
+        "Procurement plan",
+        "Schedule baseline"
+      ],
+      "correct_index": 0,
+      "explanation": "The cost baseline is the approved budget distributed over time and used to measure performance."
+    },
+    {
+      "qid": "CM-FND-7",
+      "stem": "Which of the following best describes 'Budget at Completion' (BAC)?",
+      "choices": [
+        "The cost spent so far",
+        "The forecasted final project cost",
+        "The total approved budget for the project",
+        "The remaining project budget"
+      ],
+      "correct_index": 2,
+      "explanation": "BAC represents the total planned cost for the entire project."
+    },
+    {
+      "qid": "CM-FND-8",
+      "stem": "A project manager wants to monitor cost performance by comparing actual cost with the planned budget. What document is required to perform this comparison?",
+      "choices": [
+        "Stakeholder register",
+        "Cost baseline",
+        "Risk register",
+        "Project charter"
+      ],
+      "correct_index": 1,
+      "explanation": "The cost baseline provides the planned spending that actual spending can be compared against."
+    },
+    {
+      "qid": "CM-FND-9",
+      "stem": "A project manager adds extra funds to account for known risks identified during planning. What are these funds called?",
+      "choices": [
+        "Padding",
+        "Reserves",
+        "Profit",
+        "Contingency fees"
+      ],
+      "correct_index": 1,
+      "explanation": "Reserves are included in the budget to account for risks and uncertainty."
+    },
+    {
+      "qid": "CM-FND-10",
+      "stem": "A project manager wants to understand how efficiently the project is using its budget compared to the work completed. Which technique should be used?",
+      "choices": [
+        "Critical path analysis",
+        "Earned Value Management",
+        "Monte Carlo simulation",
+        "Resource leveling"
+      ],
+      "correct_index": 1,
+      "explanation": "Earned Value Management integrates scope, schedule, and cost to measure project performance."
+    },
+    {
+      "qid": "CM-FND-11",
+      "stem": "Which Earned Value term represents the planned cost of work scheduled to be completed?",
+      "choices": [
+        "Actual Cost",
+        "Earned Value",
+        "Planned Value",
+        "Budget at Completion"
+      ],
+      "correct_index": 2,
+      "explanation": "Planned Value is the budgeted cost of the work that was scheduled to be completed by a specific time."
+    },
+    {
+      "qid": "CM-FND-12",
+      "stem": "Which Earned Value term represents the budgeted value of work that has actually been completed?",
+      "choices": [
+        "Actual Cost",
+        "Earned Value",
+        "Planned Value",
+        "Estimate at Completion"
+      ],
+      "correct_index": 1,
+      "explanation": "Earned Value represents how much of the planned work has actually been completed."
+    },
+    {
+      "qid": "CM-FND-13",
+      "stem": "Which Earned Value term represents the real money spent performing work?",
+      "choices": [
+        "Actual Cost",
+        "Planned Value",
+        "Earned Value",
+        "Budget at Completion"
+      ],
+      "correct_index": 0,
+      "explanation": "Actual Cost represents the actual money spent performing project work."
+    },
+    {
+      "qid": "CM-FND-14",
+      "stem": "A project manager wants to know if the project is currently over budget or under budget. Which metric should be calculated?",
+      "choices": [
+        "Schedule Variance",
+        "Cost Variance",
+        "Planned Value",
+        "Earned Value"
+      ],
+      "correct_index": 1,
+      "explanation": "Cost Variance compares Earned Value with Actual Cost to determine cost performance."
+    },
+    {
+      "qid": "CM-FND-15",
+      "stem": "Which metric compares completed work with planned work to determine if the project is ahead or behind schedule?",
+      "choices": [
+        "Cost Variance",
+        "Schedule Variance",
+        "Estimate at Completion",
+        "Budget at Completion"
+      ],
+      "correct_index": 1,
+      "explanation": "Schedule Variance measures the difference between Earned Value and Planned Value."
+    },
+    {
+      "qid": "CM-FND-16",
+      "stem": "A project manager wants to forecast the total cost of the project based on current performance. Which metric is used?",
+      "choices": [
+        "Estimate at Completion",
+        "Actual Cost",
+        "Earned Value",
+        "Planned Value"
+      ],
+      "correct_index": 0,
+      "explanation": "Estimate at Completion forecasts the expected final cost of the project."
+    },
+    {
+      "qid": "CM-FND-17",
+      "stem": "Which metric represents how much additional money is required to finish the project?",
+      "choices": [
+        "Estimate to Complete",
+        "Cost Variance",
+        "Budget at Completion",
+        "Schedule Variance"
+      ],
+      "correct_index": 0,
+      "explanation": "Estimate to Complete represents the expected cost needed to finish the remaining work."
+    },
+    {
+      "qid": "CM-FND-18",
+      "stem": "Which performance index measures cost efficiency?",
+      "choices": [
+        "CPI",
+        "SPI",
+        "SV",
+        "PV"
+      ],
+      "correct_index": 0,
+      "explanation": "Cost Performance Index measures cost efficiency by comparing earned value to actual cost."
+    },
+    {
+      "qid": "CM-FND-19",
+      "stem": "Which performance index measures schedule efficiency?",
+      "choices": [
+        "SPI",
+        "CPI",
+        "CV",
+        "AC"
+      ],
+      "correct_index": 0,
+      "explanation": "Schedule Performance Index measures how efficiently the project schedule is being used."
+    },
+    {
+      "qid": "CM-FND-20",
+      "stem": "Why is Earned Value Management valuable to project managers?",
+      "choices": [
+        "It eliminates risk",
+        "It integrates cost, schedule, and scope performance",
+        "It replaces cost estimation",
+        "It guarantees project success"
+      ],
+      "correct_index": 1,
+      "explanation": "Earned Value Management integrates scope, schedule, and cost to evaluate project performance."
     }
   ]
 }
