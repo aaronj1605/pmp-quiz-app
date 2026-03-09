@@ -6,6 +6,8 @@ import tkinter as tk
 from dataclasses import dataclass
 from tkinter import filedialog, messagebox
 from typing import List, Optional
+from urllib.error import HTTPError, URLError
+from urllib.request import Request, urlopen
 
 
 # =============================
@@ -34,6 +36,8 @@ class Question:
 MAX_JSON_FILE_SIZE_BYTES = 2 * 1024 * 1024  # 2 MB guardrail per question file.
 DEFAULT_QUESTIONS_DIRNAME = "questions"
 QUESTIONS_PER_NAV_PAGE = 100
+GITHUB_QUESTIONS_API_URL = "https://api.github.com/repos/aaronj1605/pmp-quiz-app/contents/questions"
+HTTP_USER_AGENT = "PMPQuizApp/1.0"
 
 
 def load_questions(json_path: str) -> List[Question]:
@@ -144,6 +148,80 @@ def build_question_set(selected_files: List[str]) -> List[Question]:
             all_questions.append(q)
 
     return all_questions
+
+
+def fetch_github_questions_list() -> List[dict]:
+    req = Request(
+        GITHUB_QUESTIONS_API_URL,
+        headers={
+            "Accept": "application/vnd.github+json",
+            "User-Agent": HTTP_USER_AGENT,
+        },
+    )
+    try:
+        with urlopen(req, timeout=20) as resp:
+            payload = resp.read().decode("utf-8")
+    except HTTPError as e:
+        raise ValueError(f"GitHub API error: HTTP {e.code}") from e
+    except URLError as e:
+        raise ValueError(f"Unable to reach GitHub: {e.reason}") from e
+
+    try:
+        data = json.loads(payload)
+    except json.JSONDecodeError as e:
+        raise ValueError(f"GitHub response was not valid JSON: {e}") from e
+
+    if not isinstance(data, list):
+        raise ValueError("Unexpected GitHub response when fetching question files.")
+
+    return data
+
+
+def update_questions_from_github(runtime_base_dir: str) -> int:
+    questions_dir = os.path.join(runtime_base_dir, DEFAULT_QUESTIONS_DIRNAME)
+    os.makedirs(questions_dir, exist_ok=True)
+
+    entries = fetch_github_questions_list()
+    updated = 0
+
+    for item in entries:
+        if item.get("type") != "file":
+            continue
+
+        name = str(item.get("name", ""))
+        if not name.lower().endswith(".json"):
+            continue
+
+        download_url = str(item.get("download_url", ""))
+        if not download_url:
+            continue
+
+        req = Request(download_url, headers={"User-Agent": HTTP_USER_AGENT})
+        try:
+            with urlopen(req, timeout=20) as resp:
+                text = resp.read().decode("utf-8-sig")
+        except HTTPError as e:
+            raise ValueError(f"Failed to download {name}: HTTP {e.code}") from e
+        except URLError as e:
+            raise ValueError(f"Failed to download {name}: {e.reason}") from e
+
+        try:
+            parsed = json.loads(text)
+        except json.JSONDecodeError as e:
+            raise ValueError(f"Downloaded file {name} is not valid JSON: {e}") from e
+
+        if not isinstance(parsed, dict) or not isinstance(parsed.get("questions"), list):
+            raise ValueError(f"Downloaded file {name} has invalid quiz format.")
+
+        destination = os.path.join(questions_dir, name)
+        with open(destination, "w", encoding="utf-8") as f:
+            f.write(text)
+        updated += 1
+
+    if updated == 0:
+        raise ValueError("No question JSON files were found in the GitHub repository.")
+
+    return updated
 
 
 # =============================
@@ -371,6 +449,7 @@ class QuizApp(tk.Tk):
 
         tk.Button(control, text="Reset", width=12, command=self.reset_quiz).pack(side="left", padx=8)
         tk.Button(control, text="Load New Questions", width=18, command=self.load_new_questions).pack(side="left", padx=8)
+        tk.Button(control, text="Update Questions", width=16, command=self.update_questions_button).pack(side="left", padx=8)
         tk.Checkbutton(
             control,
             text="Show Explanation After Answer",
@@ -606,6 +685,25 @@ class QuizApp(tk.Tk):
 
         self.rebuild_nav()
         self.render_question()
+
+    def update_questions_button(self):
+        if not messagebox.askyesno(
+            "Update Questions",
+            "Download latest question files from GitHub into the local questions folder?",
+        ):
+            return
+
+        runtime_base_dir = get_runtime_base_dir()
+        try:
+            updated = update_questions_from_github(runtime_base_dir)
+        except ValueError as e:
+            messagebox.showerror("Update failed", str(e))
+            return
+
+        messagebox.showinfo(
+            "Update complete",
+            f"Updated {updated} question file(s).\nYou can now click 'Load New Questions' to use them.",
+        )
 
     def finish(self):
         correct_count = sum(1 for x in self.correct if x is True)

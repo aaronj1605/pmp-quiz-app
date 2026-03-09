@@ -1,0 +1,101 @@
+{
+  "quiz_name": "Heroic Mode Level 2 Situational Decision Making",
+  "questions": [
+    {
+      "qid": "HM2-1",
+      "stem": "You are managing a complex software implementation project that is currently in the execution phase. During a weekly stakeholder review meeting, a senior executive expresses concern that a competitor has recently released a feature that your project does not currently include. The executive suggests that the team immediately begin incorporating this capability into the product so the organization does not fall behind in the market. Several team members agree that implementing the feature may be technically feasible without significant effort. However, the feature was not included in the approved project scope. What should the project manager do FIRST?",
+      "choices": [
+        "Direct the team to begin implementing the feature immediately to remain competitive",
+        "Evaluate the requested feature through the project's change management process",
+        "Reject the request because the scope baseline has already been approved",
+        "Escalate the request to executive leadership for a strategic decision"
+      ],
+      "correct_index": 1,
+      "explanation": "Correct: Changes to scope must first go through formal change evaluation.\n\nWhy others are wrong:\nImmediate implementation bypasses governance. Rejecting automatically ignores potential value. Escalation should occur only after the change has been evaluated."
+    },
+    {
+      "qid": "HM2-2",
+      "stem": "Your project is in the monitoring and controlling phase when performance reports show that several key tasks are finishing significantly ahead of schedule. Some stakeholders suggest compressing the remaining schedule so the project can finish earlier and reduce operational costs. However, several upcoming activities depend on external vendor deliverables that have fixed timelines. The project team asks how to proceed. What should the project manager do?",
+      "choices": [
+        "Announce a revised completion date based on current progress",
+        "Evaluate schedule dependencies and verify work quality before adjusting the schedule",
+        "Release project resources that are no longer needed",
+        "Remove remaining dependent activities from the schedule"
+      ],
+      "correct_index": 1,
+      "explanation": "Correct: Early completion must be validated and analyzed for dependency impacts before schedule changes.\n\nWhy others are wrong:\nAnnouncing early completion may be inaccurate. Releasing resources prematurely risks delays. Removing tasks violates the schedule baseline."
+    },
+    {
+      "qid": "HM2-3",
+      "stem": "You are managing a construction project when a team member informs you that a subcontractor has started performing additional work that was not part of the approved design specifications. The subcontractor believes the additional work will improve long term durability of the structure. The work is nearly complete and would require minimal additional cost. The project sponsor is currently unavailable. What should the project manager do?",
+      "choices": [
+        "Allow the subcontractor to complete the work since it improves quality",
+        "Stop the work and review the change through the project's change management process",
+        "Ignore the issue because the additional cost is small",
+        "Immediately report the subcontractor to the contract manager"
+      ],
+      "correct_index": 1,
+      "explanation": "Correct: Work outside the approved scope must be evaluated through change control.\n\nWhy others are wrong:\nAllowing the work creates uncontrolled scope changes. Ignoring the issue undermines governance. Reporting the subcontractor focuses on blame rather than managing the process."
+    },
+    {
+      "qid": "HM2-4",
+      "stem": "During execution, a stakeholder expresses frustration that they were not consulted before a recently approved schedule change was implemented. The change request followed the project's formal change control process and was approved by the change control board. The stakeholder states that they should have been informed earlier. What should the project manager do?",
+      "choices": [
+        "Reverse the schedule change until all stakeholders are satisfied",
+        "Explain the change approval process and review communication expectations",
+        "Remove the stakeholder from future communications",
+        "Escalate the stakeholder complaint to the sponsor"
+      ],
+      "correct_index": 1,
+      "explanation": "Correct: The PM should explain the process and ensure communication expectations are aligned.\n\nWhy others are wrong:\nReversing an approved change undermines governance. Removing stakeholders damages engagement. Escalation is unnecessary."
+    },
+    {
+      "qid": "HM2-5",
+      "stem": "Your project is nearing completion and the final deliverables have been provided to the customer for review. The customer verbally confirms satisfaction and suggests that the project team begin transitioning to other initiatives immediately. However, several administrative closure tasks remain incomplete, including documentation updates and final lessons learned capture. What should the project manager do next?",
+      "choices": [
+        "Release the team immediately since the customer is satisfied",
+        "Complete formal acceptance and administrative closure activities",
+        "Begin planning the next project phase",
+        "Archive documentation after the team transitions"
+      ],
+      "correct_index": 1,
+      "explanation": "Correct: Formal acceptance and closure activities must occur before a project is officially closed.\n\nWhy others are wrong:\nReleasing the team prematurely risks incomplete closure. Starting another project ignores required processes. Delaying documentation risks information loss."
+    },
+    {
+      "qid": "HM2-6",
+      "stem": "During monitoring activities you discover that a key vendor may delay delivery of an essential component. The delay could potentially impact several downstream tasks in the schedule. The vendor has not yet confirmed the delay and is still investigating the issue. The project team asks whether they should begin adjusting the schedule now. What should the project manager do FIRST?",
+      "choices": [
+        "Immediately revise the project schedule to reflect the potential delay",
+        "Analyze the potential impact and determine contingency options",
+        "Notify all stakeholders that the project may be delayed",
+        "Replace the vendor immediately"
+      ],
+      "correct_index": 1,
+      "explanation": "Correct: The PM must analyze the situation before adjusting plans.\n\nWhy others are wrong:\nChanging the schedule prematurely may be unnecessary. Informing stakeholders before analysis may create confusion. Replacing the vendor without evaluation may introduce additional risk."
+    },
+    {
+      "qid": "HM2-7",
+      "stem": "A project team member reports that they have identified a more efficient method to complete an activity that is already underway. The new approach may reduce effort but has not been reviewed by the team or documented in the project plan. What should the project manager do?",
+      "choices": [
+        "Allow the team member to implement the new method immediately",
+        "Evaluate the proposed approach and determine if a change request is required",
+        "Reject the suggestion to maintain the current plan",
+        "Ignore the suggestion because the activity has already started"
+      ],
+      "correct_index": 1,
+      "explanation": "Correct: Proposed improvements must be evaluated through proper governance.\n\nWhy others are wrong:\nImmediate implementation bypasses the plan. Rejecting automatically ignores possible improvement. Ignoring prevents analysis."
+    },
+    {
+      "qid": "HM2-8",
+      "stem": "You learn that several team members are unclear about the priorities of upcoming work packages. Productivity has begun to decline because individuals are focusing on different tasks. What should the project manager do FIRST?",
+      "choices": [
+        "Replace team members who are not following priorities",
+        "Clarify project priorities and communicate the approved work plan",
+        "Reduce the scope of the project",
+        "Ignore the issue since productivity will recover"
+      ],
+      "correct_index": 1,
+      "explanation": "Correct: The PM should clarify priorities and align the team.\n\nWhy others are wrong:\nReplacing staff is unnecessary. Reducing scope does not solve the issue. Ignoring productivity decline worsens performance."
+    }
+  ]
+}
