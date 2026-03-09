@@ -1,0 +1,604 @@
+{
+  "questions": [
+    {
+      "qid": "PGH-1",
+      "stem": "A project manager has just been assigned to a newly approved project. What should the project manager verify FIRST before beginning detailed planning?",
+      "choices": [
+        "The project charter has been approved",
+        "The project schedule baseline",
+        "The project risk register",
+        "The stakeholder communication plan"
+      ],
+      "correct_index": 0,
+      "explanation": "The project charter formally authorizes the project and grants the project manager authority to use resources. Planning cannot begin until the charter is approved. The schedule baseline and communication plan are created during planning, and the risk register is also developed later during planning activities."
+    },
+    {
+      "qid": "PGH-2",
+      "stem": "During project execution a stakeholder requests a new feature that was not part of the approved scope. What should the project manager do FIRST?",
+      "choices": [
+        "Reject the request to protect the baseline",
+        "Implement the change immediately",
+        "Document and analyze the change request",
+        "Update the schedule baseline"
+      ],
+      "correct_index": 2,
+      "explanation": "All change requests must first be documented and analyzed to determine their impact on scope, schedule, cost, and risk. Rejecting it immediately ignores potential value. Implementing it violates change control. Updating the schedule happens only after the change is approved."
+    },
+    {
+      "qid": "PGH-3",
+      "stem": "A project team has completed development of the project management plan. What should occur next?",
+      "choices": [
+        "Begin executing project work",
+        "Obtain approval of the plan",
+        "Identify project stakeholders",
+        "Develop the project charter"
+      ],
+      "correct_index": 1,
+      "explanation": "The completed project management plan must be reviewed and approved before execution begins. Execution without approval risks misalignment. Stakeholders are identified earlier and the charter already exists before planning begins."
+    },
+    {
+      "qid": "PGH-4",
+      "stem": "A project manager discovers that several deliverables are being completed faster than expected. What should the project manager do FIRST?",
+      "choices": [
+        "Reduce the project scope",
+        "Update the project schedule baseline",
+        "Evaluate the performance against the plan",
+        "Release project resources"
+      ],
+      "correct_index": 2,
+      "explanation": "The project manager must first evaluate performance against the baseline. Monitoring occurs before any corrective or adaptive action. Changing scope or schedule prematurely could disrupt the approved plan."
+    },
+    {
+      "qid": "PGH-5",
+      "stem": "During project closing a team member suggests skipping documentation of lessons learned to save time. What should the project manager do?",
+      "choices": [
+        "Skip the activity because the project is complete",
+        "Document lessons learned during closure",
+        "Add the activity to the next project",
+        "Ask stakeholders if documentation is required"
+      ],
+      "correct_index": 1,
+      "explanation": "Capturing lessons learned is a required closing activity that improves future projects. Skipping it loses valuable knowledge. Postponing it to future projects risks losing the information."
+    },
+    {
+      "qid": "PGH-6",
+      "stem": "A project manager notices that the team has started performing work not included in the project plan. Which process group should address this issue?",
+      "choices": [
+        "Executing",
+        "Planning",
+        "Monitoring and Controlling",
+        "Closing"
+      ],
+      "correct_index": 2,
+      "explanation": "Monitoring and Controlling ensures project work aligns with the approved plan. Executing performs work, but oversight occurs through monitoring. Planning defines work but does not enforce adherence."
+    },
+    {
+      "qid": "PGH-7",
+      "stem": "A sponsor asks for confirmation that the project is still aligned with strategic objectives. Which activity should the project manager perform?",
+      "choices": [
+        "Evaluate performance against the plan",
+        "Create new deliverables",
+        "Terminate the project",
+        "Assign additional resources"
+      ],
+      "correct_index": 0,
+      "explanation": "Monitoring project performance ensures alignment with objectives. Creating deliverables or assigning resources does not confirm strategic alignment."
+    },
+    {
+      "qid": "PGH-8",
+      "stem": "During planning the project manager realizes that an activity sequence will delay delivery. What should the project manager do FIRST?",
+      "choices": [
+        "Analyze alternative approaches",
+        "Inform stakeholders of delays",
+        "Update the project charter",
+        "Remove the activity"
+      ],
+      "correct_index": 0,
+      "explanation": "Planning involves evaluating alternatives before making changes. Informing stakeholders occurs after analysis. Removing activities or changing the charter without analysis is inappropriate."
+    },
+    {
+      "qid": "PGH-9",
+      "stem": "The team reports a major schedule variance. What should the project manager do FIRST?",
+      "choices": [
+        "Evaluate the variance cause",
+        "Extend the project deadline",
+        "Remove deliverables",
+        "Replace team members"
+      ],
+      "correct_index": 0,
+      "explanation": "The project manager must identify the root cause of the variance before taking corrective action. Changing deadlines or scope prematurely ignores the underlying issue."
+    },
+    {
+      "qid": "PGH-10",
+      "stem": "A stakeholder insists that a feature be added immediately to maintain competitiveness. What should the project manager do?",
+      "choices": [
+        "Add the feature immediately",
+        "Document the request and evaluate its impact",
+        "Reject the request outright",
+        "Remove another feature"
+      ],
+      "correct_index": 1,
+      "explanation": "Proper change management requires documenting and evaluating impact before approval. Immediate implementation bypasses governance. Rejecting it without analysis ignores potential value."
+    },
+    {
+      "qid": "PGH-11",
+      "stem": "During monitoring activities a deviation from the schedule baseline is discovered. What is the next logical step?",
+      "choices": [
+        "Issue a change request",
+        "Terminate the project",
+        "Ignore the deviation",
+        "Remove stakeholders"
+      ],
+      "correct_index": 0,
+      "explanation": "When deviations require adjustment, a change request may be necessary. Ignoring the issue or terminating the project is inappropriate without analysis."
+    },
+    {
+      "qid": "PGH-12",
+      "stem": "Which process group focuses on coordinating people and resources to carry out the project plan?",
+      "choices": [
+        "Executing",
+        "Planning",
+        "Initiating",
+        "Closing"
+      ],
+      "correct_index": 0,
+      "explanation": "Executing involves coordinating resources and performing the project work. Planning defines the work but does not execute it."
+    },
+    {
+      "qid": "PGH-13",
+      "stem": "A project phase has completed. What must be done before beginning the next phase?",
+      "choices": [
+        "Approve phase deliverables",
+        "Restart planning",
+        "Hire new team members",
+        "Create a new charter"
+      ],
+      "correct_index": 0,
+      "explanation": "Phase closure requires verifying deliverable acceptance. New charters are unnecessary and staffing changes may not be required."
+    },
+    {
+      "qid": "PGH-14",
+      "stem": "The project team proposes reducing testing activities to meet the deadline. What should the project manager do FIRST?",
+      "choices": [
+        "Approve the suggestion",
+        "Analyze the impact on quality and risk",
+        "Reject the idea",
+        "Escalate to the sponsor"
+      ],
+      "correct_index": 1,
+      "explanation": "Any proposed change must first be analyzed for impact. Approving or rejecting without analysis ignores project consequences."
+    },
+    {
+      "qid": "PGH-15",
+      "stem": "A sponsor wants to ensure the project continues delivering value. Which process group supports this objective?",
+      "choices": [
+        "Monitoring and Controlling",
+        "Closing",
+        "Initiating",
+        "Executing"
+      ],
+      "correct_index": 0,
+      "explanation": "Monitoring and Controlling evaluates project performance and ensures continued alignment with objectives."
+    },
+    {
+      "qid": "PGH-16",
+      "stem": "A project manager learns that a key deliverable has been completed earlier than expected. What should the project manager do FIRST?",
+      "choices": [
+        "Verify the deliverable meets the defined acceptance criteria",
+        "Notify stakeholders that the schedule will finish early",
+        "Remove remaining tasks from the schedule",
+        "Release the project team"
+      ],
+      "correct_index": 0,
+      "explanation": "Before taking any action, the project manager must verify that the deliverable meets the defined acceptance criteria. Deliverables completed early still must meet quality and scope requirements. Informing stakeholders may occur afterward, but verification is necessary first. Removing tasks or releasing resources prematurely could jeopardize the project."
+    },
+    {
+      "qid": "PGH-17",
+      "stem": "During execution the team reports confusion about project priorities. What should the project manager reference to resolve the issue?",
+      "choices": [
+        "The project management plan",
+        "The lessons learned register",
+        "The project charter only",
+        "The closing report"
+      ],
+      "correct_index": 0,
+      "explanation": "The project management plan contains the approved baselines and guidance for executing the work. The charter authorizes the project but does not provide detailed execution guidance. Lessons learned and closing reports are used later and cannot resolve current priorities."
+    },
+    {
+      "qid": "PGH-18",
+      "stem": "A project manager discovers that work has begun on activities not included in the work breakdown structure. What should the project manager do?",
+      "choices": [
+        "Allow the work to continue if it adds value",
+        "Evaluate the work and initiate change control if needed",
+        "Ignore the issue until the next phase",
+        "Remove the responsible team member"
+      ],
+      "correct_index": 1,
+      "explanation": "Work outside the approved scope must be evaluated and controlled through change management. Allowing unauthorized work creates scope creep. Ignoring the issue risks project misalignment. Removing a team member addresses symptoms rather than the process problem."
+    },
+    {
+      "qid": "PGH-19",
+      "stem": "The project manager identifies a cost variance during monitoring activities. What should occur next?",
+      "choices": [
+        "Investigate the root cause of the variance",
+        "Immediately increase the project budget",
+        "Terminate the project",
+        "Reduce the scope of the project"
+      ],
+      "correct_index": 0,
+      "explanation": "The first step when identifying variance is to determine the root cause. Budget changes or scope reductions should only occur after understanding the issue. Terminating the project is extreme and requires more evaluation."
+    },
+    {
+      "qid": "PGH-20",
+      "stem": "During planning the team identifies two possible methods for completing a critical activity. What should the project manager do?",
+      "choices": [
+        "Select the fastest option immediately",
+        "Analyze the alternatives and choose the best approach",
+        "Ask the sponsor to decide",
+        "Ignore the options and follow the original plan"
+      ],
+      "correct_index": 1,
+      "explanation": "Planning involves analyzing alternatives and selecting the best approach. Automatically choosing the fastest option ignores risk and cost considerations. Escalating the decision unnecessarily or ignoring alternatives prevents optimal planning."
+    },
+    {
+      "qid": "PGH-21",
+      "stem": "A project phase has ended and deliverables have been accepted. What additional step must occur?",
+      "choices": [
+        "Archive project documentation",
+        "Restart the project",
+        "Assign a new sponsor",
+        "Create a new charter"
+      ],
+      "correct_index": 0,
+      "explanation": "Archiving documentation is a key part of closing activities. Restarting the project or creating a new charter is unnecessary. Sponsor reassignment is unrelated to closure."
+    },
+    {
+      "qid": "PGH-22",
+      "stem": "A team member reports that several stakeholders have conflicting expectations for a deliverable. What should the project manager do FIRST?",
+      "choices": [
+        "Clarify requirements and confirm the approved scope",
+        "Remove the stakeholder with the lowest authority",
+        "Delay the deliverable",
+        "Ignore the conflict"
+      ],
+      "correct_index": 0,
+      "explanation": "Conflicts regarding expectations should be resolved by referring to approved scope and requirements documentation. Removing stakeholders or ignoring the issue damages relationships. Delaying delivery does not solve the underlying problem."
+    },
+    {
+      "qid": "PGH-23",
+      "stem": "Which activity best represents the initiating process group?",
+      "choices": [
+        "Authorizing the project",
+        "Executing deliverables",
+        "Monitoring performance",
+        "Closing contracts"
+      ],
+      "correct_index": 0,
+      "explanation": "Initiating authorizes the project or phase. Execution performs work. Monitoring tracks progress. Contract closure occurs in closing."
+    },
+    {
+      "qid": "PGH-24",
+      "stem": "A project manager wants to confirm the project is still aligned with organizational strategy. What should be reviewed?",
+      "choices": [
+        "The project charter",
+        "The team roster",
+        "The lessons learned report",
+        "The final closure report"
+      ],
+      "correct_index": 0,
+      "explanation": "The project charter defines the project purpose and alignment with strategic goals. Team rosters and lessons learned do not establish strategic alignment."
+    },
+    {
+      "qid": "PGH-25",
+      "stem": "During monitoring activities the project manager observes that tasks are consistently finishing later than planned. What should be done FIRST?",
+      "choices": [
+        "Determine the cause of delays",
+        "Add more resources immediately",
+        "Extend the schedule baseline",
+        "Remove project deliverables"
+      ],
+      "correct_index": 0,
+      "explanation": "Understanding the cause of delays is required before deciding corrective actions. Adding resources or extending schedules without analysis may worsen the issue."
+    },
+    {
+      "qid": "PGH-26",
+      "stem": "The project manager identifies a new regulatory requirement that affects project deliverables. What should happen first?",
+      "choices": [
+        "Submit a change request",
+        "Implement the change immediately",
+        "Ignore the requirement",
+        "Cancel the project"
+      ],
+      "correct_index": 0,
+      "explanation": "Regulatory changes must go through formal change control. Immediate implementation bypasses governance. Ignoring the requirement risks compliance violations."
+    },
+    {
+      "qid": "PGH-27",
+      "stem": "A stakeholder requests frequent updates during execution. What should the project manager reference?",
+      "choices": [
+        "The communications management plan",
+        "The closing report",
+        "The project charter only",
+        "The procurement plan"
+      ],
+      "correct_index": 0,
+      "explanation": "The communications management plan defines how and when stakeholders receive information. The charter and procurement plan do not define communication frequency."
+    },
+    {
+      "qid": "PGH-28",
+      "stem": "Which process group primarily ensures that project work follows the approved plan?",
+      "choices": [
+        "Monitoring and Controlling",
+        "Initiating",
+        "Planning",
+        "Closing"
+      ],
+      "correct_index": 0,
+      "explanation": "Monitoring and Controlling compares performance to the baseline and ensures adherence to the plan."
+    },
+    {
+      "qid": "PGH-29",
+      "stem": "A team member suggests modifying a deliverable to improve customer satisfaction. What should the project manager do?",
+      "choices": [
+        "Analyze the change impact before approval",
+        "Approve the idea immediately",
+        "Reject the idea immediately",
+        "Remove the deliverable"
+      ],
+      "correct_index": 0,
+      "explanation": "Changes must always be analyzed before approval or rejection. Immediate decisions without evaluation violate change control processes."
+    },
+    {
+      "qid": "PGH-30",
+      "stem": "A project phase is ending but documentation is incomplete. What should the project manager do?",
+      "choices": [
+        "Complete documentation before closing the phase",
+        "Skip documentation",
+        "Delay the entire project",
+        "Cancel the phase"
+      ],
+      "correct_index": 0,
+      "explanation": "Proper documentation is required during closure to preserve project knowledge and ensure compliance."
+    },
+    {
+      "qid": "PGH-31",
+      "stem": "Which process group ensures lessons learned are captured for future projects?",
+      "choices": [
+        "Closing",
+        "Executing",
+        "Planning",
+        "Initiating"
+      ],
+      "correct_index": 0,
+      "explanation": "Lessons learned are formally documented during closing activities to improve future project performance."
+    },
+    {
+      "qid": "PGH-32",
+      "stem": "A project manager observes that team productivity has decreased. What should the project manager do FIRST?",
+      "choices": [
+        "Investigate the cause of reduced productivity",
+        "Replace the entire team",
+        "Extend the schedule baseline",
+        "Cancel the project"
+      ],
+      "correct_index": 0,
+      "explanation": "The project manager must determine the root cause before implementing solutions."
+    },
+    {
+      "qid": "PGH-33",
+      "stem": "Which process group involves coordinating stakeholders and resources to produce deliverables?",
+      "choices": [
+        "Executing",
+        "Monitoring",
+        "Planning",
+        "Closing"
+      ],
+      "correct_index": 0,
+      "explanation": "Execution is responsible for producing project deliverables using resources and stakeholder coordination."
+    },
+    {
+      "qid": "PGH-34",
+      "stem": "A sponsor requests confirmation that the project is progressing according to the plan. What should the project manager provide?",
+      "choices": [
+        "Performance reports",
+        "The project charter",
+        "A new scope statement",
+        "A new contract"
+      ],
+      "correct_index": 0,
+      "explanation": "Performance reports provide stakeholders with information about progress compared to baselines."
+    },
+    {
+      "qid": "PGH-35",
+      "stem": "The team identifies a better approach to complete an activity during execution. What should the project manager do?",
+      "choices": [
+        "Evaluate the change and follow change control",
+        "Adopt the idea immediately",
+        "Reject the idea immediately",
+        "Remove the activity"
+      ],
+      "correct_index": 0,
+      "explanation": "Even improvements must follow formal change management procedures."
+    },
+    {
+      "qid": "PGH-36",
+      "stem": "What is the primary goal of the planning process group?",
+      "choices": [
+        "Define how project objectives will be achieved",
+        "Execute project work",
+        "Authorize the project",
+        "Close project contracts"
+      ],
+      "correct_index": 0,
+      "explanation": "Planning establishes the strategy, activities, and baselines required to achieve project objectives."
+    },
+    {
+      "qid": "PGH-37",
+      "stem": "A stakeholder asks why a requested feature was not implemented. What should the project manager reference?",
+      "choices": [
+        "Approved scope baseline",
+        "Team meeting minutes",
+        "Project schedule only",
+        "Lessons learned report"
+      ],
+      "correct_index": 0,
+      "explanation": "The scope baseline defines approved deliverables and requirements."
+    },
+    {
+      "qid": "PGH-38",
+      "stem": "The project team reports that a deliverable may not meet quality standards. What should the project manager do FIRST?",
+      "choices": [
+        "Evaluate the quality issue and determine root cause",
+        "Deliver the product anyway",
+        "Cancel the deliverable",
+        "Replace the entire team"
+      ],
+      "correct_index": 0,
+      "explanation": "Root cause analysis must occur before corrective action."
+    },
+    {
+      "qid": "PGH-39",
+      "stem": "Which process group ensures that project objectives are still achievable given current conditions?",
+      "choices": [
+        "Monitoring and Controlling",
+        "Planning",
+        "Executing",
+        "Closing"
+      ],
+      "correct_index": 0,
+      "explanation": "Monitoring and controlling continuously assesses project viability."
+    },
+    {
+      "qid": "PGH-40",
+      "stem": "A deliverable has been approved by the customer. What should occur next?",
+      "choices": [
+        "Document acceptance and update records",
+        "Start the project again",
+        "Delete project files",
+        "Cancel remaining tasks"
+      ],
+      "correct_index": 0,
+      "explanation": "Acceptance must be documented as part of project closure and records management."
+    },
+    {
+      "qid": "PGH-41",
+      "stem": "A project manager discovers scope creep occurring in several deliverables. What should the project manager reinforce?",
+      "choices": [
+        "Change control procedures",
+        "Schedule compression",
+        "Team replacement",
+        "Procurement processes"
+      ],
+      "correct_index": 0,
+      "explanation": "Scope creep occurs when work is added without formal approval. Change control prevents this."
+    },
+    {
+      "qid": "PGH-42",
+      "stem": "Which process group focuses on identifying project stakeholders and defining initial objectives?",
+      "choices": [
+        "Initiating",
+        "Planning",
+        "Executing",
+        "Monitoring"
+      ],
+      "correct_index": 0,
+      "explanation": "Initiating identifies stakeholders and defines the project at a high level."
+    },
+    {
+      "qid": "PGH-43",
+      "stem": "A team member suggests eliminating a deliverable to save time. What should the project manager do?",
+      "choices": [
+        "Analyze the impact through change control",
+        "Approve immediately",
+        "Reject automatically",
+        "Ignore the suggestion"
+      ],
+      "correct_index": 0,
+      "explanation": "Removing deliverables affects scope and must go through formal change evaluation."
+    },
+    {
+      "qid": "PGH-44",
+      "stem": "The project manager determines that the project no longer aligns with business objectives. What action may be required?",
+      "choices": [
+        "Recommend project termination",
+        "Increase scope",
+        "Remove stakeholders",
+        "Add new deliverables"
+      ],
+      "correct_index": 0,
+      "explanation": "Projects may be terminated if they no longer support business goals."
+    },
+    {
+      "qid": "PGH-45",
+      "stem": "Which activity occurs during both the project and each project phase?",
+      "choices": [
+        "All five process groups",
+        "Closing only",
+        "Execution only",
+        "Initiation only"
+      ],
+      "correct_index": 0,
+      "explanation": "Every project and phase goes through initiating, planning, executing, monitoring and controlling, and closing."
+    },
+    {
+      "qid": "PGH-46",
+      "stem": "Which process group involves formal acceptance of deliverables?",
+      "choices": [
+        "Closing",
+        "Planning",
+        "Executing",
+        "Initiating"
+      ],
+      "correct_index": 0,
+      "explanation": "Closing confirms acceptance and completes contractual and administrative activities."
+    },
+    {
+      "qid": "PGH-47",
+      "stem": "The project manager is reviewing earned value metrics to determine project performance. Which process group is involved?",
+      "choices": [
+        "Monitoring and Controlling",
+        "Executing",
+        "Planning",
+        "Initiating"
+      ],
+      "correct_index": 0,
+      "explanation": "Performance metrics are analyzed during monitoring activities."
+    },
+    {
+      "qid": "PGH-48",
+      "stem": "A team has finished all planned deliverables and the sponsor confirms satisfaction. What should occur next?",
+      "choices": [
+        "Formal project closure",
+        "Start a new phase",
+        "Replan the project",
+        "Add more deliverables"
+      ],
+      "correct_index": 0,
+      "explanation": "Formal closure completes the project and documents final results."
+    },
+    {
+      "qid": "PGH-49",
+      "stem": "Which process group focuses primarily on developing the project management plan and baselines?",
+      "choices": [
+        "Planning",
+        "Executing",
+        "Initiating",
+        "Closing"
+      ],
+      "correct_index": 0,
+      "explanation": "Planning defines baselines and strategies for project execution."
+    },
+    {
+      "qid": "PGH-50",
+      "stem": "A project manager continuously compares actual project results with planned performance. What is the main objective?",
+      "choices": [
+        "Identify deviations and take corrective action",
+        "Create new deliverables",
+        "Restart the project",
+        "Remove stakeholders"
+      ],
+      "correct_index": 0,
+      "explanation": "Monitoring activities compare actual performance to planned baselines and trigger corrective actions when necessary."
+    }
+  ]
+}
