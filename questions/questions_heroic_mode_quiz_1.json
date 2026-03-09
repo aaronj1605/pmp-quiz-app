@@ -1,0 +1,245 @@
+{
+  "quiz_name": "Heroic Mode Situational Decision Making",
+  "questions": [
+    {
+      "qid": "HM-1",
+      "stem": "You are managing a large infrastructure project that is halfway through execution. During a weekly stakeholder meeting, a senior executive states that a new regulatory requirement will likely affect the project's deliverables. The executive suggests that the team begin adjusting the design immediately to avoid delays. The project team looks to you for direction. What should you do FIRST?",
+      "choices": [
+        "Direct the team to begin incorporating the regulatory changes immediately to avoid schedule impact",
+        "Document the regulatory change and begin a formal impact analysis through the change management process",
+        "Escalate the issue to the sponsor and request guidance before taking action",
+        "Instruct the team to ignore the issue until the regulation is formally enacted"
+      ],
+      "correct_index": 1,
+      "explanation": "Correct: Any potential change affecting scope or deliverables must first be documented and analyzed through the change control process. This ensures impacts to cost, schedule, risk, and quality are evaluated.\n\nWhy others are wrong:\nImmediate implementation bypasses governance and risks uncontrolled scope change. Escalating prematurely ignores the PM's responsibility to manage the change process. Ignoring the issue risks compliance problems."
+    },
+    {
+      "qid": "HM-2",
+      "stem": "Your team reports that a critical deliverable has been completed three weeks earlier than planned. Several stakeholders suggest that the overall project completion date should be moved forward. However, this deliverable is part of a sequence of dependent activities. What should you do NEXT?",
+      "choices": [
+        "Announce the early completion to stakeholders and adjust the completion date",
+        "Verify the deliverable meets acceptance criteria and evaluate schedule dependencies",
+        "Release resources assigned to later tasks",
+        "Remove remaining tasks connected to the deliverable"
+      ],
+      "correct_index": 1,
+      "explanation": "Correct: Early completion must first be validated against acceptance criteria and evaluated against schedule dependencies.\n\nWhy others are wrong:\nAnnouncing early completion assumes the deliverable is fully accepted and ignores dependencies. Releasing resources prematurely may delay later activities. Removing tasks violates the approved plan."
+    },
+    {
+      "qid": "HM-3",
+      "stem": "During execution a team member privately informs you that another team member has been performing additional work not included in the work breakdown structure because they believe it will improve the final deliverable. The work is nearly complete. What is the BEST action for the project manager?",
+      "choices": [
+        "Allow the work to continue because it may improve the deliverable",
+        "Stop the work and evaluate the change through formal change control",
+        "Ignore the work since it is almost finished",
+        "Report the team member to their functional manager"
+      ],
+      "correct_index": 1,
+      "explanation": "Correct: Work not included in the WBS represents scope creep and must be evaluated through change control.\n\nWhy others are wrong:\nAllowing it continues uncontrolled scope expansion. Ignoring it undermines governance. Reporting the team member addresses the person rather than the process."
+    },
+    {
+      "qid": "HM-4",
+      "stem": "During project execution several stakeholders begin requesting frequent progress updates, creating confusion for the team about reporting expectations. What should the project manager do?",
+      "choices": [
+        "Provide updates whenever stakeholders request them",
+        "Follow the communications management plan to align reporting expectations",
+        "Escalate the issue to the sponsor",
+        "Reduce the number of stakeholders receiving reports"
+      ],
+      "correct_index": 1,
+      "explanation": "Correct: The communications management plan defines how and when stakeholders receive information.\n\nWhy others are wrong:\nProviding ad hoc updates creates inconsistent communication. Escalation is unnecessary. Removing stakeholders harms engagement."
+    },
+    {
+      "qid": "HM-5",
+      "stem": "During monitoring activities you discover the project schedule is slipping across multiple tasks. Several team members recommend adding more resources immediately. What should you do FIRST?",
+      "choices": [
+        "Approve additional resources to recover schedule",
+        "Investigate the root cause of the variance",
+        "Extend the schedule baseline",
+        "Notify stakeholders of a delay"
+      ],
+      "correct_index": 1,
+      "explanation": "Correct: Variances must first be analyzed to identify root causes.\n\nWhy others are wrong:\nAdding resources may worsen the issue. Extending the baseline requires change approval. Notifying stakeholders before analysis may cause unnecessary concern."
+    },
+    {
+      "qid": "HM-6",
+      "stem": "A competing project requests several members of your team because their skills are scarce across the organization. Your project is currently on schedule but upcoming phases will require those resources. What should you do FIRST?",
+      "choices": [
+        "Release the resources immediately to support the organization",
+        "Assess the impact of losing the resources on your project",
+        "Refuse the request because the resources are assigned",
+        "Escalate the request to executive leadership"
+      ],
+      "correct_index": 1,
+      "explanation": "Correct: The project manager must evaluate the impact before making a decision.\n\nWhy others are wrong:\nImmediate release may jeopardize your project. Refusal without analysis ignores organizational priorities. Escalation before analysis bypasses PM responsibility."
+    },
+    {
+      "qid": "HM-7",
+      "stem": "A stakeholder complains they were not informed about a recent approved schedule change. The change followed proper change control procedures. What should you do?",
+      "choices": [
+        "Explain the change and review the communication process",
+        "Reverse the schedule change",
+        "Remove the stakeholder from reporting",
+        "Ignore the complaint"
+      ],
+      "correct_index": 0,
+      "explanation": "Correct: The PM should explain the approved change and review communication expectations.\n\nWhy others are wrong:\nReversing the change undermines governance. Removing the stakeholder damages relationships. Ignoring concerns harms stakeholder engagement."
+    },
+    {
+      "qid": "HM-8",
+      "stem": "The project team has finished all deliverables and the sponsor verbally confirms satisfaction. What should the project manager do NEXT?",
+      "choices": [
+        "Release resources immediately",
+        "Obtain formal acceptance and perform closure activities",
+        "Begin planning the next project",
+        "Archive documents later"
+      ],
+      "correct_index": 1,
+      "explanation": "Correct: Formal acceptance and administrative closure must occur before a project is officially complete.\n\nWhy others are wrong:\nReleasing resources prematurely risks incomplete closure. Starting new projects ignores closure. Delaying documentation risks information loss."
+    },
+    {
+      "qid": "HM-9",
+      "stem": "A stakeholder requests a new dashboard reporting feature during execution and states the change should be quick to implement. What should the project manager do FIRST?",
+      "choices": [
+        "Approve the change since the effort is small",
+        "Evaluate the request through change management",
+        "Reject the request because scope is approved",
+        "Escalate the request to the sponsor"
+      ],
+      "correct_index": 1,
+      "explanation": "Correct: All scope changes must be evaluated before approval.\n\nWhy others are wrong:\nImmediate implementation bypasses governance. Rejecting automatically ignores potential value. Escalation is premature."
+    },
+    {
+      "qid": "HM-10",
+      "stem": "During execution a team member raises concerns about vendor availability affecting upcoming activities. What should the project manager do FIRST?",
+      "choices": [
+        "Replace the vendor immediately",
+        "Analyze the risk and evaluate schedule impact",
+        "Ignore the concern unless delays occur",
+        "Extend the schedule baseline"
+      ],
+      "correct_index": 1,
+      "explanation": "Correct: Risks must first be analyzed before corrective action.\n\nWhy others are wrong:\nReplacing vendors may not be necessary. Ignoring the issue increases risk exposure. Baseline changes require formal approval."
+    },
+    {
+      "qid": "HM-11",
+      "stem": "During a hybrid project review meeting, stakeholders request several adjustments to upcoming deliverables that may affect the current plan. What should the project manager do?",
+      "choices": [
+        "Allow the team to incorporate all requested adjustments immediately",
+        "Evaluate each request and determine the impact on the plan",
+        "Reject all requests because the plan is approved",
+        "Delay the project until the sponsor decides"
+      ],
+      "correct_index": 1,
+      "explanation": "Correct: Requests must be evaluated before implementation.\n\nWhy others are wrong:\nImmediate implementation bypasses governance. Rejecting automatically ignores potential value. Delaying the project unnecessarily disrupts progress."
+    },
+    {
+      "qid": "HM-12",
+      "stem": "During monitoring you observe that several activities are finishing earlier than planned. Before making any schedule changes, what should the project manager do FIRST?",
+      "choices": [
+        "Announce a new earlier project completion date",
+        "Confirm work quality and analyze schedule dependencies",
+        "Release excess resources",
+        "Remove remaining related activities"
+      ],
+      "correct_index": 1,
+      "explanation": "Correct: Early completion must be verified for quality and dependency impacts.\n\nWhy others are wrong:\nAnnouncing early completion may be inaccurate. Releasing resources prematurely may delay later work. Removing tasks violates the plan."
+    },
+    {
+      "qid": "HM-13",
+      "stem": "A team member suggests skipping documentation activities because the team already understands the system well. What should the project manager do?",
+      "choices": [
+        "Allow the change because the team agrees",
+        "Verify documentation requirements in the project plan",
+        "Remove documentation from scope",
+        "Ignore the suggestion"
+      ],
+      "correct_index": 1,
+      "explanation": "Correct: Documentation requirements are defined in the project plan.\n\nWhy others are wrong:\nRemoving documentation without review violates governance. Ignoring the suggestion avoids addressing the issue."
+    },
+    {
+      "qid": "HM-14",
+      "stem": "Two departments disagree about the priority of a deliverable and request the project manager decide which is more important. What should the project manager do FIRST before considering escalation?",
+      "choices": [
+        "Choose the department with more authority",
+        "Review the approved scope and project priorities",
+        "Escalate the conflict immediately",
+        "Delay the deliverable"
+      ],
+      "correct_index": 1,
+      "explanation": "Correct: Scope and project priorities determine deliverable importance.\n\nWhy others are wrong:\nAuthority does not determine scope. Escalation should occur after analysis. Delaying work does not resolve the conflict."
+    },
+    {
+      "qid": "HM-15",
+      "stem": "Monitoring activities reveal that risk mitigation tasks are not being executed by the team. What should the project manager do?",
+      "choices": [
+        "Ignore the issue unless a risk occurs",
+        "Reinforce the risk response plan and ensure tasks are executed",
+        "Remove the risks from the register",
+        "Replace responsible team members"
+      ],
+      "correct_index": 1,
+      "explanation": "Correct: The PM must ensure planned risk responses are implemented.\n\nWhy others are wrong:\nIgnoring risks increases exposure. Removing risks hides issues. Replacing staff does not address the process problem."
+    },
+    {
+      "qid": "HM-16",
+      "stem": "A stakeholder suggests skipping a formal review meeting because they trust the team's work and want to save time. What should the project manager do?",
+      "choices": [
+        "Skip the meeting to maintain stakeholder satisfaction",
+        "Explain the importance of governance and proceed with the review",
+        "Cancel all future reviews",
+        "Replace the meeting with informal discussions"
+      ],
+      "correct_index": 1,
+      "explanation": "Correct: Governance and quality reviews should not be skipped.\n\nWhy others are wrong:\nSkipping removes oversight. Canceling reviews undermines governance. Informal discussions cannot replace formal reviews."
+    },
+    {
+      "qid": "HM-17",
+      "stem": "A team member reports that another project team may be performing similar work, possibly duplicating effort. What should the project manager do FIRST?",
+      "choices": [
+        "Stop the project immediately",
+        "Investigate the potential duplication and coordinate with the other project",
+        "Ignore the information",
+        "Report the issue to all project sponsors"
+      ],
+      "correct_index": 1,
+      "explanation": "Correct: The PM should investigate and coordinate before escalating.\n\nWhy others are wrong:\nStopping the project is premature. Ignoring wastes resources. Broad escalation before analysis is unnecessary."
+    },
+    {
+      "qid": "HM-18",
+      "stem": "A stakeholder misunderstood the project scope and expected additional deliverables. What should the project manager do?",
+      "choices": [
+        "Add the deliverables immediately",
+        "Clarify the approved scope and evaluate change requests if needed",
+        "Reject the stakeholder request outright",
+        "Ignore the misunderstanding"
+      ],
+      "correct_index": 1,
+      "explanation": "Correct: Clarify scope and use change control if adjustments are required.\n\nWhy others are wrong:\nImmediate additions cause scope creep. Rejection damages relationships. Ignoring the issue leaves expectations unresolved."
+    },
+    {
+      "qid": "HM-19",
+      "stem": "A vendor informs you that delivery of a key component may be delayed. What should the project manager do FIRST?",
+      "choices": [
+        "Replace the vendor immediately",
+        "Analyze the impact on schedule and risk",
+        "Inform stakeholders the project will be delayed",
+        "Cancel related tasks"
+      ],
+      "correct_index": 1,
+      "explanation": "Correct: Impact analysis must occur before corrective action.\n\nWhy others are wrong:\nReplacing vendors may be unnecessary. Announcing delays without analysis may cause confusion. Canceling tasks prematurely disrupts the plan."
+    },
+    {
+      "qid": "HM-20",
+      "stem": "Near project completion the team identifies an improvement that could enhance the final product but was not originally planned. What should the project manager do?",
+      "choices": [
+        "Approve the improvement immediately",
+        "Evaluate the improvement through the change management process",
+        "Reject the improvement because the project is ending",
+        "Ignore the suggestion"
+      ],
+      "correct_index": 1,
+      "explanation": "Correct: Even late improvements must go through change control.\n\nWhy others are wrong:\nImmediate implementation bypasses governance. Rejecting automatically ignores potential value."
+    }
+  ]
+}
