@@ -96,6 +96,150 @@
       ],
       "correct_index": 1,
       "explanation": "Correct: The PM should clarify priorities and align the team.\n\nWhy others are wrong:\nReplacing staff is unnecessary. Reducing scope does not solve the issue. Ignoring productivity decline worsens performance."
+    },
+    {
+      "qid": "HM2-9",
+      "stem": "Your project is midway through execution when a senior stakeholder informs you that a recently approved regulatory guideline may require minor adjustments to several deliverables. The stakeholder recommends that the team begin adjusting documentation and system configurations immediately to avoid potential rework later. However, the regulatory guideline has not yet been finalized and could still change. The team asks how to proceed so that progress is not delayed. What should the project manager do FIRST?",
+      "choices": [
+        "Direct the team to begin implementing the anticipated regulatory adjustments",
+        "Document the potential change and analyze the impact before making adjustments",
+        "Delay all related project work until the regulation becomes final",
+        "Escalate the situation to executive leadership for direction"
+      ],
+      "correct_index": 1,
+      "explanation": "Correct: Potential changes should first be documented and analyzed before any action is taken. This allows the project manager to determine whether the change will affect scope, cost, schedule, or risk.\n\nWhy others are wrong:\nImplementing immediately may introduce unnecessary work if the regulation changes. Halting all work unnecessarily delays progress. Escalation is premature because the PM must first analyze the situation."
+    },
+    {
+      "qid": "HM2-10",
+      "stem": "During a weekly project performance review you discover that a critical activity finished significantly earlier than expected. A team member proposes using the extra time to begin work on a later phase of the project that was originally scheduled to start in two months. The team believes this will accelerate delivery of the final product. However, the later phase depends on deliverables that have not yet been finalized. What should the project manager do?",
+      "choices": [
+        "Approve the early start of the future phase to accelerate project completion",
+        "Evaluate whether starting the phase early will create risks or conflicts",
+        "Reassign the team members to another project temporarily",
+        "Remove the dependency tasks from the schedule"
+      ],
+      "correct_index": 1,
+      "explanation": "Correct: The project manager should evaluate risks and dependencies before starting work earlier than planned.\n\nWhy others are wrong:\nStarting immediately may introduce rework if prerequisites are incomplete. Reassigning resources may cause later delays. Removing dependencies violates the project schedule logic."
+    },
+    {
+      "qid": "HM2-11",
+      "stem": "While reviewing project deliverables you notice that a team member has added several enhancements to a component beyond what was defined in the scope baseline. The enhancements appear useful and the team member claims they will improve stakeholder satisfaction. However, these features were never reviewed through the change process. What should the project manager do?",
+      "choices": [
+        "Allow the enhancements since they may increase value",
+        "Stop further enhancements and review the changes through change control",
+        "Ignore the situation because the work is already complete",
+        "Reward the team member for initiative"
+      ],
+      "correct_index": 1,
+      "explanation": "Correct: Enhancements beyond approved scope represent scope creep and must be evaluated through formal change control.\n\nWhy others are wrong:\nAllowing the changes bypasses governance. Ignoring them allows uncontrolled scope expansion. Rewarding the behavior encourages future scope violations."
+    },
+    {
+      "qid": "HM2-12",
+      "stem": "Two senior stakeholders strongly disagree about which deliverable should receive priority in the next project phase. Each stakeholder argues that their requested feature provides the greatest strategic benefit to the organization. Both stakeholders expect the project manager to make a decision quickly. What should the project manager do FIRST?",
+      "choices": [
+        "Choose the feature requested by the stakeholder with greater authority",
+        "Review the approved project objectives and scope priorities",
+        "Escalate the disagreement to executive leadership",
+        "Delay the next phase until stakeholders reach agreement"
+      ],
+      "correct_index": 1,
+      "explanation": "Correct: The project manager should review the project charter and scope priorities to determine alignment with project objectives.\n\nWhy others are wrong:\nAuthority does not define project priorities. Escalation should occur only after analysis. Delaying work without analysis disrupts the project unnecessarily."
+    },
+    {
+      "qid": "HM2-13",
+      "stem": "During execution the project team informs you that they have identified a faster method for completing several remaining tasks. The approach could shorten the schedule but has not been evaluated for potential quality or integration impacts. The team is enthusiastic about implementing the new method immediately. What should the project manager do?",
+      "choices": [
+        "Approve the new method to accelerate project completion",
+        "Evaluate the method for potential impacts before approval",
+        "Reject the method because the current schedule is approved",
+        "Ignore the suggestion and continue with the current approach"
+      ],
+      "correct_index": 1,
+      "explanation": "Correct: The project manager should evaluate the proposed improvement before approving changes to the plan.\n\nWhy others are wrong:\nImmediate approval may introduce risks or quality issues. Rejecting automatically ignores possible improvement. Ignoring the suggestion prevents analysis."
+    },
+    {
+      "qid": "HM2-14",
+      "stem": "A project team member reports that a vendor has suggested modifying the design of a component to reduce manufacturing cost. The modification would not significantly affect functionality but would change the original design specifications. What should the project manager do FIRST?",
+      "choices": [
+        "Approve the design change to reduce cost",
+        "Evaluate the design change through the project's change control process",
+        "Reject the proposal because the design was already approved",
+        "Allow the vendor to decide which design is best"
+      ],
+      "correct_index": 1,
+      "explanation": "Correct: Any modification to approved specifications must be evaluated through change control.\n\nWhy others are wrong:\nApproving immediately bypasses governance. Rejecting automatically ignores potential cost benefits. Allowing the vendor to decide removes project oversight."
+    },
+    {
+      "qid": "HM2-15",
+      "stem": "During a project review meeting several stakeholders ask for additional status information that is not currently included in project reports. The project team is concerned that producing these additional reports may require significant effort each week. What should the project manager do?",
+      "choices": [
+        "Provide all requested reports immediately to satisfy stakeholders",
+        "Review the communications management plan and determine appropriate reporting updates",
+        "Reject the request because the reports were not originally planned",
+        "Escalate the request to the sponsor"
+      ],
+      "correct_index": 1,
+      "explanation": "Correct: The PM should review the communications plan to determine how stakeholder reporting needs should be addressed.\n\nWhy others are wrong:\nProviding reports immediately may create unnecessary workload. Rejecting the request ignores stakeholder needs. Escalation is unnecessary before analysis."
+    },
+    {
+      "qid": "HM2-16",
+      "stem": "You learn that a project team member has been performing work on tasks assigned to another team member because they believed it would accelerate progress. This has caused confusion about task ownership. What should the project manager do FIRST?",
+      "choices": [
+        "Allow the behavior since the team is trying to help the project",
+        "Clarify task responsibilities and review the project plan with the team",
+        "Replace the team member responsible for the confusion",
+        "Ignore the issue because the work was completed"
+      ],
+      "correct_index": 1,
+      "explanation": "Correct: The PM should clarify roles and responsibilities to restore alignment.\n\nWhy others are wrong:\nAllowing the behavior may create further confusion. Replacing the team member is excessive. Ignoring the issue risks continued coordination problems."
+    },
+    {
+      "qid": "HM2-17",
+      "stem": "While reviewing risk reports you notice that several mitigation activities identified earlier in the project have not yet been implemented. The responsible team members indicate they were focused on completing urgent deliverables instead. What should the project manager do?",
+      "choices": [
+        "Ignore the issue unless a risk event occurs",
+        "Reinforce the importance of executing planned risk responses",
+        "Remove the risks from the risk register",
+        "Assign the mitigation tasks to a different team"
+      ],
+      "correct_index": 1,
+      "explanation": "Correct: Planned risk responses must be implemented to reduce risk exposure.\n\nWhy others are wrong:\nIgnoring risks increases project vulnerability. Removing risks from the register hides issues. Reassigning tasks may not address the underlying problem."
+    },
+    {
+      "qid": "HM2-18",
+      "stem": "A customer representative suggests adding a small feature that was not included in the original project scope. The customer claims the feature is minor and should not require formal approval. What should the project manager do?",
+      "choices": [
+        "Approve the feature because it improves customer satisfaction",
+        "Evaluate the feature request through change management",
+        "Reject the request to protect the scope baseline",
+        "Ignore the suggestion"
+      ],
+      "correct_index": 1,
+      "explanation": "Correct: Even small scope changes must be evaluated through the change control process.\n\nWhy others are wrong:\nImmediate approval creates scope creep. Rejecting automatically ignores possible value. Ignoring the suggestion prevents proper evaluation."
+    },
+    {
+      "qid": "HM2-19",
+      "stem": "During project execution several team members report uncertainty about how success will ultimately be measured for the project. They are unsure which outcomes stakeholders consider most important. What should the project manager do?",
+      "choices": [
+        "Ask the team to determine their own success metrics",
+        "Review the project charter and success criteria with the team",
+        "Ignore the concern and continue execution",
+        "Reduce the number of project deliverables"
+      ],
+      "correct_index": 1,
+      "explanation": "Correct: The project charter and planning documents define success criteria and should be reviewed with the team.\n\nWhy others are wrong:\nAllowing the team to define metrics may create misalignment. Ignoring the issue reduces clarity. Reducing deliverables does not address the concern."
+    },
+    {
+      "qid": "HM2-20",
+      "stem": "Near the end of the project the team proposes implementing a small design improvement that could significantly enhance the final product. The change would require a few additional days of work but would increase customer satisfaction. What should the project manager do FIRST?",
+      "choices": [
+        "Approve the improvement because it benefits the customer",
+        "Evaluate the proposed improvement through change control",
+        "Reject the improvement because the project is nearly finished",
+        "Ignore the suggestion to avoid delaying completion"
+      ],
+      "correct_index": 1,
+      "explanation": "Correct: Even late improvements must be evaluated through formal change control to understand schedule and cost impact.\n\nWhy others are wrong:\nImmediate approval bypasses governance. Rejecting automatically ignores potential value. Ignoring prevents analysis."
     }
   ]
 }
