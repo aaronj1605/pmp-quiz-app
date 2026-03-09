@@ -1,0 +1,245 @@
+{
+  "quiz_name": "Understanding PMP Process Groups",
+  "questions": [
+    {
+      "qid": "PG-L1",
+      "stem": "Which process group formally authorizes a project or project phase to begin?",
+      "choices": [
+        "Planning",
+        "Executing",
+        "Initiating",
+        "Monitoring and Controlling"
+      ],
+      "correct_index": 2,
+      "explanation": "Initiating authorizes the project or phase to start. This is typically where the project charter is created and approved."
+    },
+    {
+      "qid": "PG-L2",
+      "stem": "What is the primary purpose of the Planning process group?",
+      "choices": [
+        "Perform the project work",
+        "Define objectives and determine how the project will achieve them",
+        "Monitor performance against the plan",
+        "Approve deliverables"
+      ],
+      "correct_index": 1,
+      "explanation": "Planning defines how the project will be executed and controlled. It includes defining scope, schedule, cost, risk, resources, and communication plans."
+    },
+    {
+      "qid": "PG-L3",
+      "stem": "Which process group focuses on performing the work defined in the project management plan?",
+      "choices": [
+        "Executing",
+        "Planning",
+        "Initiating",
+        "Closing"
+      ],
+      "correct_index": 0,
+      "explanation": "Executing is where the team performs the work described in the plan to produce project deliverables."
+    },
+    {
+      "qid": "PG-L4",
+      "stem": "In which process group are performance measurements compared against the plan?",
+      "choices": [
+        "Planning",
+        "Monitoring and Controlling",
+        "Executing",
+        "Closing"
+      ],
+      "correct_index": 1,
+      "explanation": "Monitoring and Controlling tracks project performance and compares it to the project management plan."
+    },
+    {
+      "qid": "PG-L5",
+      "stem": "Which process group ensures that the project or phase is formally completed?",
+      "choices": [
+        "Executing",
+        "Planning",
+        "Closing",
+        "Initiating"
+      ],
+      "correct_index": 2,
+      "explanation": "Closing includes final acceptance of deliverables, documentation archiving, and lessons learned."
+    },
+    {
+      "qid": "PG-L6",
+      "stem": "When does the Planning process group typically occur?",
+      "choices": [
+        "Only once at the start of the project",
+        "Throughout the project whenever changes require plan updates",
+        "Only at the end of the project",
+        "Only after execution finishes"
+      ],
+      "correct_index": 1,
+      "explanation": "Planning happens initially but also continues throughout the project as updates are required."
+    },
+    {
+      "qid": "PG-L7",
+      "stem": "Which process group is responsible for managing stakeholder engagement and directing project work?",
+      "choices": [
+        "Executing",
+        "Monitoring and Controlling",
+        "Initiating",
+        "Closing"
+      ],
+      "correct_index": 0,
+      "explanation": "Executing includes directing and managing project work and engaging stakeholders."
+    },
+    {
+      "qid": "PG-L8",
+      "stem": "A project manager identifies that the project schedule is slipping. Which process group primarily addresses this situation?",
+      "choices": [
+        "Planning",
+        "Monitoring and Controlling",
+        "Executing",
+        "Closing"
+      ],
+      "correct_index": 1,
+      "explanation": "Monitoring and Controlling identifies variances from the plan and determines corrective actions."
+    },
+    {
+      "qid": "PG-L9",
+      "stem": "Which process group produces the project management plan?",
+      "choices": [
+        "Planning",
+        "Initiating",
+        "Executing",
+        "Monitoring and Controlling"
+      ],
+      "correct_index": 0,
+      "explanation": "The Planning process group creates the project management plan and its subsidiary plans."
+    },
+    {
+      "qid": "PG-L10",
+      "stem": "Who is typically assigned and formally recognized during the Initiating process group?",
+      "choices": [
+        "Project team members",
+        "Project manager",
+        "Functional managers",
+        "Vendors"
+      ],
+      "correct_index": 1,
+      "explanation": "The project charter usually identifies and authorizes the project manager."
+    },
+    {
+      "qid": "PG-L11",
+      "stem": "Which process group focuses most on producing project deliverables?",
+      "choices": [
+        "Planning",
+        "Executing",
+        "Monitoring and Controlling",
+        "Closing"
+      ],
+      "correct_index": 1,
+      "explanation": "Executing is where the majority of the project work and deliverables are produced."
+    },
+    {
+      "qid": "PG-L12",
+      "stem": "When a change request is submitted, which process group evaluates its impact on the project?",
+      "choices": [
+        "Planning",
+        "Monitoring and Controlling",
+        "Executing",
+        "Initiating"
+      ],
+      "correct_index": 1,
+      "explanation": "Monitoring and Controlling evaluates changes and determines their impact before approval."
+    },
+    {
+      "qid": "PG-L13",
+      "stem": "Which process group is responsible for identifying stakeholders?",
+      "choices": [
+        "Initiating",
+        "Planning",
+        "Executing",
+        "Monitoring and Controlling"
+      ],
+      "correct_index": 0,
+      "explanation": "Stakeholders are initially identified during the Initiating process group."
+    },
+    {
+      "qid": "PG-L14",
+      "stem": "Which process group ensures lessons learned are documented and archived?",
+      "choices": [
+        "Closing",
+        "Executing",
+        "Planning",
+        "Monitoring and Controlling"
+      ],
+      "correct_index": 0,
+      "explanation": "Lessons learned documentation and archiving occur during Closing."
+    },
+    {
+      "qid": "PG-L15",
+      "stem": "A project team is creating the Work Breakdown Structure. Which process group does this belong to?",
+      "choices": [
+        "Planning",
+        "Executing",
+        "Initiating",
+        "Closing"
+      ],
+      "correct_index": 0,
+      "explanation": "The WBS is created during Planning as part of defining project scope."
+    },
+    {
+      "qid": "PG-L16",
+      "stem": "If the project manager discovers a variance in cost performance, what should typically happen next?",
+      "choices": [
+        "Continue execution without action",
+        "Analyze the variance and determine corrective action",
+        "Immediately change the budget",
+        "Cancel the project"
+      ],
+      "correct_index": 1,
+      "explanation": "Cost variances are analyzed in Monitoring and Controlling to determine corrective actions."
+    },
+    {
+      "qid": "PG-L17",
+      "stem": "Which process group ensures deliverables meet requirements before being accepted?",
+      "choices": [
+        "Monitoring and Controlling",
+        "Executing",
+        "Planning",
+        "Closing"
+      ],
+      "correct_index": 0,
+      "explanation": "Quality control and validation occur in Monitoring and Controlling."
+    },
+    {
+      "qid": "PG-L18",
+      "stem": "Which process group focuses on coordinating people and resources to carry out the project plan?",
+      "choices": [
+        "Executing",
+        "Planning",
+        "Monitoring and Controlling",
+        "Closing"
+      ],
+      "correct_index": 0,
+      "explanation": "Executing involves coordinating people, resources, and activities to produce deliverables."
+    },
+    {
+      "qid": "PG-L19",
+      "stem": "Why do projects move through all five process groups?",
+      "choices": [
+        "To ensure work is planned, executed, controlled, and formally completed",
+        "Because PMI requires five phases",
+        "To ensure the project manager has authority",
+        "Because it simplifies scheduling"
+      ],
+      "correct_index": 0,
+      "explanation": "The process groups ensure that projects are properly authorized, planned, executed, controlled, and closed."
+    },
+    {
+      "qid": "PG-L20",
+      "stem": "Which process group is most focused on defining how success will be measured?",
+      "choices": [
+        "Planning",
+        "Executing",
+        "Monitoring and Controlling",
+        "Closing"
+      ],
+      "correct_index": 0,
+      "explanation": "Planning defines success metrics, scope, schedule, and cost baselines."
+    }
+  ]
+}
