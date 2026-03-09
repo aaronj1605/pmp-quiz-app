@@ -1,0 +1,101 @@
+﻿{
+  "quiz_name": "Cost Management Budget and Cost Baseline",
+  "questions": [
+    {
+      "qid": "CM-BUD-1",
+      "stem": "What is the purpose of the Determine Budget process?",
+      "choices": [
+        "Estimate individual activity costs",
+        "Aggregate cost estimates into a project budget",
+        "Control project expenses",
+        "Determine vendor pricing"
+      ],
+      "correct_index": 1,
+      "explanation": "Determine Budget combines individual activity and work package estimates into the total project budget."
+    },
+    {
+      "qid": "CM-BUD-2",
+      "stem": "What is the cost baseline?",
+      "choices": [
+        "The total contract price",
+        "A time phased project budget used to measure cost performance",
+        "The total project schedule",
+        "The sum of vendor payments"
+      ],
+      "correct_index": 1,
+      "explanation": "The cost baseline is the approved budget distributed across the timeline of the project."
+    },
+    {
+      "qid": "CM-BUD-3",
+      "stem": "What does BAC represent?",
+      "choices": [
+        "Budget at Completion",
+        "Baseline Activity Cost",
+        "Budget Approval Control",
+        "Baseline Accounting Cost"
+      ],
+      "correct_index": 0,
+      "explanation": "BAC represents the total approved budget for the entire project."
+    },
+    {
+      "qid": "CM-BUD-4",
+      "stem": "Which document organizes project work in a hierarchy and supports cost estimation?",
+      "choices": [
+        "Stakeholder register",
+        "Work Breakdown Structure",
+        "Project charter",
+        "Risk register"
+      ],
+      "correct_index": 1,
+      "explanation": "The WBS breaks project work into manageable components that can be estimated."
+    },
+    {
+      "qid": "CM-BUD-5",
+      "stem": "Why are reserves included in project budgets?",
+      "choices": [
+        "To hide extra money",
+        "To account for risk and uncertainty",
+        "To increase project scope",
+        "To reduce cost estimates"
+      ],
+      "correct_index": 1,
+      "explanation": "Reserves account for known and unknown risks affecting cost."
+    },
+    {
+      "qid": "CM-BUD-6",
+      "stem": "What is the main difference between cost estimates and the cost baseline?",
+      "choices": [
+        "Estimates predict costs while the baseline is the approved budget",
+        "Estimates are used only by finance teams",
+        "Baselines are created before estimates",
+        "There is no difference"
+      ],
+      "correct_index": 0,
+      "explanation": "Cost estimates predict costs while the cost baseline is the approved version used for performance measurement."
+    },
+    {
+      "qid": "CM-BUD-7",
+      "stem": "Which input helps determine the overall project budget?",
+      "choices": [
+        "Cost estimates",
+        "Stakeholder register",
+        "Quality metrics",
+        "Project calendar"
+      ],
+      "correct_index": 0,
+      "explanation": "Cost estimates from work packages are aggregated to form the project budget."
+    },
+    {
+      "qid": "CM-BUD-8",
+      "stem": "Which concept represents funding provided in increments over time?",
+      "choices": [
+        "Cost aggregation",
+        "Funding requirements",
+        "Budget reserve",
+        "Schedule baseline"
+      ],
+      "correct_index": 1,
+      "explanation": "Funding requirements describe how funds are distributed during the project lifecycle."
+    }
+  ]
+}

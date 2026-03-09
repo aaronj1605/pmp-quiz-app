@@ -1,0 +1,65 @@
+﻿{
+  "quiz_name": "Cost Management Financial Decision Tools",
+  "questions": [
+    {
+      "qid": "FIN-1",
+      "stem": "Which investment evaluation technique selects the project with the highest value?",
+      "choices": [
+        "NPV",
+        "BAC",
+        "CPI",
+        "SPI"
+      ],
+      "correct_index": 0,
+      "explanation": "Net Present Value selects the project with the highest positive value."
+    },
+    {
+      "qid": "FIN-2",
+      "stem": "If a project has a negative NPV what should be done?",
+      "choices": [
+        "Accept the project",
+        "Reject the project",
+        "Delay the project",
+        "Increase scope"
+      ],
+      "correct_index": 1,
+      "explanation": "Negative NPV means the project returns less value than it costs."
+    },
+    {
+      "qid": "FIN-3",
+      "stem": "Which financial metric measures the percentage return relative to investment?",
+      "choices": [
+        "ROI",
+        "NPV",
+        "IRR",
+        "PV"
+      ],
+      "correct_index": 0,
+      "explanation": "Return on Investment measures profitability relative to investment."
+    },
+    {
+      "qid": "FIN-4",
+      "stem": "Which metric represents the discount rate that makes NPV equal zero?",
+      "choices": [
+        "IRR",
+        "ROI",
+        "CPI",
+        "SPI"
+      ],
+      "correct_index": 0,
+      "explanation": "Internal Rate of Return represents the break even interest rate of the investment."
+    },
+    {
+      "qid": "FIN-5",
+      "stem": "Which project should be selected if comparing several options?",
+      "choices": [
+        "Highest NPV",
+        "Lowest NPV",
+        "Lowest ROI",
+        "Lowest IRR"
+      ],
+      "correct_index": 0,
+      "explanation": "The project with the highest NPV delivers the most financial value."
+    }
+  ]
+}

@@ -1,0 +1,245 @@
+﻿{
+  "quiz_name": "Cost Management PMP Scenario Questions",
+  "questions": [
+    {
+      "qid": "CM-PMP-1",
+      "stem": "A project has EV = 300, AC = 400, and PV = 350. What is the current project status?",
+      "choices": [
+        "Over budget and behind schedule",
+        "Under budget and ahead of schedule",
+        "Over budget but ahead of schedule",
+        "Under budget but behind schedule"
+      ],
+      "correct_index": 0,
+      "explanation": "CV = EV − AC = 300 − 400 = -100 (over budget). SV = EV − PV = 300 − 350 = -50 (behind schedule)."
+    },
+    {
+      "qid": "CM-PMP-2",
+      "stem": "A project has CPI = 1.1 and SPI = 0.9. What does this indicate?",
+      "choices": [
+        "Under budget but behind schedule",
+        "Over budget and ahead of schedule",
+        "Behind schedule and over budget",
+        "Ahead of schedule and under budget"
+      ],
+      "correct_index": 0,
+      "explanation": "CPI greater than 1 means under budget. SPI less than 1 means behind schedule."
+    },
+    {
+      "qid": "CM-PMP-3",
+      "stem": "A project manager calculates CPI = 0.82. What should the project manager conclude?",
+      "choices": [
+        "The project is over budget",
+        "The project is under budget",
+        "The project is ahead of schedule",
+        "The project is complete"
+      ],
+      "correct_index": 0,
+      "explanation": "CPI less than 1 means the project is spending more money than planned for the work performed."
+    },
+    {
+      "qid": "CM-PMP-4",
+      "stem": "If SPI equals 1.0 what does this indicate?",
+      "choices": [
+        "Work is progressing exactly as planned",
+        "Work is ahead of schedule",
+        "Work is behind schedule",
+        "Project is over budget"
+      ],
+      "correct_index": 0,
+      "explanation": "SPI of 1 means EV equals PV and the project is exactly on schedule."
+    },
+    {
+      "qid": "CM-PMP-5",
+      "stem": "A project has BAC = 100000 and CPI = 0.8. What is the estimated cost at completion using CPI?",
+      "choices": [
+        "125000",
+        "80000",
+        "100000",
+        "120000"
+      ],
+      "correct_index": 0,
+      "explanation": "EAC = BAC / CPI = 100000 / 0.8 = 125000."
+    },
+    {
+      "qid": "CM-PMP-6",
+      "stem": "A project manager discovers that EV = 450 and AC = 500. What does this indicate?",
+      "choices": [
+        "Project is under budget",
+        "Project is over budget",
+        "Project is ahead of schedule",
+        "Project is exactly on budget"
+      ],
+      "correct_index": 1,
+      "explanation": "CV = EV − AC = 450 − 500 = -50. Negative CV means the project is over budget."
+    },
+    {
+      "qid": "CM-PMP-7",
+      "stem": "A project has EV = 600 and PV = 500. What does this indicate?",
+      "choices": [
+        "Ahead of schedule",
+        "Behind schedule",
+        "Over budget",
+        "Project complete"
+      ],
+      "correct_index": 0,
+      "explanation": "SV = EV − PV = 100 which means the project is ahead of schedule."
+    },
+    {
+      "qid": "CM-PMP-8",
+      "stem": "During project monitoring the CPI is 1.2. What does this mean?",
+      "choices": [
+        "The project is getting $1.20 worth of work for every dollar spent",
+        "The project is overspending",
+        "The project is behind schedule",
+        "The project is complete"
+      ],
+      "correct_index": 0,
+      "explanation": "CPI above 1 means cost efficiency is good and the project is under budget."
+    },
+    {
+      "qid": "CM-PMP-9",
+      "stem": "A project has BAC = 200000 and EAC = 220000. What does VAC equal?",
+      "choices": [
+        "-20000",
+        "20000",
+        "0",
+        "180000"
+      ],
+      "correct_index": 0,
+      "explanation": "VAC = BAC − EAC = 200000 − 220000 = -20000 meaning the project is forecast to be over budget."
+    },
+    {
+      "qid": "CM-PMP-10",
+      "stem": "A project manager calculates SV = -150. What does this mean?",
+      "choices": [
+        "Project is ahead of schedule",
+        "Project is behind schedule",
+        "Project is under budget",
+        "Project is on schedule"
+      ],
+      "correct_index": 1,
+      "explanation": "Negative schedule variance means less work has been completed than planned."
+    },
+    {
+      "qid": "CM-PMP-11",
+      "stem": "Which value represents the total approved project budget?",
+      "choices": [
+        "BAC",
+        "CPI",
+        "SPI",
+        "EAC"
+      ],
+      "correct_index": 0,
+      "explanation": "BAC stands for Budget at Completion and represents the total planned cost of the project."
+    },
+    {
+      "qid": "CM-PMP-12",
+      "stem": "A project has EV = 700, AC = 650, and PV = 750. What is the project status?",
+      "choices": [
+        "Under budget but behind schedule",
+        "Over budget and ahead of schedule",
+        "Under budget and ahead of schedule",
+        "Over budget and behind schedule"
+      ],
+      "correct_index": 0,
+      "explanation": "CV = 700 − 650 = +50 (under budget). SV = 700 − 750 = -50 (behind schedule)."
+    },
+    {
+      "qid": "CM-PMP-13",
+      "stem": "Which Earned Value metric measures cost efficiency?",
+      "choices": [
+        "CPI",
+        "SPI",
+        "SV",
+        "PV"
+      ],
+      "correct_index": 0,
+      "explanation": "Cost Performance Index measures how efficiently the project is using its budget."
+    },
+    {
+      "qid": "CM-PMP-14",
+      "stem": "Which metric measures schedule efficiency?",
+      "choices": [
+        "SPI",
+        "CPI",
+        "CV",
+        "AC"
+      ],
+      "correct_index": 0,
+      "explanation": "Schedule Performance Index measures how efficiently the schedule is being used."
+    },
+    {
+      "qid": "CM-PMP-15",
+      "stem": "A project manager wants to know how much more money must be spent to complete the project. Which metric should be used?",
+      "choices": [
+        "ETC",
+        "EAC",
+        "BAC",
+        "CPI"
+      ],
+      "correct_index": 0,
+      "explanation": "Estimate to Complete represents how much additional money is required to finish the project."
+    },
+    {
+      "qid": "CM-PMP-16",
+      "stem": "A project manager calculates EAC = 110000 and AC = 60000. What is ETC?",
+      "choices": [
+        "50000",
+        "60000",
+        "110000",
+        "170000"
+      ],
+      "correct_index": 0,
+      "explanation": "ETC = EAC − AC = 110000 − 60000 = 50000."
+    },
+    {
+      "qid": "CM-PMP-17",
+      "stem": "A project has SPI = 1.25. What does this indicate?",
+      "choices": [
+        "Project is ahead of schedule",
+        "Project is behind schedule",
+        "Project is over budget",
+        "Project is complete"
+      ],
+      "correct_index": 0,
+      "explanation": "SPI greater than 1 means more work has been completed than planned."
+    },
+    {
+      "qid": "CM-PMP-18",
+      "stem": "Which financial metric helps determine the profitability of a project investment?",
+      "choices": [
+        "ROI",
+        "SPI",
+        "CPI",
+        "SV"
+      ],
+      "correct_index": 0,
+      "explanation": "Return on Investment measures profitability compared to investment."
+    },
+    {
+      "qid": "CM-PMP-19",
+      "stem": "Which project should be selected if using Net Present Value for decision making?",
+      "choices": [
+        "Project with the highest NPV",
+        "Project with lowest NPV",
+        "Project with lowest cost",
+        "Project with highest schedule variance"
+      ],
+      "correct_index": 0,
+      "explanation": "NPV compares investments and the highest NPV represents the greatest financial return."
+    },
+    {
+      "qid": "CM-PMP-20",
+      "stem": "A project manager wants to know if the project will finish within the approved budget. Which metric provides this forecast?",
+      "choices": [
+        "EAC",
+        "PV",
+        "AC",
+        "SV"
+      ],
+      "correct_index": 0,
+      "explanation": "Estimate at Completion forecasts what the total project cost will be."
+    }
+  ]
+}

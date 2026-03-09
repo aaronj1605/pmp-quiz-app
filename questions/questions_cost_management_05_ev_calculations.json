@@ -1,0 +1,101 @@
+﻿{
+  "quiz_name": "Cost Management Earned Value Calculations",
+  "questions": [
+    {
+      "qid": "EV-CALC-1",
+      "stem": "Which formula is used to calculate Cost Performance Index?",
+      "choices": [
+        "EV / AC",
+        "EV / PV",
+        "AC / EV",
+        "PV / EV"
+      ],
+      "correct_index": 0,
+      "explanation": "CPI = EV divided by AC. It measures cost efficiency. If CPI is above 1 the project is under budget."
+    },
+    {
+      "qid": "EV-CALC-2",
+      "stem": "Which formula is used to calculate Schedule Performance Index?",
+      "choices": [
+        "EV / PV",
+        "EV / AC",
+        "PV / EV",
+        "AC / PV"
+      ],
+      "correct_index": 0,
+      "explanation": "SPI equals EV divided by PV. It measures schedule efficiency."
+    },
+    {
+      "qid": "EV-CALC-3",
+      "stem": "A project has EV = 400 and AC = 500. What is the Cost Variance?",
+      "choices": [
+        "-100",
+        "100",
+        "900",
+        "-500"
+      ],
+      "correct_index": 0,
+      "explanation": "CV = EV minus AC. 400 minus 500 equals negative 100 meaning the project is over budget."
+    },
+    {
+      "qid": "EV-CALC-4",
+      "stem": "A project has EV = 300 and PV = 400. What is the Schedule Variance?",
+      "choices": [
+        "-100",
+        "100",
+        "700",
+        "-700"
+      ],
+      "correct_index": 0,
+      "explanation": "SV = EV minus PV. 300 minus 400 equals negative 100 indicating the project is behind schedule."
+    },
+    {
+      "qid": "EV-CALC-5",
+      "stem": "A project has EV = 600 and AC = 500. What is CPI?",
+      "choices": [
+        "1.2",
+        "0.83",
+        "1.0",
+        "0.5"
+      ],
+      "correct_index": 0,
+      "explanation": "CPI = EV divided by AC. 600 divided by 500 equals 1.2 which means the project is under budget."
+    },
+    {
+      "qid": "EV-CALC-6",
+      "stem": "A project has EV = 450 and PV = 600. What is SPI?",
+      "choices": [
+        "0.75",
+        "1.25",
+        "0.5",
+        "1.0"
+      ],
+      "correct_index": 0,
+      "explanation": "SPI = EV divided by PV. 450 divided by 600 equals 0.75 meaning the project is behind schedule."
+    },
+    {
+      "qid": "EV-CALC-7",
+      "stem": "Which formula estimates the future total project cost using CPI?",
+      "choices": [
+        "BAC / CPI",
+        "CPI / BAC",
+        "AC / EV",
+        "EV / BAC"
+      ],
+      "correct_index": 0,
+      "explanation": "EAC equals BAC divided by CPI when current cost performance is expected to continue."
+    },
+    {
+      "qid": "EV-CALC-8",
+      "stem": "Which formula calculates Estimate to Complete?",
+      "choices": [
+        "EAC minus AC",
+        "BAC minus EV",
+        "AC minus EV",
+        "EV minus AC"
+      ],
+      "correct_index": 0,
+      "explanation": "ETC equals EAC minus AC and represents how much more money is required to finish the project."
+    }
+  ]
+}

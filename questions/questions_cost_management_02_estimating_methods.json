@@ -1,0 +1,89 @@
+﻿{
+  "quiz_name": "Cost Management Estimating Methods",
+  "questions": [
+    {
+      "qid": "CM-EST-1",
+      "stem": "Which estimating technique uses the cost of a previous similar project?",
+      "choices": [
+        "Bottom up estimating",
+        "Parametric estimating",
+        "Analogous estimating",
+        "Three point estimating"
+      ],
+      "correct_index": 2,
+      "explanation": "Analogous estimating uses historical data from similar projects and is commonly used early in project planning."
+    },
+    {
+      "qid": "CM-EST-2",
+      "stem": "Which estimating technique calculates cost based on unit rates such as cost per square foot?",
+      "choices": [
+        "Parametric estimating",
+        "Analogous estimating",
+        "Bottom up estimating",
+        "Expert judgment"
+      ],
+      "correct_index": 0,
+      "explanation": "Parametric estimating uses statistical relationships such as cost per unit."
+    },
+    {
+      "qid": "CM-EST-3",
+      "stem": "Which estimating method starts with detailed estimates for each work package?",
+      "choices": [
+        "Bottom up estimating",
+        "Parametric estimating",
+        "Analogous estimating",
+        "Expert judgment"
+      ],
+      "correct_index": 0,
+      "explanation": "Bottom up estimating estimates costs at the lowest level of the WBS and sums them upward."
+    },
+    {
+      "qid": "CM-EST-4",
+      "stem": "Which estimating method uses optimistic, pessimistic, and most likely estimates?",
+      "choices": [
+        "Analogous estimating",
+        "Parametric estimating",
+        "Three point estimating",
+        "Bottom up estimating"
+      ],
+      "correct_index": 2,
+      "explanation": "Three point estimating calculates an average estimate using optimistic, pessimistic, and most likely values."
+    },
+    {
+      "qid": "CM-EST-5",
+      "stem": "When is analogous estimating most commonly used?",
+      "choices": [
+        "Early in the project when information is limited",
+        "After project completion",
+        "During project closure",
+        "When detailed WBS is complete"
+      ],
+      "correct_index": 0,
+      "explanation": "Analogous estimating is fast but less accurate and is used when little detailed information exists."
+    },
+    {
+      "qid": "CM-EST-6",
+      "stem": "Which estimate type has the largest range of accuracy?",
+      "choices": [
+        "Definitive estimate",
+        "Rough order of magnitude estimate",
+        "Bottom up estimate",
+        "Parametric estimate"
+      ],
+      "correct_index": 1,
+      "explanation": "ROM estimates have the widest range of accuracy typically from negative 25 percent to plus 75 percent."
+    },
+    {
+      "qid": "CM-EST-7",
+      "stem": "Which estimate type is used when detailed specifications are available?",
+      "choices": [
+        "Definitive estimate",
+        "Conceptual estimate",
+        "Analogous estimate",
+        "ROM estimate"
+      ],
+      "correct_index": 0,
+      "explanation": "Definitive estimates use detailed project information and have much smaller accuracy ranges."
+    }
+  ]
+}

@@ -1,0 +1,77 @@
+﻿{
+  "quiz_name": "Cost Management Earned Value Interpretation",
+  "questions": [
+    {
+      "qid": "EV-INT-1",
+      "stem": "If CPI equals 1.0 what does this indicate?",
+      "choices": [
+        "Project is exactly on budget",
+        "Project is over budget",
+        "Project is ahead of schedule",
+        "Project is under budget"
+      ],
+      "correct_index": 0,
+      "explanation": "A CPI of 1 means earned value equals actual cost so the project is exactly on budget."
+    },
+    {
+      "qid": "EV-INT-2",
+      "stem": "If SPI is less than 1 what does this mean?",
+      "choices": [
+        "Project is ahead of schedule",
+        "Project is behind schedule",
+        "Project is under budget",
+        "Project has finished"
+      ],
+      "correct_index": 1,
+      "explanation": "SPI below 1 means less work has been completed than planned."
+    },
+    {
+      "qid": "EV-INT-3",
+      "stem": "If CV is positive what does that indicate?",
+      "choices": [
+        "Project is over budget",
+        "Project is under budget",
+        "Project is behind schedule",
+        "Project has zero variance"
+      ],
+      "correct_index": 1,
+      "explanation": "Positive CV means EV is greater than AC meaning the project is under budget."
+    },
+    {
+      "qid": "EV-INT-4",
+      "stem": "If SV is negative what does this indicate?",
+      "choices": [
+        "Project is ahead of schedule",
+        "Project is behind schedule",
+        "Project is under budget",
+        "Project is complete"
+      ],
+      "correct_index": 1,
+      "explanation": "Negative schedule variance means the project has completed less work than planned."
+    },
+    {
+      "qid": "EV-INT-5",
+      "stem": "A project has CPI = 0.85. What does this mean?",
+      "choices": [
+        "The project is under budget",
+        "The project is over budget",
+        "The project is ahead of schedule",
+        "The project is complete"
+      ],
+      "correct_index": 1,
+      "explanation": "CPI less than 1 means the project is spending more money than the value of work completed."
+    },
+    {
+      "qid": "EV-INT-6",
+      "stem": "A project has SPI = 1.15. What does this indicate?",
+      "choices": [
+        "The project is behind schedule",
+        "The project is ahead of schedule",
+        "The project is over budget",
+        "The project is under budget"
+      ],
+      "correct_index": 1,
+      "explanation": "SPI above 1 means more work has been completed than planned."
+    }
+  ]
+}

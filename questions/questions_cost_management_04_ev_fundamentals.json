@@ -1,0 +1,101 @@
+﻿{
+  "quiz_name": "Cost Management Earned Value Fundamentals",
+  "questions": [
+    {
+      "qid": "EV-CON-1",
+      "stem": "What does Earned Value represent?",
+      "choices": [
+        "Actual cost spent",
+        "Planned work remaining",
+        "Budgeted value of work actually completed",
+        "Estimated future cost"
+      ],
+      "correct_index": 2,
+      "explanation": "EV represents the value of work completed based on the project budget."
+    },
+    {
+      "qid": "EV-CON-2",
+      "stem": "What does Planned Value represent?",
+      "choices": [
+        "Actual work completed",
+        "Cost spent so far",
+        "Budgeted value of work scheduled to be completed",
+        "Total project budget"
+      ],
+      "correct_index": 2,
+      "explanation": "PV is the budgeted cost of the work planned to be completed by a specific time."
+    },
+    {
+      "qid": "EV-CON-3",
+      "stem": "What does Actual Cost represent?",
+      "choices": [
+        "Budgeted project cost",
+        "Actual cost spent on completed work",
+        "Forecasted cost",
+        "Future cost estimate"
+      ],
+      "correct_index": 1,
+      "explanation": "AC represents the actual money spent performing project work."
+    },
+    {
+      "qid": "EV-CON-4",
+      "stem": "Which value represents the total approved project budget?",
+      "choices": [
+        "EAC",
+        "BAC",
+        "AC",
+        "EV"
+      ],
+      "correct_index": 1,
+      "explanation": "BAC stands for Budget at Completion and represents the original total project budget."
+    },
+    {
+      "qid": "EV-CON-5",
+      "stem": "What does a positive Cost Variance indicate?",
+      "choices": [
+        "Project is over budget",
+        "Project is under budget",
+        "Project is behind schedule",
+        "Project has no variance"
+      ],
+      "correct_index": 1,
+      "explanation": "A positive cost variance means earned value exceeds actual cost, meaning the project is under budget."
+    },
+    {
+      "qid": "EV-CON-6",
+      "stem": "What does a negative Schedule Variance indicate?",
+      "choices": [
+        "Ahead of schedule",
+        "Behind schedule",
+        "Under budget",
+        "No schedule difference"
+      ],
+      "correct_index": 1,
+      "explanation": "A negative SV indicates less work has been completed than planned."
+    },
+    {
+      "qid": "EV-CON-7",
+      "stem": "Which formula represents Cost Variance?",
+      "choices": [
+        "EV minus AC",
+        "EV minus PV",
+        "AC minus EV",
+        "PV minus AC"
+      ],
+      "correct_index": 0,
+      "explanation": "Cost Variance is calculated as EV minus AC."
+    },
+    {
+      "qid": "EV-CON-8",
+      "stem": "Which formula represents Schedule Variance?",
+      "choices": [
+        "EV minus AC",
+        "EV minus PV",
+        "PV minus AC",
+        "AC minus EV"
+      ],
+      "correct_index": 1,
+      "explanation": "Schedule Variance equals EV minus PV."
+    }
+  ]
+}

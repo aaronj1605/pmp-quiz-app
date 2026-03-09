@@ -1,0 +1,101 @@
+﻿{
+  "quiz_name": "Cost Management Processes Foundations",
+  "questions": [
+    {
+      "qid": "CM-PROC-1",
+      "stem": "What is the primary purpose of Cost Management in project management?",
+      "choices": [
+        "To ensure the project finishes early",
+        "To manage project costs within the approved budget",
+        "To eliminate all financial risk",
+        "To reduce project scope"
+      ],
+      "correct_index": 1,
+      "explanation": "Cost management focuses on planning, estimating, budgeting, and controlling costs so the project stays within the approved budget."
+    },
+    {
+      "qid": "CM-PROC-2",
+      "stem": "Which process produces the Cost Management Plan?",
+      "choices": [
+        "Estimate Costs",
+        "Plan Cost Management",
+        "Determine Budget",
+        "Control Costs"
+      ],
+      "correct_index": 1,
+      "explanation": "Plan Cost Management defines how project costs will be planned, structured, and controlled."
+    },
+    {
+      "qid": "CM-PROC-3",
+      "stem": "Which process produces cost estimates for project activities?",
+      "choices": [
+        "Plan Cost Management",
+        "Estimate Costs",
+        "Determine Budget",
+        "Control Costs"
+      ],
+      "correct_index": 1,
+      "explanation": "Estimate Costs develops approximate costs of resources needed to complete project work."
+    },
+    {
+      "qid": "CM-PROC-4",
+      "stem": "Which process combines individual work package estimates to create the overall project budget?",
+      "choices": [
+        "Estimate Costs",
+        "Determine Budget",
+        "Plan Cost Management",
+        "Control Costs"
+      ],
+      "correct_index": 1,
+      "explanation": "Determine Budget aggregates cost estimates to establish the cost baseline."
+    },
+    {
+      "qid": "CM-PROC-5",
+      "stem": "Which process monitors project spending and identifies cost variances?",
+      "choices": [
+        "Control Costs",
+        "Estimate Costs",
+        "Determine Budget",
+        "Plan Cost Management"
+      ],
+      "correct_index": 0,
+      "explanation": "Control Costs measures performance and compares actual costs to the cost baseline."
+    },
+    {
+      "qid": "CM-PROC-6",
+      "stem": "What is the main output of Determine Budget?",
+      "choices": [
+        "Cost management plan",
+        "Cost baseline",
+        "Cost estimates",
+        "Work performance data"
+      ],
+      "correct_index": 1,
+      "explanation": "The cost baseline is the approved time phased project budget used to measure cost performance."
+    },
+    {
+      "qid": "CM-PROC-7",
+      "stem": "Why are cost baselines important?",
+      "choices": [
+        "They eliminate risks",
+        "They measure project cost performance",
+        "They define the project scope",
+        "They determine team roles"
+      ],
+      "correct_index": 1,
+      "explanation": "The cost baseline allows the project manager to compare actual costs with planned spending."
+    },
+    {
+      "qid": "CM-PROC-8",
+      "stem": "Which process uses Earned Value Management to measure performance?",
+      "choices": [
+        "Estimate Costs",
+        "Determine Budget",
+        "Control Costs",
+        "Plan Cost Management"
+      ],
+      "correct_index": 2,
+      "explanation": "Earned Value Management is a key tool used in Control Costs."
+    }
+  ]
+}
