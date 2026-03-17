@@ -1,0 +1,725 @@
+{
+  "quiz_name": "PMP Practice Test 01",
+  "questions": [
+    {
+      "qid": "Q-1",
+      "stem": "A project has EV = $250,000, PV = $300,000, and AC = $275,000. What is the BEST interpretation of the project status?",
+      "choices": [
+        "Ahead of schedule and under budget",
+        "Behind schedule and over budget",
+        "Ahead of schedule and over budget",
+        "Behind schedule and under budget"
+      ],
+      "correct_index": 1,
+      "explanation": "EV < PV means the project is behind schedule. EV < AC means the project is over budget. Therefore, the project is behind schedule and over budget. Other options misinterpret either schedule (EV vs PV) or cost (EV vs AC)."
+    },
+    {
+      "qid": "Q-2",
+      "stem": "During planning, a stakeholder requests a feature that is not documented in the requirements. What should the project manager do NEXT?",
+      "choices": [
+        "Add the feature to the scope baseline",
+        "Submit a change request",
+        "Update the requirements traceability matrix",
+        "Reject the request immediately"
+      ],
+      "correct_index": 1,
+      "explanation": "Any work not in the approved scope is a change and must go through integrated change control. Updating documents or adding to scope without approval violates process. Immediate rejection is premature without analysis."
+    },
+    {
+      "qid": "Q-3",
+      "stem": "A risk has a 30% probability of causing a $50,000 loss. A mitigation strategy costing $8,000 reduces probability to 10%. What is the BEST decision?",
+      "choices": [
+        "Do nothing because mitigation costs money",
+        "Implement mitigation because EMV improves",
+        "Transfer the risk to a third party",
+        "Accept the risk because probability is low"
+      ],
+      "correct_index": 1,
+      "explanation": "Original EMV = 0.3 x 50,000 = 15,000. After mitigation = 0.1 x 50,000 = 5,000 plus 8,000 cost = 13,000 total exposure. This is better than 15,000, so mitigation is justified. Other options ignore EMV comparison."
+    },
+    {
+      "qid": "Q-4",
+      "stem": "A project manager notices recurring defects in deliverables. What should be done FIRST?",
+      "choices": [
+        "Request additional budget",
+        "Perform root cause analysis",
+        "Escalate to sponsor",
+        "Replace team members"
+      ],
+      "correct_index": 1,
+      "explanation": "Root cause analysis identifies underlying issues before taking action. Escalation, replacement, or budget changes are premature without understanding the cause."
+    },
+    {
+      "qid": "Q-5",
+      "stem": "Which document ensures each requirement is linked to its origin and tracked through completion?",
+      "choices": [
+        "Scope baseline",
+        "Requirements management plan",
+        "Requirements traceability matrix",
+        "Project charter"
+      ],
+      "correct_index": 2,
+      "explanation": "The requirements traceability matrix links requirements to origin, status, and deliverables. Other documents define or guide scope but do not track traceability."
+    },
+    {
+      "qid": "Q-6",
+      "stem": "A stakeholder has high power and low interest. What is the BEST engagement strategy?",
+      "choices": [
+        "Manage closely",
+        "Keep informed",
+        "Keep satisfied",
+        "Monitor only"
+      ],
+      "correct_index": 2,
+      "explanation": "High power, low interest stakeholders should be kept satisfied. Managing closely is for high power, high interest. Keeping informed is for low power, high interest."
+    },
+    {
+      "qid": "Q-7",
+      "stem": "During execution, a team member adds extra features to improve quality without approval. What is this called?",
+      "choices": [
+        "Scope creep",
+        "Gold plating",
+        "Progressive elaboration",
+        "Value engineering"
+      ],
+      "correct_index": 1,
+      "explanation": "Gold plating refers to adding extra features without approval. Scope creep is uncontrolled changes requested by stakeholders. Progressive elaboration is planned refinement."
+    },
+    {
+      "qid": "Q-8",
+      "stem": "A project has BAC = $1,000,000 and CPI = 0.8. Assuming current performance continues, what is EAC?",
+      "choices": [
+        "$800,000",
+        "$1,000,000",
+        "$1,200,000",
+        "$1,250,000"
+      ],
+      "correct_index": 3,
+      "explanation": "EAC = BAC / CPI = 1,000,000 / 0.8 = 1,250,000. Lower values ignore cost inefficiency."
+    },
+    {
+      "qid": "Q-9",
+      "stem": "What is the PRIMARY purpose of a project charter?",
+      "choices": [
+        "Define detailed scope",
+        "Authorize the project and assign the project manager",
+        "Create the schedule baseline",
+        "Identify all risks"
+      ],
+      "correct_index": 1,
+      "explanation": "The charter formally authorizes the project and gives the project manager authority. Detailed scope and risks are developed later."
+    },
+    {
+      "qid": "Q-10",
+      "stem": "A conflict arises between two senior engineers. What is the BEST approach?",
+      "choices": [
+        "Avoid the conflict",
+        "Escalate immediately",
+        "Address privately using a collaborative approach",
+        "Use authority to resolve quickly"
+      ],
+      "correct_index": 2,
+      "explanation": "Conflicts should be addressed early, privately, and collaboratively. Avoidance delays resolution. Authority may harm team dynamics."
+    },
+    {
+      "qid": "Q-11",
+      "stem": "Which estimate type provides the HIGHEST accuracy?",
+      "choices": [
+        "Rough order of magnitude",
+        "Analogous estimate",
+        "Parametric estimate",
+        "Bottom-up estimate"
+      ],
+      "correct_index": 3,
+      "explanation": "Bottom-up estimates are most detailed and accurate. Others are less precise and used earlier in planning."
+    },
+    {
+      "qid": "Q-12",
+      "stem": "A vendor fails to deliver as per contract. What should the project manager do FIRST?",
+      "choices": [
+        "Terminate the contract",
+        "Review the contract terms",
+        "Escalate to legal immediately",
+        "Find a new vendor"
+      ],
+      "correct_index": 1,
+      "explanation": "Contracts govern obligations. The PM must review terms before taking action. Other actions may follow but not first."
+    },
+    {
+      "qid": "Q-13",
+      "stem": "Which process group focuses on measuring performance and implementing corrective actions?",
+      "choices": [
+        "Executing",
+        "Planning",
+        "Monitoring and Controlling",
+        "Closing"
+      ],
+      "correct_index": 2,
+      "explanation": "Monitoring and Controlling measures performance and implements corrective actions. Other groups do not focus on control."
+    },
+    {
+      "qid": "Q-14",
+      "stem": "A project manager wants expert consensus without bias from dominant individuals. Which technique should be used?",
+      "choices": [
+        "Brainstorming",
+        "Delphi technique",
+        "Focus groups",
+        "Interviews"
+      ],
+      "correct_index": 1,
+      "explanation": "Delphi gathers anonymous expert input to avoid bias. Other techniques allow influence from dominant participants."
+    },
+    {
+      "qid": "Q-15",
+      "stem": "Which situation BEST represents a trigger for a risk?",
+      "choices": [
+        "A potential delay due to weather",
+        "A forecast of increased costs",
+        "A warning sign that a risk is about to occur",
+        "A risk response strategy"
+      ],
+      "correct_index": 2,
+      "explanation": "A trigger is an indicator that a risk is imminent. Other options describe risks or outcomes, not triggers."
+    },
+    {
+      "qid": "Q-16",
+      "stem": "What is the BEST reason to use rolling wave planning?",
+      "choices": [
+        "To eliminate risk",
+        "To plan all work in detail upfront",
+        "To progressively elaborate near-term work",
+        "To avoid stakeholder involvement"
+      ],
+      "correct_index": 2,
+      "explanation": "Rolling wave planning details near-term work and defers future planning. It does not eliminate risk or avoid stakeholders."
+    },
+    {
+      "qid": "Q-17",
+      "stem": "A team is self-organizing and decides how to complete work. Which environment is this?",
+      "choices": [
+        "Predictive",
+        "Functional",
+        "Agile",
+        "Projectized"
+      ],
+      "correct_index": 2,
+      "explanation": "Agile teams are self-organizing and decide how work is completed. Other environments are more structured."
+    },
+    {
+      "qid": "Q-18",
+      "stem": "Which of the following BEST describes contingency reserve?",
+      "choices": [
+        "Budget for unknown risks",
+        "Budget for known risks",
+        "Budget for scope changes",
+        "Budget for management decisions"
+      ],
+      "correct_index": 1,
+      "explanation": "Contingency reserve is allocated for known risks. Unknown risks use management reserve."
+    },
+    {
+      "qid": "Q-19",
+      "stem": "A project manager identifies that CPI is consistently below 1. What does this indicate?",
+      "choices": [
+        "Project is ahead of schedule",
+        "Project is under budget",
+        "Project is over budget",
+        "Project is on schedule"
+      ],
+      "correct_index": 2,
+      "explanation": "CPI < 1 means cost inefficiency and over budget. Other options misinterpret CPI."
+    },
+    {
+      "qid": "Q-20",
+      "stem": "After project completion, which activity ensures deliverables are formally accepted?",
+      "choices": [
+        "Control quality",
+        "Validate scope",
+        "Close project",
+        "Monitor risks"
+      ],
+      "correct_index": 2,
+      "explanation": "Closing includes formal acceptance and handoff of deliverables. Validate scope happens earlier during execution."
+    },
+    {
+      "qid": "Q-21",
+      "stem": "A project has SPI = 0.9 and CPI = 1.1. What is the BEST interpretation?",
+      "choices": [
+        "Ahead of schedule and under budget",
+        "Behind schedule and under budget",
+        "Ahead of schedule and over budget",
+        "Behind schedule and over budget"
+      ],
+      "correct_index": 1,
+      "explanation": "SPI < 1 means behind schedule. CPI > 1 means under budget. Therefore, the project is behind schedule but under budget. Other options misinterpret one of the indices."
+    },
+    {
+      "qid": "Q-22",
+      "stem": "A stakeholder requests a major scope change during execution. What should the project manager do FIRST?",
+      "choices": [
+        "Reject the request",
+        "Implement the change immediately",
+        "Evaluate the impact of the change",
+        "Escalate to sponsor"
+      ],
+      "correct_index": 2,
+      "explanation": "The PM must first assess impact on scope, cost, and schedule before submitting for approval. Immediate implementation or rejection is inappropriate without analysis."
+    },
+    {
+      "qid": "Q-23",
+      "stem": "Which technique is MOST appropriate for identifying risks with a group of experts quickly?",
+      "choices": [
+        "Monte Carlo simulation",
+        "Brainstorming",
+        "Delphi technique",
+        "Regression analysis"
+      ],
+      "correct_index": 1,
+      "explanation": "Brainstorming is used for rapid idea generation. Delphi is structured and slower. Monte Carlo and regression are quantitative techniques, not for initial identification."
+    },
+    {
+      "qid": "Q-24",
+      "stem": "A project manager notices that a key stakeholder is unaware of project progress. What should be updated?",
+      "choices": [
+        "Risk register",
+        "Stakeholder engagement plan",
+        "Cost baseline",
+        "Project charter"
+      ],
+      "correct_index": 1,
+      "explanation": "Communication and engagement gaps indicate the stakeholder engagement plan needs adjustment. Other documents are unrelated."
+    },
+    {
+      "qid": "Q-25",
+      "stem": "Which of the following BEST describes progressive elaboration?",
+      "choices": [
+        "Adding extra scope without approval",
+        "Refining project details as more information becomes available",
+        "Reducing scope to meet deadlines",
+        "Estimating using historical data"
+      ],
+      "correct_index": 1,
+      "explanation": "Progressive elaboration is the iterative refinement of project details. Other options describe scope creep, schedule compression, or analogous estimating."
+    },
+    {
+      "qid": "Q-26",
+      "stem": "A project has EV = $400,000 and AC = $500,000. What is CV and what does it indicate?",
+      "choices": [
+        "-$100,000, over budget",
+        "$100,000, under budget",
+        "-$100,000, ahead of schedule",
+        "$100,000, behind schedule"
+      ],
+      "correct_index": 0,
+      "explanation": "CV = EV - AC = 400,000 - 500,000 = -100,000. Negative CV means over budget. Other options either reverse the sign or confuse schedule with cost."
+    },
+    {
+      "qid": "Q-27",
+      "stem": "Which contract type places the MOST risk on the seller?",
+      "choices": [
+        "Cost plus fixed fee",
+        "Time and materials",
+        "Firm fixed price",
+        "Cost plus incentive fee"
+      ],
+      "correct_index": 2,
+      "explanation": "In firm fixed price, the seller bears most cost risk. Cost-reimbursable types shift risk to the buyer."
+    },
+    {
+      "qid": "Q-28",
+      "stem": "A risk response involves shifting the impact to a third party. What strategy is this?",
+      "choices": [
+        "Avoid",
+        "Mitigate",
+        "Transfer",
+        "Accept"
+      ],
+      "correct_index": 2,
+      "explanation": "Transference moves risk ownership to a third party, such as through insurance or contracts. Other strategies do not involve shifting ownership."
+    },
+    {
+      "qid": "Q-29",
+      "stem": "What is the BEST use of a lessons learned register during execution?",
+      "choices": [
+        "Store final project documentation",
+        "Capture knowledge for future phases and projects",
+        "Replace the risk register",
+        "Document stakeholder approvals"
+      ],
+      "correct_index": 1,
+      "explanation": "Lessons learned are captured continuously to improve current and future performance. It does not replace other documents."
+    },
+    {
+      "qid": "Q-30",
+      "stem": "A project manager must compress the schedule without reducing scope. What is the BEST option?",
+      "choices": [
+        "Fast tracking or crashing",
+        "Reduce quality standards",
+        "Remove deliverables",
+        "Delay non-critical work"
+      ],
+      "correct_index": 0,
+      "explanation": "Fast tracking and crashing are schedule compression techniques. Other options change scope or do not accelerate completion."
+    },
+    {
+      "qid": "Q-31",
+      "stem": "Which of the following BEST represents a lag in scheduling?",
+      "choices": [
+        "Starting an activity early",
+        "Delay between predecessor and successor",
+        "Overlapping activities",
+        "Adding extra resources"
+      ],
+      "correct_index": 1,
+      "explanation": "Lag is a delay between activities. Overlap is lead, not lag."
+    },
+    {
+      "qid": "Q-32",
+      "stem": "A project manager identifies a new risk during execution. What should be done NEXT?",
+      "choices": [
+        "Ignore it until planning",
+        "Update the risk register",
+        "Escalate immediately",
+        "Close the project"
+      ],
+      "correct_index": 1,
+      "explanation": "New risks must be documented in the risk register and then analyzed. Escalation may occur later if needed."
+    },
+    {
+      "qid": "Q-33",
+      "stem": "Which leadership style is MOST effective in an agile environment?",
+      "choices": [
+        "Autocratic",
+        "Transactional",
+        "Servant leadership",
+        "Directive"
+      ],
+      "correct_index": 2,
+      "explanation": "Agile emphasizes servant leadership, enabling teams and removing impediments. Directive styles limit team autonomy."
+    },
+    {
+      "qid": "Q-34",
+      "stem": "A deliverable meets requirements but fails customer expectations. What is the issue?",
+      "choices": [
+        "Scope creep",
+        "Poor quality control",
+        "Incomplete requirements definition",
+        "Schedule variance"
+      ],
+      "correct_index": 2,
+      "explanation": "If requirements were met but expectations were not, requirements were likely incomplete or poorly defined."
+    },
+    {
+      "qid": "Q-35",
+      "stem": "Which of the following BEST describes a program?",
+      "choices": [
+        "A large project",
+        "A group of unrelated projects",
+        "A group of related projects managed together",
+        "A portfolio of investments"
+      ],
+      "correct_index": 2,
+      "explanation": "Programs consist of related projects managed together for benefits. Portfolios are broader and not necessarily related."
+    },
+    {
+      "qid": "Q-36",
+      "stem": "A project manager observes that seven consecutive data points are above the mean on a control chart. What does this indicate?",
+      "choices": [
+        "Process is stable",
+        "Random variation",
+        "Non-random pattern requiring investigation",
+        "Measurement error"
+      ],
+      "correct_index": 2,
+      "explanation": "Seven consecutive points on one side of the mean indicate a non-random pattern, requiring investigation."
+    },
+    {
+      "qid": "Q-37",
+      "stem": "Which document defines how changes will be managed and controlled?",
+      "choices": [
+        "Scope baseline",
+        "Change management plan",
+        "Risk management plan",
+        "Schedule baseline"
+      ],
+      "correct_index": 1,
+      "explanation": "The change management plan defines how changes are handled. Other documents do not govern change control."
+    },
+    {
+      "qid": "Q-38",
+      "stem": "A project has BAC = $500,000 and EAC = $600,000. What is VAC and what does it indicate?",
+      "choices": [
+        "$100,000 under budget",
+        "-$100,000 over budget",
+        "$100,000 ahead of schedule",
+        "-$100,000 behind schedule"
+      ],
+      "correct_index": 1,
+      "explanation": "VAC = BAC - EAC = 500,000 - 600,000 = -100,000. Negative VAC means the project is expected to be over budget."
+    },
+    {
+      "qid": "Q-39",
+      "stem": "Which technique is used to determine which risks have the greatest potential impact?",
+      "choices": [
+        "Risk breakdown structure",
+        "Qualitative risk analysis",
+        "Work breakdown structure",
+        "Delphi technique"
+      ],
+      "correct_index": 1,
+      "explanation": "Qualitative risk analysis prioritizes risks based on probability and impact. Delphi gathers expert input but does not rank risks directly."
+    },
+    {
+      "qid": "Q-40",
+      "stem": "At the end of a project phase, what should the project manager ensure before proceeding?",
+      "choices": [
+        "All risks are eliminated",
+        "Formal acceptance of deliverables",
+        "Budget is fully spent",
+        "All stakeholders are satisfied"
+      ],
+      "correct_index": 1,
+      "explanation": "Each phase should have formal acceptance before moving forward. Risks are not fully eliminated, and satisfaction or budget usage are not required conditions."
+    },
+    {
+      "qid": "Q-41",
+      "stem": "A project manager is told that future work will be completed at the planned rate despite current cost variances. Which EAC formula should be used?",
+      "choices": [
+        "EAC = BAC / CPI",
+        "EAC = AC + (BAC - EV)",
+        "EAC = AC + ETC",
+        "EAC = BAC - EV"
+      ],
+      "correct_index": 1,
+      "explanation": "If future work will follow the original plan, use EAC = AC + (BAC - EV). BAC/CPI is used when current cost performance is expected to continue."
+    },
+    {
+      "qid": "Q-42",
+      "stem": "A team member is consistently missing deadlines due to unclear expectations. What should the project manager do FIRST?",
+      "choices": [
+        "Escalate to HR",
+        "Clarify roles and responsibilities",
+        "Replace the team member",
+        "Issue a formal warning"
+      ],
+      "correct_index": 1,
+      "explanation": "Unclear expectations indicate a need to clarify roles, often via a RACI or similar. Escalation or discipline is premature."
+    },
+    {
+      "qid": "Q-43",
+      "stem": "Which of the following BEST describes a lead in scheduling?",
+      "choices": [
+        "Delay between activities",
+        "Overlap between activities",
+        "Critical path delay",
+        "Slack time"
+      ],
+      "correct_index": 1,
+      "explanation": "Lead allows overlapping of activities. Delay is lag, not lead."
+    },
+    {
+      "qid": "Q-44",
+      "stem": "A project is experiencing frequent scope changes without formal approval. What is the MOST likely issue?",
+      "choices": [
+        "Poor risk management",
+        "Lack of change control process",
+        "Weak communication plan",
+        "Improper cost estimation"
+      ],
+      "correct_index": 1,
+      "explanation": "Uncontrolled changes indicate a breakdown in integrated change control. Other issues may exist but are not the root cause."
+    },
+    {
+      "qid": "Q-45",
+      "stem": "Which document provides detailed information about each work package?",
+      "choices": [
+        "WBS dictionary",
+        "Project charter",
+        "Scope statement",
+        "Schedule baseline"
+      ],
+      "correct_index": 0,
+      "explanation": "The WBS dictionary contains detailed descriptions of work packages. The scope statement is higher level."
+    },
+    {
+      "qid": "Q-46",
+      "stem": "A stakeholder is resistant to project changes due to fear of impact. What is the BEST approach?",
+      "choices": [
+        "Ignore the stakeholder",
+        "Force compliance",
+        "Engage and address concerns",
+        "Escalate immediately"
+      ],
+      "correct_index": 2,
+      "explanation": "Stakeholder resistance should be addressed through engagement and communication. Forcing or ignoring damages relationships."
+    },
+    {
+      "qid": "Q-47",
+      "stem": "A project has EV = $600,000, PV = $500,000. What does this indicate?",
+      "choices": [
+        "Behind schedule",
+        "Ahead of schedule",
+        "Over budget",
+        "On budget"
+      ],
+      "correct_index": 1,
+      "explanation": "EV > PV indicates more work completed than planned, meaning ahead of schedule. Budget cannot be determined without AC."
+    },
+    {
+      "qid": "Q-48",
+      "stem": "Which risk response strategy involves eliminating the threat entirely?",
+      "choices": [
+        "Mitigate",
+        "Transfer",
+        "Avoid",
+        "Accept"
+      ],
+      "correct_index": 2,
+      "explanation": "Avoidance removes the risk completely. Mitigation reduces impact, transfer shifts it, accept does nothing proactive."
+    },
+    {
+      "qid": "Q-49",
+      "stem": "A project manager wants to understand the range of possible outcomes for schedule completion. Which technique should be used?",
+      "choices": [
+        "Critical path method",
+        "Monte Carlo simulation",
+        "Analogous estimating",
+        "Delphi technique"
+      ],
+      "correct_index": 1,
+      "explanation": "Monte Carlo simulation models variability and produces probability distributions. CPM identifies the critical path but not variability."
+    },
+    {
+      "qid": "Q-50",
+      "stem": "Which of the following is the BEST example of a management reserve?",
+      "choices": [
+        "Budget for identified risks",
+        "Budget for unknown risks",
+        "Budget for approved changes",
+        "Budget for scope baseline"
+      ],
+      "correct_index": 1,
+      "explanation": "Management reserve is for unknown risks. Contingency reserve is for known risks."
+    },
+    {
+      "qid": "Q-51",
+      "stem": "A project manager receives conflicting requirements from two stakeholders. What should be done FIRST?",
+      "choices": [
+        "Choose the most important stakeholder",
+        "Escalate to sponsor",
+        "Facilitate discussion to resolve conflict",
+        "Document both requirements"
+      ],
+      "correct_index": 2,
+      "explanation": "The PM should facilitate resolution among stakeholders. Escalation is a last resort."
+    },
+    {
+      "qid": "Q-52",
+      "stem": "Which of the following BEST defines the critical path?",
+      "choices": [
+        "The shortest path through the project",
+        "The path with the most resources",
+        "The longest path with zero float",
+        "The path with highest cost"
+      ],
+      "correct_index": 2,
+      "explanation": "The critical path is the longest sequence of activities with no float, determining project duration."
+    },
+    {
+      "qid": "Q-53",
+      "stem": "A project manager wants to ensure deliverables meet quality standards. Which process is MOST relevant?",
+      "choices": [
+        "Control quality",
+        "Validate scope",
+        "Manage communications",
+        "Identify risks"
+      ],
+      "correct_index": 0,
+      "explanation": "Control quality focuses on verifying deliverables meet standards. Validate scope focuses on acceptance."
+    },
+    {
+      "qid": "Q-54",
+      "stem": "A project team is distributed across multiple locations and time zones. What is the BEST communication method?",
+      "choices": [
+        "Face-to-face only",
+        "Informal conversations",
+        "Structured communication plan with collaboration tools",
+        "Avoid communication"
+      ],
+      "correct_index": 2,
+      "explanation": "Distributed teams require structured communication and tools to ensure clarity. Face-to-face alone is insufficient."
+    },
+    {
+      "qid": "Q-55",
+      "stem": "Which of the following is an output of the planning process group?",
+      "choices": [
+        "Project charter",
+        "Project management plan",
+        "Work performance data",
+        "Accepted deliverables"
+      ],
+      "correct_index": 1,
+      "explanation": "The project management plan is developed during planning. Charter is from initiating, deliverables from execution."
+    },
+    {
+      "qid": "Q-56",
+      "stem": "A project manager identifies that a process is producing inconsistent results. What should be done?",
+      "choices": [
+        "Ignore the variation",
+        "Investigate for special causes",
+        "Increase schedule",
+        "Reduce scope"
+      ],
+      "correct_index": 1,
+      "explanation": "Inconsistent results suggest special cause variation requiring investigation. Ignoring it is incorrect."
+    },
+    {
+      "qid": "Q-57",
+      "stem": "Which of the following BEST represents a constraint?",
+      "choices": [
+        "A potential risk event",
+        "A limiting factor such as budget or time",
+        "A stakeholder requirement",
+        "A quality standard"
+      ],
+      "correct_index": 1,
+      "explanation": "Constraints limit project options, such as time, cost, or scope. Risks are uncertain events."
+    },
+    {
+      "qid": "Q-58",
+      "stem": "A project manager wants to prioritize risks based on probability and impact. Which tool should be used?",
+      "choices": [
+        "Risk register",
+        "Probability and impact matrix",
+        "WBS",
+        "Control chart"
+      ],
+      "correct_index": 1,
+      "explanation": "The probability and impact matrix is used in qualitative risk analysis to prioritize risks."
+    },
+    {
+      "qid": "Q-59",
+      "stem": "A project has ETC = $200,000 and AC = $300,000. What is EAC?",
+      "choices": [
+        "$100,000",
+        "$200,000",
+        "$300,000",
+        "$500,000"
+      ],
+      "correct_index": 3,
+      "explanation": "EAC = AC + ETC = 300,000 + 200,000 = 500,000."
+    },
+    {
+      "qid": "Q-60",
+      "stem": "At project closure, what is the MOST important objective?",
+      "choices": [
+        "Release team members",
+        "Complete documentation",
+        "Formal acceptance and transition of deliverables",
+        "Archive emails"
+      ],
+      "correct_index": 2,
+      "explanation": "The primary goal is formal acceptance and transition. Other activities support closure but are secondary."
+    }
+  ]
+}
