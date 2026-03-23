@@ -1,0 +1,245 @@
+{
+  "quiz_name": "Scope Management Part 1",
+  "questions": [
+    {
+      "qid": "SM-1",
+      "stem": "What is the primary purpose of Scope Management in a project?",
+      "choices": [
+        "To ensure all stakeholders are satisfied",
+        "To ensure the project includes all work required and only the work required",
+        "To eliminate all project risks",
+        "To complete the project as quickly as possible"
+      ],
+      "correct_index": 1,
+      "explanation": "Scope management ensures the project includes all the work required and only the work required to complete the project successfully. This prevents both missing work and unnecessary work. :contentReference[oaicite:0]{index=0}"
+    },
+    {
+      "qid": "SM-2",
+      "stem": "What is the difference between product scope and project scope?",
+      "choices": [
+        "Product scope defines timelines, project scope defines cost",
+        "Product scope describes features, project scope includes all work to deliver them",
+        "They are the same thing",
+        "Product scope is only used in Agile projects"
+      ],
+      "correct_index": 1,
+      "explanation": "Product scope refers to features and functions of the product, while project scope includes all the work required to deliver that product. :contentReference[oaicite:1]{index=1}"
+    },
+    {
+      "qid": "SM-3",
+      "stem": "Which process produces the Scope Management Plan?",
+      "choices": [
+        "Define Scope",
+        "Collect Requirements",
+        "Plan Scope Management",
+        "Create WBS"
+      ],
+      "correct_index": 2,
+      "explanation": "Plan Scope Management defines how scope will be defined, validated, and controlled, and outputs the Scope Management Plan."
+    },
+    {
+      "qid": "SM-4",
+      "stem": "Which of the following is a key output of Collect Requirements?",
+      "choices": [
+        "Scope baseline",
+        "Requirements documentation",
+        "Project schedule",
+        "Risk register"
+      ],
+      "correct_index": 1,
+      "explanation": "Collect Requirements produces requirements documentation, which captures stakeholder needs and expectations in measurable form."
+    },
+    {
+      "qid": "SM-5",
+      "stem": "What is the main purpose of the Requirements Traceability Matrix?",
+      "choices": [
+        "To track project costs",
+        "To map requirements from origin to deliverables",
+        "To identify risks",
+        "To schedule activities"
+      ],
+      "correct_index": 1,
+      "explanation": "The Requirements Traceability Matrix ensures each requirement is traced from origin to final delivery and helps manage scope changes."
+    },
+    {
+      "qid": "SM-6",
+      "stem": "What is the primary purpose of the Scope Statement?",
+      "choices": [
+        "To define detailed schedule activities",
+        "To describe project boundaries and deliverables",
+        "To allocate resources",
+        "To identify risks"
+      ],
+      "correct_index": 1,
+      "explanation": "The Scope Statement defines what is included and excluded, deliverables, and acceptance criteria, providing a common understanding of scope. :contentReference[oaicite:2]{index=2}"
+    },
+    {
+      "qid": "SM-7",
+      "stem": "A stakeholder requests a feature that is not included in the scope statement. What should the project manager do FIRST?",
+      "choices": [
+        "Add the feature immediately",
+        "Reject the request",
+        "Submit the request to change control",
+        "Update the WBS"
+      ],
+      "correct_index": 2,
+      "explanation": "Anything not in the scope statement is considered a change and must go through formal change control before being accepted."
+    },
+    {
+      "qid": "SM-8",
+      "stem": "What is the primary purpose of a Work Breakdown Structure (WBS)?",
+      "choices": [
+        "To sequence project activities",
+        "To organize total project scope into deliverables",
+        "To estimate project costs",
+        "To assign team members"
+      ],
+      "correct_index": 1,
+      "explanation": "The WBS is a deliverable-oriented breakdown of the total project scope, ensuring all work is identified and organized. :contentReference[oaicite:3]{index=3}"
+    },
+    {
+      "qid": "SM-9",
+      "stem": "Which statement is TRUE about the WBS?",
+      "choices": [
+        "It includes all project activities",
+        "It is created after the schedule",
+        "Work not in the WBS is not part of the project scope",
+        "It focuses on timelines"
+      ],
+      "correct_index": 2,
+      "explanation": "The WBS defines total scope. Any work not included is considered out of scope and would require a change request. :contentReference[oaicite:4]{index=4}"
+    },
+    {
+      "qid": "SM-10",
+      "stem": "What is the lowest level of the WBS called?",
+      "choices": [
+        "Control account",
+        "Milestone",
+        "Work package",
+        "Activity"
+      ],
+      "correct_index": 2,
+      "explanation": "The work package is the lowest level of the WBS and represents deliverables that can be estimated, scheduled, and assigned."
+    },
+    {
+      "qid": "SM-11",
+      "stem": "Why is creating the WBS considered critical to project success?",
+      "choices": [
+        "It eliminates all risks",
+        "It ensures accurate cost and schedule estimates",
+        "It replaces the need for planning",
+        "It speeds up execution"
+      ],
+      "correct_index": 1,
+      "explanation": "The WBS enables accurate estimation of cost, time, and resources and provides the foundation for schedule and budget development. :contentReference[oaicite:5]{index=5}"
+    },
+    {
+      "qid": "SM-12",
+      "stem": "What is the main purpose of Validate Scope?",
+      "choices": [
+        "To check quality of deliverables",
+        "To gain formal acceptance of deliverables",
+        "To control scope changes",
+        "To update the schedule"
+      ],
+      "correct_index": 1,
+      "explanation": "Validate Scope focuses on formal acceptance of completed deliverables by stakeholders. :contentReference[oaicite:6]{index=6}"
+    },
+    {
+      "qid": "SM-13",
+      "stem": "What is the difference between Validate Scope and Control Quality?",
+      "choices": [
+        "Validate Scope checks correctness, Control Quality checks acceptance",
+        "Validate Scope checks acceptance, Control Quality checks correctness",
+        "They are the same",
+        "Validate Scope is only used in Agile"
+      ],
+      "correct_index": 1,
+      "explanation": "Validate Scope focuses on acceptance of deliverables, while Control Quality ensures the deliverables are correct and meet requirements. :contentReference[oaicite:7]{index=7}"
+    },
+    {
+      "qid": "SM-14",
+      "stem": "A project team delivers a feature that exceeds customer expectations but was not requested. What is this called?",
+      "choices": [
+        "Scope validation",
+        "Scope creep",
+        "Gold plating",
+        "Progressive elaboration"
+      ],
+      "correct_index": 2,
+      "explanation": "Gold plating is adding extra features or functionality that were not requested, which is discouraged in PMP."
+    },
+    {
+      "qid": "SM-15",
+      "stem": "During project execution, multiple small changes are being added informally without approval. What is this an example of?",
+      "choices": [
+        "Scope baseline",
+        "Scope creep",
+        "Change control",
+        "Rolling wave planning"
+      ],
+      "correct_index": 1,
+      "explanation": "Scope creep refers to uncontrolled changes to scope without formal approval."
+    },
+    {
+      "qid": "SM-16",
+      "stem": "A project manager is unsure about detailed requirements early in the project and plans them progressively. What technique is being used?",
+      "choices": [
+        "Fast tracking",
+        "Rolling wave planning",
+        "Crashing",
+        "Benchmarking"
+      ],
+      "correct_index": 1,
+      "explanation": "Rolling wave planning is progressive elaboration, planning near-term work in detail and future work at a higher level. :contentReference[oaicite:8]{index=8}"
+    },
+    {
+      "qid": "SM-17",
+      "stem": "A deliverable meets all specifications but the customer rejects it. What is the MOST likely issue?",
+      "choices": [
+        "Poor cost control",
+        "Incorrect schedule baseline",
+        "Requirements were not properly defined",
+        "Team performance issue"
+      ],
+      "correct_index": 2,
+      "explanation": "If deliverables meet specifications but are rejected, it usually means requirements were not properly captured or aligned with stakeholder expectations."
+    },
+    {
+      "qid": "SM-18",
+      "stem": "When should the WBS be created?",
+      "choices": [
+        "After the schedule is finalized",
+        "Before estimating cost and schedule",
+        "After execution begins",
+        "After stakeholder approval"
+      ],
+      "correct_index": 1,
+      "explanation": "The WBS must be created before detailed schedule and cost estimates because it defines all project work. :contentReference[oaicite:9]{index=9}"
+    },
+    {
+      "qid": "SM-19",
+      "stem": "A stakeholder wants to verify completed deliverables meet agreed criteria. Which document is MOST important?",
+      "choices": [
+        "Project charter",
+        "Scope statement",
+        "Risk register",
+        "Cost baseline"
+      ],
+      "correct_index": 1,
+      "explanation": "The scope statement defines acceptance criteria and deliverables, making it the key reference for validation."
+    },
+    {
+      "qid": "SM-20",
+      "stem": "During Control Scope, a change request is approved. What should the project manager do NEXT?",
+      "choices": [
+        "Ignore the change",
+        "Update baselines and project documents",
+        "Notify only the team",
+        "Recreate the WBS from scratch"
+      ],
+      "correct_index": 1,
+      "explanation": "Approved changes must be incorporated into the scope baseline and reflected in all relevant project documents through integrated change control."
+    }
+  ]
+}
