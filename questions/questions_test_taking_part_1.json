@@ -1,0 +1,365 @@
+{
+  "quiz_name": "Test Taking Part 1",
+  "questions": [
+    {
+      "qid": "T1-TERM-1",
+      "stem": "What is the primary goal when answering PMP situational questions?",
+      "choices": [
+        "Choose the fastest solution",
+        "Choose the cheapest option",
+        "Choose the action aligned with process and best practice",
+        "Choose what the team prefers"
+      ],
+      "correct_index": 2,
+      "explanation": "PMP questions prioritize process alignment and best practices over speed or cost."
+    },
+    {
+      "qid": "T1-TERM-2",
+      "stem": "What does 'FIRST' mean in PMP questions?",
+      "choices": [
+        "Fastest action",
+        "Most logical next process step",
+        "Cheapest option",
+        "Most popular choice"
+      ],
+      "correct_index": 1,
+      "explanation": "FIRST refers to the correct process-based step, not urgency."
+    },
+    {
+      "qid": "T1-TERM-3",
+      "stem": "What does 'NEXT' imply in PMP questions?",
+      "choices": [
+        "Skip steps",
+        "Follow process sequence",
+        "Escalate immediately",
+        "Act without analysis"
+      ],
+      "correct_index": 1,
+      "explanation": "NEXT means continue following the correct process order."
+    },
+    {
+      "qid": "T1-TERM-4",
+      "stem": "What is typically the FIRST action when a problem arises?",
+      "choices": [
+        "Fix it immediately",
+        "Escalate",
+        "Analyze the issue",
+        "Notify stakeholders"
+      ],
+      "correct_index": 2,
+      "explanation": "PMP mindset is analyze first, act second."
+    },
+    {
+      "qid": "T1-TERM-5",
+      "stem": "When should a project manager escalate an issue?",
+      "choices": [
+        "Immediately",
+        "After attempting resolution",
+        "Before analysis",
+        "At project close"
+      ],
+      "correct_index": 1,
+      "explanation": "Escalation occurs after the PM attempts resolution within authority."
+    },
+    {
+      "qid": "T1-TERM-6",
+      "stem": "What is the correct response to a change request?",
+      "choices": [
+        "Implement immediately",
+        "Ignore it",
+        "Submit to change control",
+        "Delay indefinitely"
+      ],
+      "correct_index": 2,
+      "explanation": "All changes must go through formal change control."
+    },
+    {
+      "qid": "T1-TERM-7",
+      "stem": "What is the PM’s role when a team conflict occurs?",
+      "choices": [
+        "Escalate",
+        "Ignore",
+        "Facilitate resolution",
+        "Remove team member"
+      ],
+      "correct_index": 2,
+      "explanation": "PMs should resolve conflicts proactively."
+    },
+    {
+      "qid": "T1-TERM-8",
+      "stem": "Which action comes before implementing a solution?",
+      "choices": [
+        "Escalating",
+        "Analyzing",
+        "Reporting",
+        "Documenting"
+      ],
+      "correct_index": 1,
+      "explanation": "Analysis must occur before action."
+    },
+    {
+      "qid": "T1-TERM-9",
+      "stem": "What is the correct sequence when dealing with issues?",
+      "choices": [
+        "Act → Analyze → Escalate",
+        "Analyze → Act → Escalate",
+        "Escalate → Analyze → Act",
+        "Ignore → Act → Analyze"
+      ],
+      "correct_index": 1,
+      "explanation": "Correct PMP sequence is analyze first, then act, then escalate if needed."
+    },
+    {
+      "qid": "T1-TERM-10",
+      "stem": "What is the best response to unclear requirements?",
+      "choices": [
+        "Start work anyway",
+        "Escalate",
+        "Clarify requirements",
+        "Ignore"
+      ],
+      "correct_index": 2,
+      "explanation": "Clarification is always required before proceeding."
+    },
+    {
+      "qid": "T1-TERM-11",
+      "stem": "What should a PM do when a stakeholder is dissatisfied?",
+      "choices": [
+        "Ignore",
+        "Defend team",
+        "Understand the concern",
+        "Escalate"
+      ],
+      "correct_index": 2,
+      "explanation": "Understanding the issue is always the first step."
+    },
+    {
+      "qid": "T1-TERM-12",
+      "stem": "When should corrective action be taken?",
+      "choices": [
+        "Immediately without analysis",
+        "After analysis",
+        "After escalation",
+        "At project end"
+      ],
+      "correct_index": 1,
+      "explanation": "Corrective actions follow analysis."
+    },
+    {
+      "qid": "T1-TERM-13",
+      "stem": "What is the correct response to a defect?",
+      "choices": [
+        "Ignore",
+        "Fix it",
+        "Escalate",
+        "Change scope"
+      ],
+      "correct_index": 1,
+      "explanation": "Defects should be corrected."
+    },
+    {
+      "qid": "T1-TERM-14",
+      "stem": "What should be done after a change is approved?",
+      "choices": [
+        "Ignore",
+        "Update baselines",
+        "Escalate",
+        "Restart project"
+      ],
+      "correct_index": 1,
+      "explanation": "Approved changes must be integrated into project documents."
+    },
+    {
+      "qid": "T1-TERM-15",
+      "stem": "What is the correct first step when schedule delay is reported?",
+      "choices": [
+        "Crash schedule",
+        "Fast-track",
+        "Analyze cause",
+        "Escalate"
+      ],
+      "correct_index": 2,
+      "explanation": "Always analyze before applying compression techniques."
+    },
+    {
+      "qid": "T1-TERM-16",
+      "stem": "What is the best action when a team member suggests improvement?",
+      "choices": [
+        "Reject",
+        "Implement immediately",
+        "Evaluate",
+        "Escalate"
+      ],
+      "correct_index": 2,
+      "explanation": "Suggestions should be evaluated before action."
+    },
+    {
+      "qid": "T1-TERM-17",
+      "stem": "What should be done before escalating a risk?",
+      "choices": [
+        "Ignore",
+        "Analyze and respond",
+        "Delay",
+        "Document only"
+      ],
+      "correct_index": 1,
+      "explanation": "PM should attempt response before escalation."
+    },
+    {
+      "qid": "T1-TERM-18",
+      "stem": "What is the correct action when communication breaks down?",
+      "choices": [
+        "Escalate",
+        "Improve communication",
+        "Ignore",
+        "Remove stakeholder"
+      ],
+      "correct_index": 1,
+      "explanation": "PM should address communication issues directly."
+    },
+    {
+      "qid": "T1-TERM-19",
+      "stem": "What is the best response to stakeholder bypassing PM?",
+      "choices": [
+        "Ignore",
+        "Escalate",
+        "Reinforce communication plan",
+        "Remove stakeholder"
+      ],
+      "correct_index": 2,
+      "explanation": "PM should reinforce proper communication channels."
+    },
+    {
+      "qid": "T1-TERM-20",
+      "stem": "What should PM do before taking major action?",
+      "choices": [
+        "Act immediately",
+        "Analyze impact",
+        "Escalate",
+        "Delay"
+      ],
+      "correct_index": 1,
+      "explanation": "Impact analysis is always required."
+    },
+    {
+      "qid": "T1-TERM-21",
+      "stem": "What is the correct approach when facing uncertainty?",
+      "choices": [
+        "Ignore",
+        "Analyze and plan",
+        "Escalate",
+        "Act immediately"
+      ],
+      "correct_index": 1,
+      "explanation": "PM must analyze and plan before acting."
+    },
+    {
+      "qid": "T1-TERM-22",
+      "stem": "What is the role of process in PMP decision-making?",
+      "choices": [
+        "Optional",
+        "Primary guide",
+        "Irrelevant",
+        "Secondary"
+      ],
+      "correct_index": 1,
+      "explanation": "Process is the primary guide for decisions."
+    },
+    {
+      "qid": "T1-TERM-23",
+      "stem": "What should PM do when requirements conflict?",
+      "choices": [
+        "Choose one",
+        "Ignore",
+        "Facilitate resolution",
+        "Escalate immediately"
+      ],
+      "correct_index": 2,
+      "explanation": "PM facilitates resolution among stakeholders."
+    },
+    {
+      "qid": "T1-TERM-24",
+      "stem": "What is the best response to unclear stakeholder expectations?",
+      "choices": [
+        "Ignore",
+        "Clarify expectations",
+        "Escalate",
+        "Proceed anyway"
+      ],
+      "correct_index": 1,
+      "explanation": "Clarity is required before proceeding."
+    },
+    {
+      "qid": "T1-TERM-25",
+      "stem": "What should PM do if a solution seems obvious?",
+      "choices": [
+        "Implement immediately",
+        "Still analyze",
+        "Escalate",
+        "Ignore"
+      ],
+      "correct_index": 1,
+      "explanation": "Even obvious solutions require analysis."
+    },
+    {
+      "qid": "T1-TERM-26",
+      "stem": "What is the correct first step when scope changes are suggested?",
+      "choices": [
+        "Implement",
+        "Reject",
+        "Analyze and submit change",
+        "Ignore"
+      ],
+      "correct_index": 2,
+      "explanation": "Analyze and follow change control."
+    },
+    {
+      "qid": "T1-TERM-27",
+      "stem": "What should PM do when team lacks clarity?",
+      "choices": [
+        "Ignore",
+        "Clarify scope and tasks",
+        "Escalate",
+        "Delay"
+      ],
+      "correct_index": 1,
+      "explanation": "PM ensures clarity."
+    },
+    {
+      "qid": "T1-TERM-28",
+      "stem": "What is the correct mindset when answering PMP questions?",
+      "choices": [
+        "Quick action",
+        "Process-driven thinking",
+        "Cost-first thinking",
+        "Speed-first thinking"
+      ],
+      "correct_index": 1,
+      "explanation": "Process-driven thinking is key."
+    },
+    {
+      "qid": "T1-TERM-29",
+      "stem": "What should PM do when multiple solutions exist?",
+      "choices": [
+        "Pick fastest",
+        "Analyze best option",
+        "Escalate",
+        "Ignore"
+      ],
+      "correct_index": 1,
+      "explanation": "Always evaluate before choosing."
+    },
+    {
+      "qid": "T1-TERM-30",
+      "stem": "What is the PMP golden rule?",
+      "choices": [
+        "Act fast",
+        "Analyze before acting",
+        "Escalate quickly",
+        "Avoid stakeholders"
+      ],
+      "correct_index": 1,
+      "explanation": "Analyze before acting is the core PMP mindset."
+    }
+  ]
+}

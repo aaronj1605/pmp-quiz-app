@@ -1,0 +1,125 @@
+{
+  "quiz_name": "Test Taking Part 2",
+  "questions": [
+    {
+      "qid": "T1-PMP-1",
+      "stem": "A stakeholder requests a new feature during project execution. What should the project manager do FIRST?",
+      "choices": [
+        "Implement the change",
+        "Reject the request",
+        "Analyze the impact of the change",
+        "Escalate to sponsor"
+      ],
+      "correct_index": 2,
+      "explanation": "The PM must first analyze the impact before proceeding with change control."
+    },
+    {
+      "qid": "T1-PMP-2",
+      "stem": "A team member reports a potential delay in a critical task. What should the project manager do NEXT?",
+      "choices": [
+        "Escalate immediately",
+        "Ignore the issue",
+        "Assess the impact on the schedule",
+        "Update stakeholders immediately"
+      ],
+      "correct_index": 2,
+      "explanation": "The PM must assess impact before taking further action."
+    },
+    {
+      "qid": "T1-PMP-3",
+      "stem": "A conflict arises between two team members. What should the project manager do FIRST?",
+      "choices": [
+        "Escalate to HR",
+        "Ignore it",
+        "Facilitate a resolution",
+        "Remove one team member"
+      ],
+      "correct_index": 2,
+      "explanation": "The PM should address and resolve conflict directly."
+    },
+    {
+      "qid": "T1-PMP-4",
+      "stem": "A stakeholder is unhappy with project progress. What should the project manager do FIRST?",
+      "choices": [
+        "Defend the team",
+        "Analyze the root cause of dissatisfaction",
+        "Escalate to sponsor",
+        "Replace team members"
+      ],
+      "correct_index": 1,
+      "explanation": "Understanding the root cause is the first step."
+    },
+    {
+      "qid": "T1-PMP-5",
+      "stem": "A risk has just occurred. What should the project manager do FIRST?",
+      "choices": [
+        "Ignore it",
+        "Execute the planned risk response",
+        "Escalate immediately",
+        "Update schedule"
+      ],
+      "correct_index": 1,
+      "explanation": "When a risk occurs, execute the predefined response plan."
+    },
+    {
+      "qid": "T1-PMP-6",
+      "stem": "A change request is approved. What should the project manager do NEXT?",
+      "choices": [
+        "Ignore it",
+        "Update project baselines and documents",
+        "Start new project",
+        "Escalate"
+      ],
+      "correct_index": 1,
+      "explanation": "Approved changes must be integrated into project baselines."
+    },
+    {
+      "qid": "T1-PMP-7",
+      "stem": "A team member suggests a better way to complete work. What should the PM do FIRST?",
+      "choices": [
+        "Reject it",
+        "Implement immediately",
+        "Evaluate the suggestion",
+        "Escalate"
+      ],
+      "correct_index": 2,
+      "explanation": "Suggestions should be evaluated before action."
+    },
+    {
+      "qid": "T1-PMP-8",
+      "stem": "A deliverable fails quality standards. What should the PM do NEXT?",
+      "choices": [
+        "Submit change request",
+        "Fix the defect",
+        "Escalate",
+        "Close project"
+      ],
+      "correct_index": 1,
+      "explanation": "Defects should be corrected before proceeding."
+    },
+    {
+      "qid": "T1-PMP-9",
+      "stem": "A stakeholder bypasses the PM and gives instructions directly to the team. What should the PM do FIRST?",
+      "choices": [
+        "Ignore it",
+        "Escalate immediately",
+        "Communicate proper channels with stakeholder",
+        "Remove stakeholder"
+      ],
+      "correct_index": 2,
+      "explanation": "PM should reinforce communication protocols."
+    },
+    {
+      "qid": "T1-PMP-10",
+      "stem": "A project is behind schedule. What should the PM do FIRST?",
+      "choices": [
+        "Crash the schedule",
+        "Fast-track activities",
+        "Analyze the root cause of delay",
+        "Escalate to sponsor"
+      ],
+      "correct_index": 2,
+      "explanation": "Always analyze before applying corrective action."
+    }
+  ]
+}
