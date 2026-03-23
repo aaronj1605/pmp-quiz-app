@@ -1,0 +1,605 @@
+{
+  "quiz_name": "PMP Risk Management Quiz",
+  "questions": [
+    {
+      "qid": "RM-1",
+      "stem": "What is the primary purpose of risk management?",
+      "choices": [
+        "Eliminate all risks",
+        "Maximize positive events and minimize negative ones",
+        "Transfer all risks to stakeholders",
+        "Avoid uncertainty"
+      ],
+      "correct_index": 1,
+      "explanation": "Risk management aims to increase opportunities and reduce threats."
+    },
+    {
+      "qid": "RM-2",
+      "stem": "Which process involves creating the overall strategy for handling risk?",
+      "choices": [
+        "Identify Risks",
+        "Plan Risk Management",
+        "Monitor Risks",
+        "Perform Quantitative Analysis"
+      ],
+      "correct_index": 1,
+      "explanation": "Plan Risk Management defines how risk activities will be structured and performed."
+    },
+    {
+      "qid": "RM-3",
+      "stem": "A project team is documenting risks and identifying triggers. What process is this?",
+      "choices": [
+        "Plan Risk Responses",
+        "Identify Risks",
+        "Monitor Risks",
+        "Perform Qualitative Analysis"
+      ],
+      "correct_index": 1,
+      "explanation": "Identify Risks captures risk events, causes, and potential indicators or triggers."
+    },
+    {
+      "qid": "RM-4",
+      "stem": "Which process prioritizes risks using high, medium, and low ratings?",
+      "choices": [
+        "Quantitative Analysis",
+        "Risk Identification",
+        "Qualitative Analysis",
+        "Risk Monitoring"
+      ],
+      "correct_index": 2,
+      "explanation": "Qualitative analysis uses relative scales such as high, medium, and low."
+    },
+    {
+      "qid": "RM-5",
+      "stem": "Calculating expected monetary value (EMV) is part of:",
+      "choices": [
+        "Qualitative Analysis",
+        "Quantitative Analysis",
+        "Risk Planning",
+        "Risk Monitoring"
+      ],
+      "correct_index": 1,
+      "explanation": "EMV is a numerical technique used in quantitative risk analysis."
+    },
+    {
+      "qid": "RM-6",
+      "stem": "Developing mitigation strategies occurs in:",
+      "choices": [
+        "Plan Risk Responses",
+        "Identify Risks",
+        "Monitor Risks",
+        "Implement Risk Responses"
+      ],
+      "correct_index": 0,
+      "explanation": "Plan Risk Responses defines response strategies and actions."
+    },
+    {
+      "qid": "RM-7",
+      "stem": "Executing planned risk strategies occurs in:",
+      "choices": [
+        "Monitor Risks",
+        "Implement Risk Responses",
+        "Plan Risk Management",
+        "Identify Risks"
+      ],
+      "correct_index": 1,
+      "explanation": "Implement Risk Responses is where approved responses are carried out."
+    },
+    {
+      "qid": "RM-8",
+      "stem": "Tracking risk triggers and updating risks is part of:",
+      "choices": [
+        "Monitor Risks",
+        "Identify Risks",
+        "Plan Risk Responses",
+        "Qualitative Analysis"
+      ],
+      "correct_index": 0,
+      "explanation": "Monitor Risks tracks identified risks, watches triggers, and updates risk information."
+    },
+    {
+      "qid": "RM-9",
+      "stem": "A risk event, probability, and impact together define:",
+      "choices": [
+        "Risk threshold",
+        "Risk attributes",
+        "Risk response",
+        "Risk category"
+      ],
+      "correct_index": 1,
+      "explanation": "These are core attributes used to describe and assess a risk."
+    },
+    {
+      "qid": "RM-10",
+      "stem": "At the beginning of a project, risk is:",
+      "choices": [
+        "Low and stable",
+        "High with low cost of change",
+        "Low with high impact",
+        "High with high cost of change"
+      ],
+      "correct_index": 1,
+      "explanation": "Early uncertainty is high, while change is typically less costly."
+    },
+    {
+      "qid": "RM-11",
+      "stem": "A team conducts planning meetings to define how risk will be handled.",
+      "choices": [
+        "Identify Risks",
+        "Plan Risk Management",
+        "Monitor Risks",
+        "Plan Risk Responses"
+      ],
+      "correct_index": 1,
+      "explanation": "This activity belongs to Plan Risk Management."
+    },
+    {
+      "qid": "RM-12",
+      "stem": "A team uses brainstorming and SWOT to list risks.",
+      "choices": [
+        "Qualitative Analysis",
+        "Identify Risks",
+        "Monitor Risks",
+        "Quantitative Analysis"
+      ],
+      "correct_index": 1,
+      "explanation": "Brainstorming and SWOT are common techniques for Identify Risks."
+    },
+    {
+      "qid": "RM-13",
+      "stem": "A probability-impact matrix is used.",
+      "choices": [
+        "Quantitative Analysis",
+        "Risk Identification",
+        "Qualitative Analysis",
+        "Risk Monitoring"
+      ],
+      "correct_index": 2,
+      "explanation": "The probability-impact matrix supports qualitative prioritization."
+    },
+    {
+      "qid": "RM-14",
+      "stem": "A team calculates EMV for risks.",
+      "choices": [
+        "Qualitative Analysis",
+        "Quantitative Analysis",
+        "Risk Identification",
+        "Monitor Risks"
+      ],
+      "correct_index": 1,
+      "explanation": "EMV calculation is a quantitative analysis method."
+    },
+    {
+      "qid": "RM-15",
+      "stem": "A project manager assigns risk owners and defines responses.",
+      "choices": [
+        "Plan Risk Responses",
+        "Identify Risks",
+        "Monitor Risks",
+        "Plan Risk Management"
+      ],
+      "correct_index": 0,
+      "explanation": "Assigning owners and response actions is done in Plan Risk Responses."
+    },
+    {
+      "qid": "RM-16",
+      "stem": "A PM chooses a proven technology instead of a new one.",
+      "choices": [
+        "Transfer",
+        "Accept",
+        "Avoid",
+        "Mitigate"
+      ],
+      "correct_index": 2,
+      "explanation": "Choosing a different approach to remove the threat is avoidance."
+    },
+    {
+      "qid": "RM-17",
+      "stem": "A team buys insurance for potential damages.",
+      "choices": [
+        "Avoid",
+        "Transfer",
+        "Accept",
+        "Enhance"
+      ],
+      "correct_index": 1,
+      "explanation": "Insurance shifts financial impact to a third party, which is transfer."
+    },
+    {
+      "qid": "RM-18",
+      "stem": "A team adds extra testing to reduce failure probability.",
+      "choices": [
+        "Avoid",
+        "Mitigate",
+        "Accept",
+        "Transfer"
+      ],
+      "correct_index": 1,
+      "explanation": "Reducing probability or impact of a threat is mitigation."
+    },
+    {
+      "qid": "RM-19",
+      "stem": "A PM decides to take no action but prepares a backup plan.",
+      "choices": [
+        "Avoid",
+        "Transfer",
+        "Accept",
+        "Mitigate"
+      ],
+      "correct_index": 2,
+      "explanation": "This is acceptance with a contingency plan."
+    },
+    {
+      "qid": "RM-20",
+      "stem": "A company partners with another firm to capture a market opportunity.",
+      "choices": [
+        "Exploit",
+        "Share",
+        "Enhance",
+        "Accept"
+      ],
+      "correct_index": 1,
+      "explanation": "Sharing allocates ownership of an opportunity to a partner best able to realize it."
+    },
+    {
+      "qid": "RM-21",
+      "stem": "A team increases the probability of a positive outcome.",
+      "choices": [
+        "Share",
+        "Enhance",
+        "Accept",
+        "Avoid"
+      ],
+      "correct_index": 1,
+      "explanation": "Enhance raises probability or impact of an opportunity."
+    },
+    {
+      "qid": "RM-22",
+      "stem": "A PM ensures an opportunity definitely happens.",
+      "choices": [
+        "Exploit",
+        "Enhance",
+        "Share",
+        "Accept"
+      ],
+      "correct_index": 0,
+      "explanation": "Exploit is used when you want to ensure an opportunity is realized."
+    },
+    {
+      "qid": "RM-23",
+      "stem": "A PM accepts a risk because impact is minimal.",
+      "choices": [
+        "Mitigate",
+        "Transfer",
+        "Accept",
+        "Avoid"
+      ],
+      "correct_index": 2,
+      "explanation": "Low-impact risks are often accepted."
+    },
+    {
+      "qid": "RM-24",
+      "stem": "A PM adds redundancy to reduce system failure risk.",
+      "choices": [
+        "Avoid",
+        "Mitigate",
+        "Transfer",
+        "Accept"
+      ],
+      "correct_index": 1,
+      "explanation": "Redundancy lowers probability or impact, which is mitigation."
+    },
+    {
+      "qid": "RM-25",
+      "stem": "A PM outsources risky work to a vendor.",
+      "choices": [
+        "Accept",
+        "Avoid",
+        "Transfer",
+        "Mitigate"
+      ],
+      "correct_index": 2,
+      "explanation": "Outsourcing can transfer ownership of specific risk impacts."
+    },
+    {
+      "qid": "RM-26",
+      "stem": "Unproven technology risk is:",
+      "choices": [
+        "Organizational",
+        "Technical",
+        "Business",
+        "External"
+      ],
+      "correct_index": 1,
+      "explanation": "Technology uncertainty is a technical risk."
+    },
+    {
+      "qid": "RM-27",
+      "stem": "Funding conflicts are:",
+      "choices": [
+        "Technical risk",
+        "Organizational risk",
+        "Business risk",
+        "External risk"
+      ],
+      "correct_index": 1,
+      "explanation": "Resource and governance conflicts are organizational risks."
+    },
+    {
+      "qid": "RM-28",
+      "stem": "Market demand uncertainty is:",
+      "choices": [
+        "Business risk",
+        "Technical risk",
+        "Internal risk",
+        "Pure risk"
+      ],
+      "correct_index": 0,
+      "explanation": "Demand and market conditions are business risks."
+    },
+    {
+      "qid": "RM-29",
+      "stem": "Fire damage is:",
+      "choices": [
+        "Business risk",
+        "Pure risk",
+        "Technical risk",
+        "Organizational risk"
+      ],
+      "correct_index": 1,
+      "explanation": "Fire is a pure risk with only downside."
+    },
+    {
+      "qid": "RM-30",
+      "stem": "Regulatory change is:",
+      "choices": [
+        "Internal risk",
+        "External risk",
+        "Technical risk",
+        "Pure risk"
+      ],
+      "correct_index": 1,
+      "explanation": "Regulations are outside project control, so they are external risks."
+    },
+    {
+      "qid": "RM-31",
+      "stem": "A new risk caused by a response strategy is:",
+      "choices": [
+        "Residual risk",
+        "Secondary risk",
+        "External risk",
+        "Internal risk"
+      ],
+      "correct_index": 1,
+      "explanation": "A risk created by implementing a response is a secondary risk."
+    },
+    {
+      "qid": "RM-32",
+      "stem": "Remaining risk after mitigation is:",
+      "choices": [
+        "Secondary",
+        "Residual",
+        "External",
+        "Pure"
+      ],
+      "correct_index": 1,
+      "explanation": "Residual risk is what remains after a response is implemented."
+    },
+    {
+      "qid": "RM-33",
+      "stem": "What is the correct response to residual risk?",
+      "choices": [
+        "Avoid",
+        "Transfer",
+        "Accept",
+        "Escalate"
+      ],
+      "correct_index": 2,
+      "explanation": "Residual risk is commonly accepted if within tolerance."
+    },
+    {
+      "qid": "RM-34",
+      "stem": "Secondary risks should be:",
+      "choices": [
+        "Ignored",
+        "Accepted always",
+        "Managed like other risks",
+        "Transferred only"
+      ],
+      "correct_index": 2,
+      "explanation": "Secondary risks are real risks and must be tracked and managed."
+    },
+    {
+      "qid": "RM-35",
+      "stem": "Which attitude prefers safe outcomes?",
+      "choices": [
+        "Risk seeking",
+        "Risk neutral",
+        "Risk averse",
+        "Risk tolerant"
+      ],
+      "correct_index": 2,
+      "explanation": "Risk-averse behavior prefers certainty and reduced exposure."
+    },
+    {
+      "qid": "RM-36",
+      "stem": "Which attitude prefers high reward despite high risk?",
+      "choices": [
+        "Risk neutral",
+        "Risk seeking",
+        "Risk averse",
+        "Risk avoidant"
+      ],
+      "correct_index": 1,
+      "explanation": "Risk-seeking behavior accepts higher risk for higher potential reward."
+    },
+    {
+      "qid": "RM-37",
+      "stem": "Which attitude evaluates based on expected value?",
+      "choices": [
+        "Risk neutral",
+        "Risk seeking",
+        "Risk averse",
+        "Risk resistant"
+      ],
+      "correct_index": 0,
+      "explanation": "Risk-neutral decision makers focus on expected value."
+    },
+    {
+      "qid": "RM-38",
+      "stem": "Which reserve is used for known unknowns?",
+      "choices": [
+        "Management reserve",
+        "Contingency reserve",
+        "Cost baseline",
+        "Risk register"
+      ],
+      "correct_index": 1,
+      "explanation": "Contingency reserve addresses identified risks (known unknowns)."
+    },
+    {
+      "qid": "RM-39",
+      "stem": "Which reserve is held by senior management?",
+      "choices": [
+        "Contingency reserve",
+        "Management reserve",
+        "Risk buffer",
+        "Cost reserve"
+      ],
+      "correct_index": 1,
+      "explanation": "Management reserve is controlled at a higher authority level."
+    },
+    {
+      "qid": "RM-40",
+      "stem": "Which reserve is included in the project budget?",
+      "choices": [
+        "Management reserve",
+        "Contingency reserve",
+        "Risk threshold",
+        "Risk tolerance"
+      ],
+      "correct_index": 1,
+      "explanation": "Contingency reserve is part of the cost baseline/project budget."
+    },
+    {
+      "qid": "RM-41",
+      "stem": "Which technique uses anonymous expert input?",
+      "choices": [
+        "Brainstorming",
+        "Delphi",
+        "Interviewing",
+        "SWOT"
+      ],
+      "correct_index": 1,
+      "explanation": "Delphi uses anonymous rounds of expert input."
+    },
+    {
+      "qid": "RM-42",
+      "stem": "Which technique is a one-on-one discussion method?",
+      "choices": [
+        "Delphi",
+        "Brainstorming",
+        "Interviewing",
+        "SWOT"
+      ],
+      "correct_index": 2,
+      "explanation": "Interviews gather targeted insights directly from individuals."
+    },
+    {
+      "qid": "RM-43",
+      "stem": "Which technique identifies strengths, weaknesses, opportunities, and threats?",
+      "choices": [
+        "Delphi",
+        "SWOT",
+        "Brainstorming",
+        "Monte Carlo"
+      ],
+      "correct_index": 1,
+      "explanation": "SWOT is used to identify internal and external strategic factors."
+    },
+    {
+      "qid": "RM-44",
+      "stem": "Which technique is simulation using random variables?",
+      "choices": [
+        "Sensitivity analysis",
+        "Monte Carlo",
+        "SWOT",
+        "Delphi"
+      ],
+      "correct_index": 1,
+      "explanation": "Monte Carlo simulation models uncertainty using random sampling."
+    },
+    {
+      "qid": "RM-45",
+      "stem": "Which technique analyzes the impact of one variable at a time?",
+      "choices": [
+        "Monte Carlo",
+        "Sensitivity analysis",
+        "Delphi",
+        "Brainstorming"
+      ],
+      "correct_index": 1,
+      "explanation": "Sensitivity analysis evaluates effect changes from single variables."
+    },
+    {
+      "qid": "RM-46",
+      "stem": "A PM audits effectiveness of risk responses.",
+      "choices": [
+        "Implement Responses",
+        "Monitor Risks",
+        "Identify Risks",
+        "Plan Risk Responses"
+      ],
+      "correct_index": 1,
+      "explanation": "Monitoring includes reviewing response effectiveness."
+    },
+    {
+      "qid": "RM-47",
+      "stem": "A surprise issue occurs and the team reacts without a plan.",
+      "choices": [
+        "Contingency",
+        "Workaround",
+        "Mitigation",
+        "Avoidance"
+      ],
+      "correct_index": 1,
+      "explanation": "A workaround is an unplanned response to an unanticipated event."
+    },
+    {
+      "qid": "RM-48",
+      "stem": "A PM updates the risk register after new risks are found.",
+      "choices": [
+        "Identify Risks",
+        "Monitor Risks",
+        "Plan Risk Responses",
+        "Qualitative Analysis"
+      ],
+      "correct_index": 1,
+      "explanation": "Monitoring includes identifying new risks and updating the register."
+    },
+    {
+      "qid": "RM-49",
+      "stem": "Risk probability decreases as the project progresses because:",
+      "choices": [
+        "Cost decreases",
+        "Unknowns decrease",
+        "Stakeholders change",
+        "Scope increases"
+      ],
+      "correct_index": 1,
+      "explanation": "As work advances, uncertainty is reduced and fewer unknowns remain."
+    },
+    {
+      "qid": "RM-50",
+      "stem": "Risk impact increases later in the project because:",
+      "choices": [
+        "More uncertainty",
+        "Less planning",
+        "More investment is at stake",
+        "More risks occur"
+      ],
+      "correct_index": 2,
+      "explanation": "Later changes can affect larger sunk costs and committed scope."
+    }
+  ]
+}
