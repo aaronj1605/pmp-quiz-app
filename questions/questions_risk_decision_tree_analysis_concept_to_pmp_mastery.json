@@ -159,7 +159,7 @@
     },
     {
       "qid": "RDT-L14",
-      "stem": "Based on the previous two questions, what should the PM do?",
+      "stem": "Based on the previous two questions, what should the PM do?\n\nReference:\nRDT-L12: A PM invests $4,000 in mitigation. Risk reduces to 10% chance of $20,000 loss. EMV answer: -$6,000.\nRDT-L13: Without mitigation, risk is 50% chance of $20,000 loss. EMV answer: -$10,000.",
       "choices": [
         "Mitigate risk",
         "Accept risk",
