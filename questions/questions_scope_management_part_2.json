@@ -1,0 +1,245 @@
+{
+  "quiz_name": "Scope Management Part 2",
+  "questions": [
+    {
+      "qid": "SM-PMP-21",
+      "stem": "A project is in planning. A stakeholder states that several requirements were missed. What should the project manager do FIRST?",
+      "choices": [
+        "Update the scope baseline",
+        "Submit a change request",
+        "Revisit the Collect Requirements process",
+        "Escalate to the sponsor"
+      ],
+      "correct_index": 2,
+      "explanation": "Since the project is still in planning, the correct action is to revisit Collect Requirements. Changes do not go through formal change control until baselines are established."
+    },
+    {
+      "qid": "SM-PMP-22",
+      "stem": "During execution, a team member adds functionality to improve customer satisfaction without approval. What should the project manager do?",
+      "choices": [
+        "Accept the change since it adds value",
+        "Reward the team member",
+        "Submit the change through formal change control",
+        "Update the WBS"
+      ],
+      "correct_index": 2,
+      "explanation": "Unauthorized changes are gold plating and must go through formal change control, even if they seem beneficial."
+    },
+    {
+      "qid": "SM-PMP-23",
+      "stem": "A project manager is defining scope. Which input is MOST critical to ensure alignment with business objectives?",
+      "choices": [
+        "Project schedule",
+        "Business case",
+        "Risk register",
+        "Lessons learned register"
+      ],
+      "correct_index": 1,
+      "explanation": "The business case defines the business need and ensures the project scope aligns with organizational strategy."
+    },
+    {
+      "qid": "SM-PMP-24",
+      "stem": "A stakeholder disagrees with a completed deliverable, claiming it does not meet expectations. The deliverable meets documented requirements. What is the MOST likely issue?",
+      "choices": [
+        "Poor quality control",
+        "Inadequate scope definition",
+        "Improper scheduling",
+        "Resource constraints"
+      ],
+      "correct_index": 1,
+      "explanation": "If requirements were met but expectations were not, the issue lies in poorly defined or incomplete requirements during scope definition."
+    },
+    {
+      "qid": "SM-PMP-25",
+      "stem": "What should the project manager do to prevent scope creep?",
+      "choices": [
+        "Limit stakeholder involvement",
+        "Ensure all changes go through integrated change control",
+        "Increase contingency reserves",
+        "Reduce project documentation"
+      ],
+      "correct_index": 1,
+      "explanation": "Scope creep is prevented by enforcing formal change control processes for all scope changes."
+    },
+    {
+      "qid": "SM-PMP-26",
+      "stem": "A project manager notices that team members are unclear about their responsibilities. Which scope artifact should be reviewed?",
+      "choices": [
+        "Risk register",
+        "WBS dictionary",
+        "Project charter",
+        "Communications plan"
+      ],
+      "correct_index": 1,
+      "explanation": "The WBS dictionary provides detailed descriptions of work packages, including responsibilities and scope details."
+    },
+    {
+      "qid": "SM-PMP-27",
+      "stem": "A project manager needs to ensure all project work is captured before estimating costs. What should be completed FIRST?",
+      "choices": [
+        "Activity list",
+        "WBS",
+        "Schedule baseline",
+        "Cost estimates"
+      ],
+      "correct_index": 1,
+      "explanation": "The WBS defines all project work and must be completed before estimating cost and schedule."
+    },
+    {
+      "qid": "SM-PMP-28",
+      "stem": "Which technique is BEST for organizing a large number of stakeholder ideas into meaningful groups?",
+      "choices": [
+        "Brainstorming",
+        "Affinity diagram",
+        "Voting",
+        "Interviews"
+      ],
+      "correct_index": 1,
+      "explanation": "Affinity diagrams group large numbers of ideas into categories for further analysis."
+    },
+    {
+      "qid": "SM-PMP-29",
+      "stem": "A project manager is working on a project with evolving requirements. Which lifecycle approach is MOST appropriate?",
+      "choices": [
+        "Predictive",
+        "Waterfall",
+        "Adaptive",
+        "Sequential"
+      ],
+      "correct_index": 2,
+      "explanation": "Adaptive approaches are best when requirements are uncertain or evolving."
+    },
+    {
+      "qid": "SM-PMP-30",
+      "stem": "Which document defines what is included and excluded from the project?",
+      "choices": [
+        "Project charter",
+        "Scope statement",
+        "WBS",
+        "Risk register"
+      ],
+      "correct_index": 1,
+      "explanation": "The scope statement clearly defines project boundaries, including what is in and out of scope."
+    },
+    {
+      "qid": "SM-PMP-31",
+      "stem": "A deliverable has been completed and verified for correctness. What is the NEXT step?",
+      "choices": [
+        "Control Scope",
+        "Validate Scope",
+        "Close Project",
+        "Update schedule"
+      ],
+      "correct_index": 1,
+      "explanation": "After verifying correctness (Control Quality), the next step is Validate Scope to obtain formal acceptance."
+    },
+    {
+      "qid": "SM-PMP-32",
+      "stem": "A project manager receives a change request that will significantly impact scope, schedule, and cost. What should be done?",
+      "choices": [
+        "Approve the change immediately",
+        "Reject the change",
+        "Analyze the impact before making a decision",
+        "Escalate to the team"
+      ],
+      "correct_index": 2,
+      "explanation": "All change requests must be analyzed for impact before approval or rejection."
+    },
+    {
+      "qid": "SM-PMP-33",
+      "stem": "Which of the following BEST describes the scope baseline?",
+      "choices": [
+        "Approved project schedule",
+        "Approved cost estimates",
+        "Scope statement, WBS, and WBS dictionary",
+        "Requirements documentation"
+      ],
+      "correct_index": 2,
+      "explanation": "The scope baseline consists of the approved scope statement, WBS, and WBS dictionary."
+    },
+    {
+      "qid": "SM-PMP-34",
+      "stem": "A stakeholder requests frequent small changes that are individually insignificant but collectively impactful. What is this called?",
+      "choices": [
+        "Gold plating",
+        "Scope creep",
+        "Progressive elaboration",
+        "Fast tracking"
+      ],
+      "correct_index": 1,
+      "explanation": "Scope creep refers to uncontrolled changes that gradually expand the project scope."
+    },
+    {
+      "qid": "SM-PMP-35",
+      "stem": "Which process ensures that deliverables meet customer expectations?",
+      "choices": [
+        "Control Quality",
+        "Validate Scope",
+        "Define Scope",
+        "Plan Scope Management"
+      ],
+      "correct_index": 1,
+      "explanation": "Validate Scope focuses on customer acceptance and ensuring deliverables meet expectations."
+    },
+    {
+      "qid": "SM-PMP-36",
+      "stem": "A project manager wants to visualize system boundaries and external interactions. Which tool should be used?",
+      "choices": [
+        "Fishbone diagram",
+        "Context diagram",
+        "Histogram",
+        "Pareto chart"
+      ],
+      "correct_index": 1,
+      "explanation": "A context diagram shows system boundaries and interactions with external entities."
+    },
+    {
+      "qid": "SM-PMP-37",
+      "stem": "Which of the following BEST ensures requirements are measurable and testable?",
+      "choices": [
+        "WBS",
+        "Scope statement",
+        "Requirements documentation",
+        "Project charter"
+      ],
+      "correct_index": 2,
+      "explanation": "Requirements documentation ensures requirements are clear, measurable, and testable."
+    },
+    {
+      "qid": "SM-PMP-38",
+      "stem": "A project manager is asked to reduce scope to meet a deadline. What should be done?",
+      "choices": [
+        "Remove features without documentation",
+        "Submit a change request and analyze impacts",
+        "Reduce quality standards",
+        "Increase resources"
+      ],
+      "correct_index": 1,
+      "explanation": "Any change to scope must go through formal change control and impact analysis."
+    },
+    {
+      "qid": "SM-PMP-39",
+      "stem": "Which stakeholder is MOST involved in Validate Scope?",
+      "choices": [
+        "Project team",
+        "Sponsor",
+        "Customer",
+        "Functional manager"
+      ],
+      "correct_index": 2,
+      "explanation": "The customer or key stakeholders formally accept deliverables during Validate Scope."
+    },
+    {
+      "qid": "SM-PMP-40",
+      "stem": "A project manager is reviewing completed work against the scope baseline and identifying variances. Which process is being performed?",
+      "choices": [
+        "Validate Scope",
+        "Control Scope",
+        "Control Quality",
+        "Monitor Risks"
+      ],
+      "correct_index": 1,
+      "explanation": "Control Scope involves monitoring scope performance and managing variances against the scope baseline."
+    }
+  ]
+}
