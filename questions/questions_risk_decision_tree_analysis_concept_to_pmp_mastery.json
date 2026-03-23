@@ -99,7 +99,7 @@
     },
     {
       "qid": "RDT-L9",
-      "stem": "Based on the previous two questions, which option is better?",
+      "stem": "Based on the previous two questions, which option is better?\n\nReference:\nRDT-L7: A design change costs $2,000. There is a 30% chance of $1,200 loss after change. EMV answer: -$2,360.\nRDT-L8: If the alternative has an 80% chance of $4,000 loss and no upfront cost. EMV answer: -$3,200.",
       "choices": [
         "Change design",
         "Do not change design",
