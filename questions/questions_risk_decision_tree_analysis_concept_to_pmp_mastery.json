@@ -178,7 +178,7 @@
         "-$400",
         "$2,000"
       ],
-      "correct_index": 1,
+      "correct_index": 0,
       "explanation": "EMV = 3000 -1400 = 1600. Correct closest is 1600."
     },
     {
