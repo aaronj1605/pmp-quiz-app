@@ -1,0 +1,245 @@
+{
+  "quiz_name": "Risk Decision Tree Analysis - Concept to PMP Mastery",
+  "questions": [
+    {
+      "qid": "RDT-L1",
+      "stem": "A risk has a 40% chance of causing a $1,000 loss. What is the EMV?",
+      "choices": [
+        "-$400",
+        "$400",
+        "-$600",
+        "$600"
+      ],
+      "correct_index": 0,
+      "explanation": "EMV = 0.4 × (-1000) = -400. Losses are negative."
+    },
+    {
+      "qid": "RDT-L2",
+      "stem": "A project has a 25% chance of gaining $8,000. What is the EMV?",
+      "choices": [
+        "$1,000",
+        "$2,000",
+        "$4,000",
+        "$6,000"
+      ],
+      "correct_index": 1,
+      "explanation": "EMV = 0.25 × 8000 = 2000."
+    },
+    {
+      "qid": "RDT-L3",
+      "stem": "Which formula correctly represents Expected Monetary Value (EMV)?",
+      "choices": [
+        "Impact ÷ Probability",
+        "Probability × Impact",
+        "Cost × Schedule",
+        "Risk × Time"
+      ],
+      "correct_index": 1,
+      "explanation": "EMV is calculated by multiplying probability by impact."
+    },
+    {
+      "qid": "RDT-L4",
+      "stem": "A decision option includes a $2,000 upfront cost and a 50% chance of a $6,000 loss. What is the EMV?",
+      "choices": [
+        "-$5,000",
+        "-$3,000",
+        "-$2,000",
+        "-$4,000"
+      ],
+      "correct_index": 0,
+      "explanation": "EMV = -2000 + (0.5 × -6000) = -2000 -3000 = -5000."
+    },
+    {
+      "qid": "RDT-L5",
+      "stem": "A decision has no upfront cost and a 60% chance of losing $10,000. What is EMV?",
+      "choices": [
+        "-$6,000",
+        "$6,000",
+        "-$4,000",
+        "$4,000"
+      ],
+      "correct_index": 0,
+      "explanation": "EMV = 0 + (0.6 × -10,000) = -6,000."
+    },
+    {
+      "qid": "RDT-L6",
+      "stem": "A PM compares two options: Option A = -$3,000 EMV, Option B = -$5,000 EMV. Which is better?",
+      "choices": [
+        "Option A",
+        "Option B",
+        "Both equal",
+        "Cannot determine"
+      ],
+      "correct_index": 0,
+      "explanation": "Less negative EMV is better."
+    },
+    {
+      "qid": "RDT-L7",
+      "stem": "A design change costs $2,000. There is a 30% chance of $1,200 loss after change. What is EMV?",
+      "choices": [
+        "-$2,360",
+        "-$2,000",
+        "-$1,200",
+        "-$3,200"
+      ],
+      "correct_index": 0,
+      "explanation": "EMV = -2000 + (0.3 × -1200) = -2000 -360 = -2360."
+    },
+    {
+      "qid": "RDT-L8",
+      "stem": "If the alternative has an 80% chance of $4,000 loss and no upfront cost, what is EMV?",
+      "choices": [
+        "-$3,200",
+        "-$4,000",
+        "-$2,000",
+        "$3,200"
+      ],
+      "correct_index": 0,
+      "explanation": "EMV = 0 + (0.8 × -4000) = -3200."
+    },
+    {
+      "qid": "RDT-L9",
+      "stem": "Based on the previous two questions, which option is better?",
+      "choices": [
+        "Change design",
+        "Do not change design",
+        "Both equal",
+        "Insufficient data"
+      ],
+      "correct_index": 0,
+      "explanation": "-2360 is better than -3200. Less negative is preferred."
+    },
+    {
+      "qid": "RDT-L10",
+      "stem": "What is the correct structure for a decision tree EMV calculation?",
+      "choices": [
+        "Cost + Probability",
+        "Cost + (Probability × Impact)",
+        "Impact × Time",
+        "Probability ÷ Cost"
+      ],
+      "correct_index": 1,
+      "explanation": "EMV always combines cost with probability-weighted outcomes."
+    },
+    {
+      "qid": "RDT-L11",
+      "stem": "A PM evaluates two options. Option A: -$1,000 + (0.5 × -$2,000). Option B: 0 + (0.9 × -$3,000). Which is better?",
+      "choices": [
+        "Option A",
+        "Option B",
+        "Both equal",
+        "Cannot determine"
+      ],
+      "correct_index": 0,
+      "explanation": "A = -1000 -1000 = -2000. B = -2700. A is better."
+    },
+    {
+      "qid": "RDT-L12",
+      "stem": "A PM invests $4,000 in mitigation. Risk reduces to 10% chance of $20,000 loss. What is EMV?",
+      "choices": [
+        "-$6,000",
+        "-$4,000",
+        "-$2,000",
+        "-$8,000"
+      ],
+      "correct_index": 0,
+      "explanation": "EMV = -4000 + (0.1 × -20,000) = -4000 -2000 = -6000."
+    },
+    {
+      "qid": "RDT-L13",
+      "stem": "Without mitigation, risk is 50% chance of $20,000 loss. What is EMV?",
+      "choices": [
+        "-$10,000",
+        "-$8,000",
+        "-$6,000",
+        "-$5,000"
+      ],
+      "correct_index": 0,
+      "explanation": "EMV = 0.5 × -20,000 = -10,000."
+    },
+    {
+      "qid": "RDT-L14",
+      "stem": "Based on the previous two questions, what should the PM do?",
+      "choices": [
+        "Mitigate risk",
+        "Accept risk",
+        "Transfer risk",
+        "Avoid risk"
+      ],
+      "correct_index": 0,
+      "explanation": "-6000 is better than -10000, so mitigation is better."
+    },
+    {
+      "qid": "RDT-L15",
+      "stem": "A project has: 30% chance of gaining $10,000 and 70% chance of losing $2,000. What is EMV?",
+      "choices": [
+        "$1,600",
+        "$400",
+        "-$400",
+        "$2,000"
+      ],
+      "correct_index": 1,
+      "explanation": "EMV = 3000 -1400 = 1600. Correct closest is 1600."
+    },
+    {
+      "qid": "RDT-L16",
+      "stem": "A PM must choose between: Option A EMV = $5,000 and Option B EMV = $3,000. What is best?",
+      "choices": [
+        "Option A",
+        "Option B",
+        "Both equal",
+        "Escalate"
+      ],
+      "correct_index": 0,
+      "explanation": "Higher EMV is better."
+    },
+    {
+      "qid": "RDT-L17",
+      "stem": "A PM sees Option A EMV = -$2,000 and Option B EMV = $500. What is best?",
+      "choices": [
+        "Option A",
+        "Option B",
+        "Both equal",
+        "Delay decision"
+      ],
+      "correct_index": 1,
+      "explanation": "Positive EMV is always better than negative."
+    },
+    {
+      "qid": "RDT-L18",
+      "stem": "A decision includes two outcomes: 20% chance of -$5,000 and 80% chance of $1,000. What is EMV?",
+      "choices": [
+        "$0",
+        "$200",
+        "-$200",
+        "$500"
+      ],
+      "correct_index": 1,
+      "explanation": "EMV = -1000 + 800 = -200."
+    },
+    {
+      "qid": "RDT-L19",
+      "stem": "A PM compares long-term outcomes using EMV. Which process is this?",
+      "choices": [
+        "Qualitative analysis",
+        "Quantitative analysis",
+        "Risk identification",
+        "Monitoring"
+      ],
+      "correct_index": 1,
+      "explanation": "Decision trees are part of quantitative analysis."
+    },
+    {
+      "qid": "RDT-L20",
+      "stem": "A PM chooses a lower EMV option due to uncertainty. What influences this?",
+      "choices": [
+        "Schedule",
+        "Scope",
+        "Risk attitude",
+        "Cost baseline"
+      ],
+      "correct_index": 2,
+      "explanation": "Risk tolerance can override EMV decisions."
+    }
+  ]
+}
